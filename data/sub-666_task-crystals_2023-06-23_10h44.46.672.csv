@@ -1,0 +1,4 @@
+﻿foodItem,path,image,rateFoodLoop.thisRepN,rateFoodLoop.thisTrialN,rateFoodLoop.thisN,rateFoodLoop.thisIndex,foodImage.started,next_button.started,food_slider.response,food_slider.rt,next_button.numClicks,next_button.timesOn,next_button.timesOff,participant,group,extra,practice,rainbow,date,expName,psychopyVersion,frameRate,
+yogurt pretzels.jpg,stimuli/food/,stimuli/food/yogurt pretzels.jpg,0,0,0,75,11.722464499995112,11.722464499995112,5.98375,2.6132097999798134,1,[3.5386409000493586],[3.53864720009733],666,,0,1,BR,2023-06-23_10h44.46.672,crystals,2022.2.4,60.17488025161939,
+Cheese nachos.jpg,stimuli/food/,stimuli/food/Cheese nachos.jpg,0,1,1,15,16.973306500003673,16.973306500003673,9.1375,7.000270699965768,2,"[3.5386409000493586, 11.681870699976571]","[3.53864720009733, 11.68187750002835]",666,,0,1,BR,2023-06-23_10h44.46.672,crystals,2022.2.4,60.17488025161939,
+,,,,,,,29.3034129999578,29.3034129999578,,,,,,,,,,,,,,,

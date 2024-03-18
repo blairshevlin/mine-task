@@ -1,0 +1,467 @@
+1.9164 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+5.5746 	WARNING 	User requested fullscreen with size [1536  960], but screen is actually [3840, 2400]. Using actual size
+6.4921 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001220C956700>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001220E83C100>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([3840, 2400]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.4922 	EXP 	window1: mouseVisible = True
+6.4924 	EXP 	window1: mouseVisible = False
+6.4924 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+6.4924 	EXP 	window1: recordFrameIntervals = False
+6.6586 	EXP 	window1: recordFrameIntervals = True
+6.8423 	EXP 	Screen (0) actual frame rate measured at 59.85Hz
+6.8424 	EXP 	window1: recordFrameIntervals = False
+8.4386 	EXP 	Created swatch0 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([-0.69411765, -0.41176471,  0.28627451]), fillColorSpace='rgb', fillRGB=array([-0.69411765, -0.41176471,  0.28627451]), interpolate=True, lineColor=array([-0.69411765, -0.41176471,  0.28627451]), lineColorSpace='rgb', lineRGB=array([-0.69411765, -0.41176471,  0.28627451]), lineWidth=1.0, name='swatch0', opacity=1.0, ori=0.0, pos=array([-0.55,  0.  ]), size=array([0.075, 0.15 ]), units='height', vertices=ndarray(...), win=Window(...))
+8.4395 	EXP 	Created swatch1 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([-0.6       , -0.22352941,  0.2       ]), fillColorSpace='rgb', fillRGB=array([-0.6       , -0.22352941,  0.2       ]), interpolate=True, lineColor=array([-0.6       , -0.22352941,  0.2       ]), lineColorSpace='rgb', lineRGB=array([-0.6       , -0.22352941,  0.2       ]), lineWidth=1.0, name='swatch1', opacity=1.0, ori=0.0, pos=array([-0.45,  0.  ]), size=array([0.075, 0.15 ]), units='height', vertices=ndarray(...), win=Window(...))
+8.4404 	EXP 	Created swatch2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([-0.45882353, -0.05882353,  0.05098039]), fillColorSpace='rgb', fillRGB=array([-0.45882353, -0.05882353,  0.05098039]), interpolate=True, lineColor=array([-0.45882353, -0.05882353,  0.05098039]), lineColorSpace='rgb', lineRGB=array([-0.45882353, -0.05882353,  0.05098039]), lineWidth=1.0, name='swatch2', opacity=1.0, ori=0.0, pos=array([-0.35,  0.  ]), size=array([0.075, 0.15 ]), units='height', vertices=ndarray(...), win=Window(...))
+8.4412 	EXP 	Created swatch3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([-0.22352941,  0.16078431, -0.04313725]), fillColorSpace='rgb', fillRGB=array([-0.22352941,  0.16078431, -0.04313725]), interpolate=True, lineColor=array([-0.22352941,  0.16078431, -0.04313725]), lineColorSpace='rgb', lineRGB=array([-0.22352941,  0.16078431, -0.04313725]), lineWidth=1.0, name='swatch3', opacity=1.0, ori=0.0, pos=array([-0.25,  0.  ]), size=array([0.075, 0.15 ]), units='height', vertices=ndarray(...), win=Window(...))
+8.4421 	EXP 	Created swatch4 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([-0.74117647, -0.34117647, -0.56078431]), fillColorSpace='rgb', fillRGB=array([-0.74117647, -0.34117647, -0.56078431]), interpolate=True, lineColor=array([-0.74117647, -0.34117647, -0.56078431]), lineColorSpace='rgb', lineRGB=array([-0.74117647, -0.34117647, -0.56078431]), lineWidth=1.0, name='swatch4', opacity=1.0, ori=0.0, pos=array([-0.15,  0.  ]), size=array([0.075, 0.15 ]), units='height', vertices=ndarray(...), win=Window(...))
+8.4429 	EXP 	Created swatch5 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([-0.44313725, -0.14509804, -0.74901961]), fillColorSpace='rgb', fillRGB=array([-0.44313725, -0.14509804, -0.74901961]), interpolate=True, lineColor=array([-0.44313725, -0.14509804, -0.74901961]), lineColorSpace='rgb', lineRGB=array([-0.44313725, -0.14509804, -0.74901961]), lineWidth=1.0, name='swatch5', opacity=1.0, ori=0.0, pos=array([-0.05,  0.  ]), size=array([0.075, 0.15 ]), units='height', vertices=ndarray(...), win=Window(...))
+8.4438 	EXP 	Created swatch6 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([-0.01176471,  0.09019608, -0.97647059]), fillColorSpace='rgb', fillRGB=array([-0.01176471,  0.09019608, -0.97647059]), interpolate=True, lineColor=array([-0.01176471,  0.09019608, -0.97647059]), lineColorSpace='rgb', lineRGB=array([-0.01176471,  0.09019608, -0.97647059]), lineWidth=1.0, name='swatch6', opacity=1.0, ori=0.0, pos=array([0.05, 0.  ]), size=array([0.075, 0.15 ]), units='height', vertices=ndarray(...), win=Window(...))
+8.4446 	EXP 	Created swatch7 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([ 0.6       ,  0.41176471, -0.52156863]), fillColorSpace='rgb', fillRGB=array([ 0.6       ,  0.41176471, -0.52156863]), interpolate=True, lineColor=array([ 0.6       ,  0.41176471, -0.52156863]), lineColorSpace='rgb', lineRGB=array([ 0.6       ,  0.41176471, -0.52156863]), lineWidth=1.0, name='swatch7', opacity=1.0, ori=0.0, pos=array([0.15, 0.  ]), size=array([0.075, 0.15 ]), units='height', vertices=ndarray(...), win=Window(...))
+8.4455 	EXP 	Created swatch8 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([ 0.68627451,  0.33333333, -0.09019608]), fillColorSpace='rgb', fillRGB=array([ 0.68627451,  0.33333333, -0.09019608]), interpolate=True, lineColor=array([ 0.68627451,  0.33333333, -0.09019608]), lineColorSpace='rgb', lineRGB=array([ 0.68627451,  0.33333333, -0.09019608]), lineWidth=1.0, name='swatch8', opacity=1.0, ori=0.0, pos=array([0.25, 0.  ]), size=array([0.075, 0.15 ]), units='height', vertices=ndarray(...), win=Window(...))
+8.4463 	EXP 	Created swatch9 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([ 0.6       ,  0.03529412, -0.01960784]), fillColorSpace='rgb', fillRGB=array([ 0.6       ,  0.03529412, -0.01960784]), interpolate=True, lineColor=array([ 0.6       ,  0.03529412, -0.01960784]), lineColorSpace='rgb', lineRGB=array([ 0.6       ,  0.03529412, -0.01960784]), lineWidth=1.0, name='swatch9', opacity=1.0, ori=0.0, pos=array([0.35, 0.  ]), size=array([0.075, 0.15 ]), units='height', vertices=ndarray(...), win=Window(...))
+8.4472 	EXP 	Created swatch10 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([ 0.50588235, -0.24705882,  0.08235294]), fillColorSpace='rgb', fillRGB=array([ 0.50588235, -0.24705882,  0.08235294]), interpolate=True, lineColor=array([ 0.50588235, -0.24705882,  0.08235294]), lineColorSpace='rgb', lineRGB=array([ 0.50588235, -0.24705882,  0.08235294]), lineWidth=1.0, name='swatch10', opacity=1.0, ori=0.0, pos=array([0.45, 0.  ]), size=array([0.075, 0.15 ]), units='height', vertices=ndarray(...), win=Window(...))
+8.4480 	EXP 	Created swatch11 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([ 0.41176471, -0.56078431,  0.18431373]), fillColorSpace='rgb', fillRGB=array([ 0.41176471, -0.56078431,  0.18431373]), interpolate=True, lineColor=array([ 0.41176471, -0.56078431,  0.18431373]), lineColorSpace='rgb', lineRGB=array([ 0.41176471, -0.56078431,  0.18431373]), lineWidth=1.0, name='swatch11', opacity=1.0, ori=0.0, pos=array([0.55, 0.  ]), size=array([0.075, 0.15 ]), units='height', vertices=ndarray(...), win=Window(...))
+8.5261 	EXP 	Created start_food_rat_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='start_food_rat_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.5507 	EXP 	window1: mouseVisible = True
+8.7662 	EXP 	Created food_slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10), lineColor=None, markerColor=None, name='food_slider', opacity=None, ori=0.0, pos=array([ 0.   , -0.175]), readOnly=False, self=UNKNOWN, size=array([1.  , 0.05]), startValue=None, style='slider', styleTweaks=[], ticks=array([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10]), units='height', win=Window(...))
+8.7686 	EXP 	Created foodImage = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='foodImage', opacity=1.0, ori=0.0, pos=array([0.  , 0.15]), size=array([0.4, 0.4]), texRes=128.0, units='height', win=Window(...))
+8.7866 	EXP 	window1: mouseVisible = True
+8.7913 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+8.8290 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text_7', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.8849 	EXP 	Created left_chest = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='stimuli/chest.png', interpolate=False, mask=None, maskParams=None, name='left_chest', opacity=1.0, ori=0.0, pos=array([-0.375,  0.   ]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+8.9110 	EXP 	Created right_chest = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=True, flipVert=False, image='stimuli/chest.png', interpolate=False, mask=None, maskParams=None, name='right_chest', opacity=1.0, ori=0.0, pos=array([0.375, 0.   ]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+8.9127 	EXP 	Created left_shard = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard', opacity=1.0, ori=0.0, pos=array([-0.505,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+8.9144 	EXP 	Created left_shard_6 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_6', opacity=1.0, ori=0.0, pos=array([-0.375,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+8.9161 	EXP 	Created left_shard_7 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_7', opacity=1.0, ori=0.0, pos=array([-0.245,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+8.9177 	EXP 	Created left_shard_8 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_8', opacity=1.0, ori=0.0, pos=array([-0.505, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+8.9195 	EXP 	Created left_shard_9 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_9', opacity=1.0, ori=0.0, pos=array([-0.375, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+8.9213 	EXP 	Created left_shard_10 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_10', opacity=1.0, ori=0.0, pos=array([-0.245, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+8.9230 	EXP 	Created right_shard = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard', opacity=1.0, ori=0.0, pos=array([0.505, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+8.9246 	EXP 	Created right_shard_6 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-11.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_6', opacity=1.0, ori=0.0, pos=array([0.375, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+8.9263 	EXP 	Created right_shard_7 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-12.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_7', opacity=1.0, ori=0.0, pos=array([0.245, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+8.9280 	EXP 	Created right_shard_8 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-13.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_8', opacity=1.0, ori=0.0, pos=array([ 0.505, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+8.9296 	EXP 	Created right_shard_9 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-14.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_9', opacity=1.0, ori=0.0, pos=array([ 0.375, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+8.9316 	EXP 	Created right_shard_10 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-15.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_10', opacity=1.0, ori=0.0, pos=array([ 0.245, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+8.9325 	EXP 	Created feedback_left = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-100.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='feedback_left', opacity=1.0, ori=0.0, pos=array([-0.375,  0.3  ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.9330 	EXP 	Created feedback_right = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-100.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='feedback_right', opacity=1.0, ori=0.0, pos=array([0.375, 0.3  ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.9347 	EXP 	Created left_shard_11 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_11', opacity=1.0, ori=0.0, pos=array([-0.505,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+8.9364 	EXP 	Created left_shard_12 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_12', opacity=1.0, ori=0.0, pos=array([-0.375,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+8.9380 	EXP 	Created left_shard_13 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_13', opacity=1.0, ori=0.0, pos=array([-0.245,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+8.9406 	EXP 	Created left_shard_14 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_14', opacity=1.0, ori=0.0, pos=array([-0.505, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+8.9424 	EXP 	Created left_shard_15 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_15', opacity=1.0, ori=0.0, pos=array([-0.375, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+8.9441 	EXP 	Created left_shard_16 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_16', opacity=1.0, ori=0.0, pos=array([-0.245, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+8.9459 	EXP 	Created right_shard_11 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_11', opacity=1.0, ori=0.0, pos=array([0.505, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+8.9476 	EXP 	Created right_shard_12 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_12', opacity=1.0, ori=0.0, pos=array([0.375, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+8.9493 	EXP 	Created right_shard_13 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_13', opacity=1.0, ori=0.0, pos=array([0.245, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+8.9510 	EXP 	Created right_shard_14 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-11.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_14', opacity=1.0, ori=0.0, pos=array([ 0.505, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+8.9528 	EXP 	Created right_shard_15 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-12.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_15', opacity=1.0, ori=0.0, pos=array([ 0.375, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+8.9545 	EXP 	Created right_shard_16 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-13.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_16', opacity=1.0, ori=0.0, pos=array([ 0.245, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+8.9583 	EXP 	Created fix = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='fix', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+8.9593 	EXP 	Created repeat_training_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-17.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='repeat_training_txt', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.0021 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.0287 	EXP 	Created left_chest = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='stimuli/chest.png', interpolate=False, mask=None, maskParams=None, name='left_chest', opacity=1.0, ori=0.0, pos=array([-0.375,  0.   ]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+9.0540 	EXP 	Created right_chest = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=True, flipVert=False, image='stimuli/chest.png', interpolate=False, mask=None, maskParams=None, name='right_chest', opacity=1.0, ori=0.0, pos=array([0.375, 0.   ]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+9.0560 	EXP 	Created left_shard = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard', opacity=1.0, ori=0.0, pos=array([-0.505,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.0580 	EXP 	Created left_shard_6 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_6', opacity=1.0, ori=0.0, pos=array([-0.375,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.0597 	EXP 	Created left_shard_7 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_7', opacity=1.0, ori=0.0, pos=array([-0.245,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.0613 	EXP 	Created left_shard_8 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_8', opacity=1.0, ori=0.0, pos=array([-0.505, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.0630 	EXP 	Created left_shard_9 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_9', opacity=1.0, ori=0.0, pos=array([-0.375, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.0647 	EXP 	Created left_shard_10 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_10', opacity=1.0, ori=0.0, pos=array([-0.245, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.0664 	EXP 	Created right_shard = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard', opacity=1.0, ori=0.0, pos=array([0.505, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.0681 	EXP 	Created right_shard_6 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-11.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_6', opacity=1.0, ori=0.0, pos=array([0.375, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.0697 	EXP 	Created right_shard_7 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-12.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_7', opacity=1.0, ori=0.0, pos=array([0.245, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.0716 	EXP 	Created right_shard_8 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-13.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_8', opacity=1.0, ori=0.0, pos=array([ 0.505, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.0733 	EXP 	Created right_shard_9 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-14.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_9', opacity=1.0, ori=0.0, pos=array([ 0.375, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.0750 	EXP 	Created right_shard_10 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-15.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_10', opacity=1.0, ori=0.0, pos=array([ 0.245, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.0755 	EXP 	Created feedback_left = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-100.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='feedback_left', opacity=1.0, ori=0.0, pos=array([-0.375,  0.3  ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.0760 	EXP 	Created feedback_right = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-100.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='feedback_right', opacity=1.0, ori=0.0, pos=array([0.375, 0.3  ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.0777 	EXP 	Created left_shard_11 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_11', opacity=1.0, ori=0.0, pos=array([-0.505,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.0794 	EXP 	Created left_shard_12 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_12', opacity=1.0, ori=0.0, pos=array([-0.375,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.0811 	EXP 	Created left_shard_13 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_13', opacity=1.0, ori=0.0, pos=array([-0.245,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.0829 	EXP 	Created left_shard_14 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_14', opacity=1.0, ori=0.0, pos=array([-0.505, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.0856 	EXP 	Created left_shard_15 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_15', opacity=1.0, ori=0.0, pos=array([-0.375, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.0876 	EXP 	Created left_shard_16 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_16', opacity=1.0, ori=0.0, pos=array([-0.245, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.0893 	EXP 	Created right_shard_11 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_11', opacity=1.0, ori=0.0, pos=array([0.505, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.0910 	EXP 	Created right_shard_12 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_12', opacity=1.0, ori=0.0, pos=array([0.375, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.0927 	EXP 	Created right_shard_13 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_13', opacity=1.0, ori=0.0, pos=array([0.245, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.0944 	EXP 	Created right_shard_14 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-11.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_14', opacity=1.0, ori=0.0, pos=array([ 0.505, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.0962 	EXP 	Created right_shard_15 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-12.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_15', opacity=1.0, ori=0.0, pos=array([ 0.375, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.0979 	EXP 	Created right_shard_16 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-13.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_16', opacity=1.0, ori=0.0, pos=array([ 0.245, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.1001 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+9.1012 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.1379 	EXP 	Created left_chest = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='stimuli/chest.png', interpolate=False, mask=None, maskParams=None, name='left_chest', opacity=1.0, ori=0.0, pos=array([-0.375,  0.   ]), size=array([0.6, 0.5]), texRes=128.0, units='height', win=Window(...))
+9.1683 	EXP 	Created right_chest = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=True, flipVert=False, image='stimuli/chest.png', interpolate=False, mask=None, maskParams=None, name='right_chest', opacity=1.0, ori=0.0, pos=array([0.375, 0.   ]), size=array([0.6, 0.5]), texRes=128.0, units='height', win=Window(...))
+9.1709 	EXP 	Created left_shard_0 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_0', opacity=1.0, ori=0.0, pos=array([-0.505,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.1733 	EXP 	Created left_shard_1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_1', opacity=1.0, ori=0.0, pos=array([-0.375,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.1758 	EXP 	Created left_shard_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_2', opacity=1.0, ori=0.0, pos=array([-0.245,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.1783 	EXP 	Created left_shard_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_3', opacity=1.0, ori=0.0, pos=array([-0.505, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.1807 	EXP 	Created left_shard_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_4', opacity=1.0, ori=0.0, pos=array([-0.375, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.1832 	EXP 	Created left_shard_5 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_5', opacity=1.0, ori=0.0, pos=array([-0.245, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.1867 	EXP 	Created right_shard_0 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_0', opacity=1.0, ori=0.0, pos=array([0.505, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.1892 	EXP 	Created right_shard_1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-11.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_1', opacity=1.0, ori=0.0, pos=array([0.375, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.1917 	EXP 	Created right_shard_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-12.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_2', opacity=1.0, ori=0.0, pos=array([0.245, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.1942 	EXP 	Created right_shard_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-13.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_3', opacity=1.0, ori=0.0, pos=array([ 0.505, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.1961 	EXP 	Created right_shard_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-14.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_4', opacity=1.0, ori=0.0, pos=array([ 0.375, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.1979 	EXP 	Created right_shard_5 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-15.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_5', opacity=1.0, ori=0.0, pos=array([ 0.245, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.2247 	EXP 	Created outline_shape = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='stimuli/highlight_nolid.png', interpolate=False, mask=None, maskParams=None, name='outline_shape', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.6, 0.5]), texRes=128.0, units='height', win=Window(...))
+9.2266 	EXP 	Created left_shard_17 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_17', opacity=1.0, ori=0.0, pos=array([-0.505,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.2283 	EXP 	Created left_shard_18 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_18', opacity=1.0, ori=0.0, pos=array([-0.375,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.2300 	EXP 	Created left_shard_19 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_19', opacity=1.0, ori=0.0, pos=array([-0.245,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.2316 	EXP 	Created left_shard_20 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_20', opacity=1.0, ori=0.0, pos=array([-0.505, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.2333 	EXP 	Created left_shard_21 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_21', opacity=1.0, ori=0.0, pos=array([-0.375, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.2349 	EXP 	Created left_shard_22 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_22', opacity=1.0, ori=0.0, pos=array([-0.245, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.2366 	EXP 	Created right_shard_17 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_17', opacity=1.0, ori=0.0, pos=array([0.505, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.2383 	EXP 	Created right_shard_18 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_18', opacity=1.0, ori=0.0, pos=array([0.375, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.2400 	EXP 	Created right_shard_19 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_19', opacity=1.0, ori=0.0, pos=array([0.245, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.2418 	EXP 	Created right_shard_20 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-11.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_20', opacity=1.0, ori=0.0, pos=array([ 0.505, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.2436 	EXP 	Created right_shard_21 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-12.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_21', opacity=1.0, ori=0.0, pos=array([ 0.375, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.2454 	EXP 	Created right_shard_22 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-13.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_22', opacity=1.0, ori=0.0, pos=array([ 0.245, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+9.2473 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+9.2696 	EXP 	Created colorblind_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='colorblind_txt', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+9.2710 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_5', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.2717 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_6', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.2718 	EXP 	window1: mouseVisible = True
+9.2722 	EXP 	window1: mouseVisible = False
+9.2743 	EXP 	Created back_forth = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='back_forth', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.2921 	EXP 	Created instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='instructions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+9.4983 	EXP 	food_slider: autoLog = True
+9.4983 	EXP 	food_slider: markerPos = None
+9.4983 	EXP 	food_slider: styleTweaks = []
+9.4983 	EXP 	food_slider: styleTweaks = []
+9.4983 	EXP 	food_slider: styleTweaks = []
+9.4983 	EXP 	food_slider: styleTweaks = []
+9.4983 	EXP 	food_slider: contrast = 1.0
+9.4983 	EXP 	food_slider: autoLog = True
+9.4983 	EXP 	repeat_training_txt: autoDraw = False
+9.4983 	EXP 	back_forth: height = 0.05
+9.4983 	EXP 	back_forth: height = 0.05
+9.4983 	EXP 	back_forth: height = 0.05
+9.4983 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+9.4983 	EXP 	back_forth: autoDraw = True
+9.4983 	EXP 	instructions: height = 0.04
+9.4983 	EXP 	instructions: height = 0.04
+9.4983 	EXP 	instructions: height = 0.04
+9.4983 	EXP 	instructions: text = 'Today, your task will be to make a mining for treasure chests. Each chest will contain a variety of crystals inside, \nrepresenting different types of rewards.\n\n\n'
+9.4983 	EXP 	instructions: autoDraw = True
+9.4983 	EXP 	left_shard: image = 'stimuli/examples/shard-example_L1.png'
+9.4983 	EXP 	left_shard_6: image = 'stimuli/examples/shard-example_L2.png'
+9.4983 	EXP 	left_shard_7: image = 'stimuli/examples/shard-example_L3.png'
+9.4983 	EXP 	left_shard_8: image = 'stimuli/examples/shard-example_L4.png'
+9.4983 	EXP 	left_shard_9: image = 'stimuli/examples/shard-example_L5.png'
+9.4983 	EXP 	left_shard_10: image = 'stimuli/examples/shard-example_L6.png'
+9.4983 	EXP 	right_shard: image = 'stimuli/examples/shard-example_R1.png'
+9.4983 	EXP 	right_shard_6: image = 'stimuli/examples/shard-example_R2.png'
+9.4983 	EXP 	right_shard_7: image = 'stimuli/examples/shard-example_R3.png'
+9.4983 	EXP 	right_shard_8: image = 'stimuli/examples/shard-example_R4.png'
+9.4983 	EXP 	right_shard_9: image = 'stimuli/examples/shard-example_R5.png'
+9.4983 	EXP 	right_shard_10: image = 'stimuli/examples/shard-example_R6.png'
+9.4983 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+9.5374 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+9.5646 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+9.6080 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+9.6436 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+9.6756 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+9.7146 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+9.7572 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+9.8139 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+9.8515 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+9.8756 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+9.8765 	DATA 	Keypress: right
+9.9095 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+9.9095 	EXP 	instructions: height = 0.04
+9.9095 	EXP 	instructions: height = 0.04
+9.9095 	EXP 	instructions: height = 0.04
+9.9095 	EXP 	instructions: text = 'Here are two diffferent treasure chest examples\n\n\n\n\n\n\n\n\n\n\n\n\n'
+9.9095 	EXP 	back_forth: autoDraw = True
+9.9418 	EXP 	left_chest: autoDraw = True
+9.9418 	EXP 	left_shard: autoDraw = True
+9.9418 	EXP 	left_shard_6: autoDraw = True
+9.9418 	EXP 	left_shard_7: autoDraw = True
+9.9418 	EXP 	left_shard_8: autoDraw = True
+9.9418 	EXP 	left_shard_9: autoDraw = True
+9.9418 	EXP 	left_shard_10: autoDraw = True
+9.9418 	EXP 	right_chest: autoDraw = True
+9.9418 	EXP 	right_shard: autoDraw = True
+9.9418 	EXP 	right_shard_6: autoDraw = True
+9.9418 	EXP 	right_shard_7: autoDraw = True
+9.9418 	EXP 	right_shard_8: autoDraw = True
+9.9418 	EXP 	right_shard_9: autoDraw = True
+9.9418 	EXP 	right_shard_10: autoDraw = True
+9.9418 	EXP 	back_forth: height = 0.05
+9.9418 	EXP 	back_forth: height = 0.05
+9.9418 	EXP 	back_forth: height = 0.05
+9.9418 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+9.9754 	EXP 	left_chest: autoDraw = True
+9.9754 	EXP 	left_shard: autoDraw = True
+9.9754 	EXP 	left_shard_6: autoDraw = True
+9.9754 	EXP 	left_shard_7: autoDraw = True
+9.9754 	EXP 	left_shard_8: autoDraw = True
+9.9754 	EXP 	left_shard_9: autoDraw = True
+9.9754 	EXP 	left_shard_10: autoDraw = True
+9.9754 	EXP 	right_chest: autoDraw = True
+9.9754 	EXP 	right_shard: autoDraw = True
+9.9754 	EXP 	right_shard_6: autoDraw = True
+9.9754 	EXP 	right_shard_7: autoDraw = True
+9.9754 	EXP 	right_shard_8: autoDraw = True
+9.9754 	EXP 	right_shard_9: autoDraw = True
+9.9754 	EXP 	right_shard_10: autoDraw = True
+9.9754 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+10.0086 	EXP 	left_chest: autoDraw = True
+10.0086 	EXP 	left_shard: autoDraw = True
+10.0086 	EXP 	left_shard_6: autoDraw = True
+10.0086 	EXP 	left_shard_7: autoDraw = True
+10.0086 	EXP 	left_shard_8: autoDraw = True
+10.0086 	EXP 	left_shard_9: autoDraw = True
+10.0086 	EXP 	left_shard_10: autoDraw = True
+10.0086 	EXP 	right_chest: autoDraw = True
+10.0086 	EXP 	right_shard: autoDraw = True
+10.0086 	EXP 	right_shard_6: autoDraw = True
+10.0086 	EXP 	right_shard_7: autoDraw = True
+10.0086 	EXP 	right_shard_8: autoDraw = True
+10.0086 	EXP 	right_shard_9: autoDraw = True
+10.0086 	EXP 	right_shard_10: autoDraw = True
+10.0086 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+10.0424 	EXP 	left_chest: autoDraw = True
+10.0424 	EXP 	left_shard: autoDraw = True
+10.0424 	EXP 	left_shard_6: autoDraw = True
+10.0424 	EXP 	left_shard_7: autoDraw = True
+10.0424 	EXP 	left_shard_8: autoDraw = True
+10.0424 	EXP 	left_shard_9: autoDraw = True
+10.0424 	EXP 	left_shard_10: autoDraw = True
+10.0424 	EXP 	right_chest: autoDraw = True
+10.0424 	EXP 	right_shard: autoDraw = True
+10.0424 	EXP 	right_shard_6: autoDraw = True
+10.0424 	EXP 	right_shard_7: autoDraw = True
+10.0424 	EXP 	right_shard_8: autoDraw = True
+10.0424 	EXP 	right_shard_9: autoDraw = True
+10.0424 	EXP 	right_shard_10: autoDraw = True
+10.0424 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+10.0432 	DATA 	Keypress: right
+10.0916 	EXP 	left_chest: autoDraw = True
+10.0916 	EXP 	left_shard: autoDraw = True
+10.0916 	EXP 	left_shard_6: autoDraw = True
+10.0916 	EXP 	left_shard_7: autoDraw = True
+10.0916 	EXP 	left_shard_8: autoDraw = True
+10.0916 	EXP 	left_shard_9: autoDraw = True
+10.0916 	EXP 	left_shard_10: autoDraw = True
+10.0916 	EXP 	right_chest: autoDraw = True
+10.0916 	EXP 	right_shard: autoDraw = True
+10.0916 	EXP 	right_shard_6: autoDraw = True
+10.0916 	EXP 	right_shard_7: autoDraw = True
+10.0916 	EXP 	right_shard_8: autoDraw = True
+10.0916 	EXP 	right_shard_9: autoDraw = True
+10.0916 	EXP 	right_shard_10: autoDraw = True
+10.0916 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+10.0916 	EXP 	swatch0: autoDraw = False
+10.0916 	EXP 	swatch1: autoDraw = False
+10.0916 	EXP 	swatch2: autoDraw = False
+10.0916 	EXP 	swatch3: autoDraw = False
+10.0916 	EXP 	swatch4: autoDraw = False
+10.0916 	EXP 	swatch5: autoDraw = False
+10.0916 	EXP 	swatch6: autoDraw = False
+10.0916 	EXP 	swatch7: autoDraw = False
+10.0916 	EXP 	swatch8: autoDraw = False
+10.0916 	EXP 	swatch9: autoDraw = False
+10.0916 	EXP 	swatch10: autoDraw = False
+10.0916 	EXP 	swatch11: autoDraw = False
+10.0916 	EXP 	left_chest: autoDraw = False
+10.0916 	EXP 	left_shard: autoDraw = False
+10.0916 	EXP 	left_shard_6: autoDraw = False
+10.0916 	EXP 	left_shard_7: autoDraw = False
+10.0916 	EXP 	left_shard_8: autoDraw = False
+10.0916 	EXP 	left_shard_9: autoDraw = False
+10.0916 	EXP 	left_shard_10: autoDraw = False
+10.0916 	EXP 	right_chest: autoDraw = False
+10.0916 	EXP 	right_shard: autoDraw = False
+10.0916 	EXP 	right_shard_6: autoDraw = False
+10.0916 	EXP 	right_shard_7: autoDraw = False
+10.0916 	EXP 	right_shard_8: autoDraw = False
+10.0916 	EXP 	right_shard_9: autoDraw = False
+10.0916 	EXP 	right_shard_10: autoDraw = False
+10.0916 	EXP 	instructions: height = 0.04
+10.0916 	EXP 	instructions: height = 0.04
+10.0916 	EXP 	instructions: height = 0.04
+10.0916 	EXP 	instructions: text = 'Over 150 rounds, you will be choosing the better of two treasure chests. The value of each treasure chest is simply the sum of the values of each crystal in the chest. The crystals are each worth a different number of points depending on their color, and each color is equally likely to appear. In order to know the value of a treasure chest, you will first need to learn what each color is worth.\n\n\n'
+10.0916 	EXP 	back_forth: autoDraw = True
+10.1079 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+10.1246 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+10.1414 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+10.1581 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+10.1746 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+10.1749 	DATA 	Keypress: right
+10.2088 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+10.2088 	EXP 	swatch0: autoDraw = False
+10.2088 	EXP 	swatch1: autoDraw = False
+10.2088 	EXP 	swatch2: autoDraw = False
+10.2088 	EXP 	swatch3: autoDraw = False
+10.2088 	EXP 	swatch4: autoDraw = False
+10.2088 	EXP 	swatch5: autoDraw = False
+10.2088 	EXP 	swatch6: autoDraw = False
+10.2088 	EXP 	swatch7: autoDraw = False
+10.2088 	EXP 	swatch8: autoDraw = False
+10.2088 	EXP 	swatch9: autoDraw = False
+10.2088 	EXP 	swatch10: autoDraw = False
+10.2088 	EXP 	swatch11: autoDraw = False
+10.2088 	EXP 	left_chest: autoDraw = False
+10.2088 	EXP 	left_shard: autoDraw = False
+10.2088 	EXP 	left_shard_6: autoDraw = False
+10.2088 	EXP 	left_shard_7: autoDraw = False
+10.2088 	EXP 	left_shard_8: autoDraw = False
+10.2088 	EXP 	left_shard_9: autoDraw = False
+10.2088 	EXP 	left_shard_10: autoDraw = False
+10.2088 	EXP 	right_chest: autoDraw = False
+10.2088 	EXP 	right_shard: autoDraw = False
+10.2088 	EXP 	right_shard_6: autoDraw = False
+10.2088 	EXP 	right_shard_7: autoDraw = False
+10.2088 	EXP 	right_shard_8: autoDraw = False
+10.2088 	EXP 	right_shard_9: autoDraw = False
+10.2088 	EXP 	right_shard_10: autoDraw = False
+10.2088 	EXP 	instructions: height = 0.04
+10.2088 	EXP 	instructions: height = 0.04
+10.2088 	EXP 	instructions: height = 0.04
+10.2088 	EXP 	instructions: text = 'The following screen will display the colors you will see throughout this task.'
+10.2088 	EXP 	back_forth: autoDraw = True
+10.2420 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+10.2754 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+10.3086 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+10.3095 	DATA 	Keypress: right
+10.3419 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+10.3419 	EXP 	swatch0: autoDraw = False
+10.3419 	EXP 	swatch1: autoDraw = False
+10.3419 	EXP 	swatch2: autoDraw = False
+10.3419 	EXP 	swatch3: autoDraw = False
+10.3419 	EXP 	swatch4: autoDraw = False
+10.3419 	EXP 	swatch5: autoDraw = False
+10.3419 	EXP 	swatch6: autoDraw = False
+10.3419 	EXP 	swatch7: autoDraw = False
+10.3419 	EXP 	swatch8: autoDraw = False
+10.3419 	EXP 	swatch9: autoDraw = False
+10.3419 	EXP 	swatch10: autoDraw = False
+10.3419 	EXP 	swatch11: autoDraw = False
+10.3419 	EXP 	left_chest: autoDraw = False
+10.3419 	EXP 	left_shard: autoDraw = False
+10.3419 	EXP 	left_shard_6: autoDraw = False
+10.3419 	EXP 	left_shard_7: autoDraw = False
+10.3419 	EXP 	left_shard_8: autoDraw = False
+10.3419 	EXP 	left_shard_9: autoDraw = False
+10.3419 	EXP 	left_shard_10: autoDraw = False
+10.3419 	EXP 	right_chest: autoDraw = False
+10.3419 	EXP 	right_shard: autoDraw = False
+10.3419 	EXP 	right_shard_6: autoDraw = False
+10.3419 	EXP 	right_shard_7: autoDraw = False
+10.3419 	EXP 	right_shard_8: autoDraw = False
+10.3419 	EXP 	right_shard_9: autoDraw = False
+10.3419 	EXP 	right_shard_10: autoDraw = False
+10.3419 	EXP 	instructions: height = 0.04
+10.3419 	EXP 	instructions: height = 0.04
+10.3419 	EXP 	instructions: height = 0.04
+10.3419 	EXP 	instructions: text = 'The value of the colors increases across the spectrum, from left to right.\n\n\n\n\n\n\n\n\n\n\n\n\n\n'
+10.3419 	EXP 	back_forth: autoDraw = True
+10.3756 	EXP 	swatch0: autoDraw = True
+10.3756 	EXP 	swatch1: autoDraw = True
+10.3756 	EXP 	swatch2: autoDraw = True
+10.3756 	EXP 	swatch3: autoDraw = True
+10.3756 	EXP 	swatch4: autoDraw = True
+10.3756 	EXP 	swatch5: autoDraw = True
+10.3756 	EXP 	swatch6: autoDraw = True
+10.3756 	EXP 	swatch7: autoDraw = True
+10.3756 	EXP 	swatch8: autoDraw = True
+10.3756 	EXP 	swatch9: autoDraw = True
+10.3756 	EXP 	swatch10: autoDraw = True
+10.3756 	EXP 	swatch11: autoDraw = True
+10.3756 	EXP 	back_forth: height = 0.05
+10.3756 	EXP 	back_forth: height = 0.05
+10.3756 	EXP 	back_forth: height = 0.05
+10.3756 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to begin.'
+10.4087 	EXP 	swatch0: autoDraw = True
+10.4087 	EXP 	swatch1: autoDraw = True
+10.4087 	EXP 	swatch2: autoDraw = True
+10.4087 	EXP 	swatch3: autoDraw = True
+10.4087 	EXP 	swatch4: autoDraw = True
+10.4087 	EXP 	swatch5: autoDraw = True
+10.4087 	EXP 	swatch6: autoDraw = True
+10.4087 	EXP 	swatch7: autoDraw = True
+10.4087 	EXP 	swatch8: autoDraw = True
+10.4087 	EXP 	swatch9: autoDraw = True
+10.4087 	EXP 	swatch10: autoDraw = True
+10.4087 	EXP 	swatch11: autoDraw = True
+10.4087 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to begin.'
+10.4116 	DATA 	Keypress: right
+10.4422 	EXP 	swatch0: autoDraw = True
+10.4422 	EXP 	swatch1: autoDraw = True
+10.4422 	EXP 	swatch2: autoDraw = True
+10.4422 	EXP 	swatch3: autoDraw = True
+10.4422 	EXP 	swatch4: autoDraw = True
+10.4422 	EXP 	swatch5: autoDraw = True
+10.4422 	EXP 	swatch6: autoDraw = True
+10.4422 	EXP 	swatch7: autoDraw = True
+10.4422 	EXP 	swatch8: autoDraw = True
+10.4422 	EXP 	swatch9: autoDraw = True
+10.4422 	EXP 	swatch10: autoDraw = True
+10.4422 	EXP 	swatch11: autoDraw = True
+10.4422 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to begin.'
+10.4447 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+10.4447 	EXP 	window1: mouseVisible = False
+10.4452 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+10.4453 	EXP 	New trial (rep=0, index=0): None
+10.4751 	EXP 	swatch0: autoDraw = True
+10.4751 	EXP 	swatch1: autoDraw = True
+10.4751 	EXP 	swatch2: autoDraw = True
+10.4751 	EXP 	swatch3: autoDraw = True
+10.4751 	EXP 	swatch4: autoDraw = True
+10.4751 	EXP 	swatch5: autoDraw = True
+10.4751 	EXP 	swatch6: autoDraw = True
+10.4751 	EXP 	swatch7: autoDraw = True
+10.4751 	EXP 	swatch8: autoDraw = True
+10.4751 	EXP 	swatch9: autoDraw = True
+10.4751 	EXP 	swatch10: autoDraw = True
+10.4751 	EXP 	swatch11: autoDraw = True
+10.4751 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to begin.'
+10.4751 	EXP 	swatch0: autoDraw = False
+10.4751 	EXP 	swatch1: autoDraw = False
+10.4751 	EXP 	swatch2: autoDraw = False
+10.4751 	EXP 	swatch3: autoDraw = False
+10.4751 	EXP 	swatch4: autoDraw = False
+10.4751 	EXP 	swatch5: autoDraw = False
+10.4751 	EXP 	swatch6: autoDraw = False
+10.4751 	EXP 	swatch7: autoDraw = False
+10.4751 	EXP 	swatch8: autoDraw = False
+10.4751 	EXP 	swatch9: autoDraw = False
+10.4751 	EXP 	swatch10: autoDraw = False
+10.4751 	EXP 	swatch11: autoDraw = False
+10.4751 	EXP 	back_forth: autoDraw = False
+10.4751 	EXP 	instructions: autoDraw = False
+10.4751 	EXP 	text_7: autoDraw = True
+13.2590 	DATA 	Keypress: space
+13.2708 	EXP 	Imported training_trials.csv as conditions, 96 conditions, 17 params
+13.2720 	EXP 	Created sequence: random, trialTypes=96, nReps=1, seed=None
+13.2724 	EXP 	New trial (rep=0, index=0): OrderedDict([('TrialN', 77), ('Box1_val1', 8), ('Box1_val2', 8), ('Box1_val3', 8), ('Box1_val4', 5), ('Box1_val5', 5), ('Box1_val6', 5), ('Box2_val1', 7), ('Box2_val2', 1), ('Box2_val3', 1), ('Box2_val4', 1), ('Box2_val5', 1), ('Box2_val6', 1), ('Box1_Sum', 39), ('Box2_Sum', 12), ('valDif', 27), ('Round', 3)])
+13.3917 	EXP 	text_7: autoDraw = False
+13.3917 	EXP 	left_chest: autoDraw = True
+13.3917 	EXP 	right_chest: autoDraw = True
+13.3917 	EXP 	left_shard: image = 'stimuli/shard-10_color-8.png'
+13.3917 	EXP 	left_shard_6: image = 'stimuli/shard-08_color-8.png'
+13.3917 	EXP 	left_shard_7: image = 'stimuli/shard-09_color-8.png'
+13.3917 	EXP 	left_shard_8: image = 'stimuli/shard-09_color-5.png'
+13.3917 	EXP 	left_shard_9: image = 'stimuli/shard-07_color-5.png'
+13.3917 	EXP 	left_shard_10: image = 'stimuli/shard-07_color-5.png'
+13.3917 	EXP 	right_shard: image = 'stimuli/shard-02_color-7.png'
+13.3917 	EXP 	right_shard_6: image = 'stimuli/shard-03_color-1.png'
+13.3917 	EXP 	right_shard_7: image = 'stimuli/shard-10_color-1.png'
+13.3917 	EXP 	right_shard_8: image = 'stimuli/shard-10_color-1.png'
+13.3917 	EXP 	right_shard_9: image = 'stimuli/shard-04_color-1.png'
+13.3917 	EXP 	right_shard_10: image = 'stimuli/shard-11_color-1.png'
+13.3917 	EXP 	left_shard: autoDraw = True
+13.3917 	EXP 	left_shard_6: autoDraw = True
+13.3917 	EXP 	left_shard_7: autoDraw = True
+13.3917 	EXP 	left_shard_8: autoDraw = True
+13.3917 	EXP 	left_shard_9: autoDraw = True
+13.3917 	EXP 	left_shard_10: autoDraw = True
+13.3917 	EXP 	right_shard: autoDraw = True
+13.3917 	EXP 	right_shard_6: autoDraw = True
+13.3917 	EXP 	right_shard_7: autoDraw = True
+13.3917 	EXP 	right_shard_8: autoDraw = True
+13.3917 	EXP 	right_shard_9: autoDraw = True
+13.3917 	EXP 	right_shard_10: autoDraw = True
+14.8273 	DATA 	Keypress: right
+15.4937 	DATA 	Keypress: escape
+15.9060 	EXP 	window1: mouseVisible = True

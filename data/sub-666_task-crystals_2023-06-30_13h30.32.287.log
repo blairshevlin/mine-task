@@ -1,0 +1,1846 @@
+3.2580 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+11.5479 	WARNING 	User requested fullscreen with size [1536  960], but screen is actually [3840, 2400]. Using actual size
+14.0371 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000237B356B7C0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000237B3ACE1C0>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([3840, 2400]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+14.0372 	EXP 	window1: mouseVisible = True
+14.0374 	EXP 	window1: mouseVisible = False
+14.0374 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+14.0375 	EXP 	window1: recordFrameIntervals = False
+14.3645 	EXP 	window1: recordFrameIntervals = True
+14.7692 	EXP 	Screen (0) actual frame rate measured at 30.02Hz
+14.7693 	EXP 	window1: recordFrameIntervals = False
+17.4651 	EXP 	Created swatch0 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([-0.69411765, -0.41176471,  0.28627451]), fillColorSpace='rgb', fillRGB=array([-0.69411765, -0.41176471,  0.28627451]), interpolate=True, lineColor=array([-0.69411765, -0.41176471,  0.28627451]), lineColorSpace='rgb', lineRGB=array([-0.69411765, -0.41176471,  0.28627451]), lineWidth=1.0, name='swatch0', opacity=1.0, ori=0.0, pos=array([-0.55,  0.  ]), size=array([0.075, 0.15 ]), units='height', vertices=ndarray(...), win=Window(...))
+17.4668 	EXP 	Created swatch1 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([-0.6       , -0.22352941,  0.2       ]), fillColorSpace='rgb', fillRGB=array([-0.6       , -0.22352941,  0.2       ]), interpolate=True, lineColor=array([-0.6       , -0.22352941,  0.2       ]), lineColorSpace='rgb', lineRGB=array([-0.6       , -0.22352941,  0.2       ]), lineWidth=1.0, name='swatch1', opacity=1.0, ori=0.0, pos=array([-0.45,  0.  ]), size=array([0.075, 0.15 ]), units='height', vertices=ndarray(...), win=Window(...))
+17.4685 	EXP 	Created swatch2 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([-0.45882353, -0.05882353,  0.05098039]), fillColorSpace='rgb', fillRGB=array([-0.45882353, -0.05882353,  0.05098039]), interpolate=True, lineColor=array([-0.45882353, -0.05882353,  0.05098039]), lineColorSpace='rgb', lineRGB=array([-0.45882353, -0.05882353,  0.05098039]), lineWidth=1.0, name='swatch2', opacity=1.0, ori=0.0, pos=array([-0.35,  0.  ]), size=array([0.075, 0.15 ]), units='height', vertices=ndarray(...), win=Window(...))
+17.4703 	EXP 	Created swatch3 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([-0.22352941,  0.16078431, -0.04313725]), fillColorSpace='rgb', fillRGB=array([-0.22352941,  0.16078431, -0.04313725]), interpolate=True, lineColor=array([-0.22352941,  0.16078431, -0.04313725]), lineColorSpace='rgb', lineRGB=array([-0.22352941,  0.16078431, -0.04313725]), lineWidth=1.0, name='swatch3', opacity=1.0, ori=0.0, pos=array([-0.25,  0.  ]), size=array([0.075, 0.15 ]), units='height', vertices=ndarray(...), win=Window(...))
+17.4719 	EXP 	Created swatch4 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([-0.74117647, -0.34117647, -0.56078431]), fillColorSpace='rgb', fillRGB=array([-0.74117647, -0.34117647, -0.56078431]), interpolate=True, lineColor=array([-0.74117647, -0.34117647, -0.56078431]), lineColorSpace='rgb', lineRGB=array([-0.74117647, -0.34117647, -0.56078431]), lineWidth=1.0, name='swatch4', opacity=1.0, ori=0.0, pos=array([-0.15,  0.  ]), size=array([0.075, 0.15 ]), units='height', vertices=ndarray(...), win=Window(...))
+17.4734 	EXP 	Created swatch5 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([-0.44313725, -0.14509804, -0.74901961]), fillColorSpace='rgb', fillRGB=array([-0.44313725, -0.14509804, -0.74901961]), interpolate=True, lineColor=array([-0.44313725, -0.14509804, -0.74901961]), lineColorSpace='rgb', lineRGB=array([-0.44313725, -0.14509804, -0.74901961]), lineWidth=1.0, name='swatch5', opacity=1.0, ori=0.0, pos=array([-0.05,  0.  ]), size=array([0.075, 0.15 ]), units='height', vertices=ndarray(...), win=Window(...))
+17.4750 	EXP 	Created swatch6 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([-0.01176471,  0.09019608, -0.97647059]), fillColorSpace='rgb', fillRGB=array([-0.01176471,  0.09019608, -0.97647059]), interpolate=True, lineColor=array([-0.01176471,  0.09019608, -0.97647059]), lineColorSpace='rgb', lineRGB=array([-0.01176471,  0.09019608, -0.97647059]), lineWidth=1.0, name='swatch6', opacity=1.0, ori=0.0, pos=array([0.05, 0.  ]), size=array([0.075, 0.15 ]), units='height', vertices=ndarray(...), win=Window(...))
+17.4766 	EXP 	Created swatch7 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([ 0.6       ,  0.41176471, -0.52156863]), fillColorSpace='rgb', fillRGB=array([ 0.6       ,  0.41176471, -0.52156863]), interpolate=True, lineColor=array([ 0.6       ,  0.41176471, -0.52156863]), lineColorSpace='rgb', lineRGB=array([ 0.6       ,  0.41176471, -0.52156863]), lineWidth=1.0, name='swatch7', opacity=1.0, ori=0.0, pos=array([0.15, 0.  ]), size=array([0.075, 0.15 ]), units='height', vertices=ndarray(...), win=Window(...))
+17.4782 	EXP 	Created swatch8 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([ 0.68627451,  0.33333333, -0.09019608]), fillColorSpace='rgb', fillRGB=array([ 0.68627451,  0.33333333, -0.09019608]), interpolate=True, lineColor=array([ 0.68627451,  0.33333333, -0.09019608]), lineColorSpace='rgb', lineRGB=array([ 0.68627451,  0.33333333, -0.09019608]), lineWidth=1.0, name='swatch8', opacity=1.0, ori=0.0, pos=array([0.25, 0.  ]), size=array([0.075, 0.15 ]), units='height', vertices=ndarray(...), win=Window(...))
+17.4797 	EXP 	Created swatch9 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([ 0.6       ,  0.03529412, -0.01960784]), fillColorSpace='rgb', fillRGB=array([ 0.6       ,  0.03529412, -0.01960784]), interpolate=True, lineColor=array([ 0.6       ,  0.03529412, -0.01960784]), lineColorSpace='rgb', lineRGB=array([ 0.6       ,  0.03529412, -0.01960784]), lineWidth=1.0, name='swatch9', opacity=1.0, ori=0.0, pos=array([0.35, 0.  ]), size=array([0.075, 0.15 ]), units='height', vertices=ndarray(...), win=Window(...))
+17.4813 	EXP 	Created swatch10 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([ 0.50588235, -0.24705882,  0.08235294]), fillColorSpace='rgb', fillRGB=array([ 0.50588235, -0.24705882,  0.08235294]), interpolate=True, lineColor=array([ 0.50588235, -0.24705882,  0.08235294]), lineColorSpace='rgb', lineRGB=array([ 0.50588235, -0.24705882,  0.08235294]), lineWidth=1.0, name='swatch10', opacity=1.0, ori=0.0, pos=array([0.45, 0.  ]), size=array([0.075, 0.15 ]), units='height', vertices=ndarray(...), win=Window(...))
+17.4829 	EXP 	Created swatch11 = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([ 0.41176471, -0.56078431,  0.18431373]), fillColorSpace='rgb', fillRGB=array([ 0.41176471, -0.56078431,  0.18431373]), interpolate=True, lineColor=array([ 0.41176471, -0.56078431,  0.18431373]), lineColorSpace='rgb', lineRGB=array([ 0.41176471, -0.56078431,  0.18431373]), lineWidth=1.0, name='swatch11', opacity=1.0, ori=0.0, pos=array([0.55, 0.  ]), size=array([0.075, 0.15 ]), units='height', vertices=ndarray(...), win=Window(...))
+17.6673 	EXP 	Created start_food_rat_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='start_food_rat_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+17.6758 	EXP 	window1: mouseVisible = True
+18.0399 	EXP 	Created food_slider = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=0.05, labelWrapWidth=None, labels=(1, 2, 3, 4, 5, 6, 7, 8, 9, 10), lineColor=None, markerColor=None, name='food_slider', opacity=None, ori=0.0, pos=array([ 0.   , -0.175]), readOnly=False, self=UNKNOWN, size=array([1.  , 0.05]), startValue=None, style='slider', styleTweaks=[], ticks=array([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10]), units='height', win=Window(...))
+18.0531 	EXP 	Created foodImage = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='foodImage', opacity=1.0, ori=0.0, pos=array([0.  , 0.15]), size=array([0.4, 0.4]), texRes=128.0, units='height', win=Window(...))
+18.0950 	EXP 	window1: mouseVisible = True
+18.1131 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+18.2062 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text_7', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+18.2669 	EXP 	Created left_chest = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='stimuli/chest.png', interpolate=False, mask=None, maskParams=None, name='left_chest', opacity=1.0, ori=0.0, pos=array([-0.375,  0.   ]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+18.3284 	EXP 	Created right_chest = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=True, flipVert=False, image='stimuli/chest.png', interpolate=False, mask=None, maskParams=None, name='right_chest', opacity=1.0, ori=0.0, pos=array([0.375, 0.   ]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+18.3364 	EXP 	Created left_shard = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard', opacity=1.0, ori=0.0, pos=array([-0.505,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.3429 	EXP 	Created left_shard_6 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_6', opacity=1.0, ori=0.0, pos=array([-0.375,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.3475 	EXP 	Created left_shard_7 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_7', opacity=1.0, ori=0.0, pos=array([-0.245,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.3521 	EXP 	Created left_shard_8 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_8', opacity=1.0, ori=0.0, pos=array([-0.505, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.3565 	EXP 	Created left_shard_9 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_9', opacity=1.0, ori=0.0, pos=array([-0.375, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.3608 	EXP 	Created left_shard_10 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_10', opacity=1.0, ori=0.0, pos=array([-0.245, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.3647 	EXP 	Created right_shard = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard', opacity=1.0, ori=0.0, pos=array([0.505, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.3688 	EXP 	Created right_shard_6 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-11.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_6', opacity=1.0, ori=0.0, pos=array([0.375, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.3733 	EXP 	Created right_shard_7 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-12.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_7', opacity=1.0, ori=0.0, pos=array([0.245, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.3780 	EXP 	Created right_shard_8 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-13.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_8', opacity=1.0, ori=0.0, pos=array([ 0.505, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.3823 	EXP 	Created right_shard_9 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-14.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_9', opacity=1.0, ori=0.0, pos=array([ 0.375, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.3870 	EXP 	Created right_shard_10 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-15.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_10', opacity=1.0, ori=0.0, pos=array([ 0.245, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.3889 	EXP 	Created feedback_left = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-100.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='feedback_left', opacity=1.0, ori=0.0, pos=array([-0.375,  0.3  ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+18.3898 	EXP 	Created feedback_right = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-100.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='feedback_right', opacity=1.0, ori=0.0, pos=array([0.375, 0.3  ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+18.3943 	EXP 	Created left_shard_11 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_11', opacity=1.0, ori=0.0, pos=array([-0.505,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.3980 	EXP 	Created left_shard_12 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_12', opacity=1.0, ori=0.0, pos=array([-0.375,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.4020 	EXP 	Created left_shard_13 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_13', opacity=1.0, ori=0.0, pos=array([-0.245,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.4080 	EXP 	Created left_shard_14 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_14', opacity=1.0, ori=0.0, pos=array([-0.505, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.4116 	EXP 	Created left_shard_15 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_15', opacity=1.0, ori=0.0, pos=array([-0.375, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.4150 	EXP 	Created left_shard_16 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_16', opacity=1.0, ori=0.0, pos=array([-0.245, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.4185 	EXP 	Created right_shard_11 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_11', opacity=1.0, ori=0.0, pos=array([0.505, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.4223 	EXP 	Created right_shard_12 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_12', opacity=1.0, ori=0.0, pos=array([0.375, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.4257 	EXP 	Created right_shard_13 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_13', opacity=1.0, ori=0.0, pos=array([0.245, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.4290 	EXP 	Created right_shard_14 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-11.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_14', opacity=1.0, ori=0.0, pos=array([ 0.505, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.4337 	EXP 	Created right_shard_15 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-12.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_15', opacity=1.0, ori=0.0, pos=array([ 0.375, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.4394 	EXP 	Created right_shard_16 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-13.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_16', opacity=1.0, ori=0.0, pos=array([ 0.245, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.4507 	EXP 	Created fix = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='fix', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+18.4527 	EXP 	Created repeat_training_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-17.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='repeat_training_txt', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+18.5360 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+18.5851 	EXP 	Created left_chest = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='stimuli/chest.png', interpolate=False, mask=None, maskParams=None, name='left_chest', opacity=1.0, ori=0.0, pos=array([-0.375,  0.   ]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+18.6304 	EXP 	Created right_chest = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=True, flipVert=False, image='stimuli/chest.png', interpolate=False, mask=None, maskParams=None, name='right_chest', opacity=1.0, ori=0.0, pos=array([0.375, 0.   ]), size=array([1., 1.]), texRes=128.0, units='height', win=Window(...))
+18.6336 	EXP 	Created left_shard = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard', opacity=1.0, ori=0.0, pos=array([-0.505,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.6367 	EXP 	Created left_shard_6 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_6', opacity=1.0, ori=0.0, pos=array([-0.375,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.6397 	EXP 	Created left_shard_7 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_7', opacity=1.0, ori=0.0, pos=array([-0.245,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.6428 	EXP 	Created left_shard_8 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_8', opacity=1.0, ori=0.0, pos=array([-0.505, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.6460 	EXP 	Created left_shard_9 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_9', opacity=1.0, ori=0.0, pos=array([-0.375, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.6491 	EXP 	Created left_shard_10 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_10', opacity=1.0, ori=0.0, pos=array([-0.245, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.6522 	EXP 	Created right_shard = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard', opacity=1.0, ori=0.0, pos=array([0.505, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.6552 	EXP 	Created right_shard_6 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-11.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_6', opacity=1.0, ori=0.0, pos=array([0.375, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.6582 	EXP 	Created right_shard_7 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-12.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_7', opacity=1.0, ori=0.0, pos=array([0.245, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.6613 	EXP 	Created right_shard_8 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-13.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_8', opacity=1.0, ori=0.0, pos=array([ 0.505, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.6644 	EXP 	Created right_shard_9 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-14.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_9', opacity=1.0, ori=0.0, pos=array([ 0.375, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.6676 	EXP 	Created right_shard_10 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-15.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_10', opacity=1.0, ori=0.0, pos=array([ 0.245, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.6685 	EXP 	Created feedback_left = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-100.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='feedback_left', opacity=1.0, ori=0.0, pos=array([-0.375,  0.3  ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+18.6693 	EXP 	Created feedback_right = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-100.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='feedback_right', opacity=1.0, ori=0.0, pos=array([0.375, 0.3  ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+18.6724 	EXP 	Created left_shard_11 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_11', opacity=1.0, ori=0.0, pos=array([-0.505,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.6755 	EXP 	Created left_shard_12 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_12', opacity=1.0, ori=0.0, pos=array([-0.375,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.6785 	EXP 	Created left_shard_13 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_13', opacity=1.0, ori=0.0, pos=array([-0.245,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.6817 	EXP 	Created left_shard_14 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_14', opacity=1.0, ori=0.0, pos=array([-0.505, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.6862 	EXP 	Created left_shard_15 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_15', opacity=1.0, ori=0.0, pos=array([-0.375, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.6893 	EXP 	Created left_shard_16 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_16', opacity=1.0, ori=0.0, pos=array([-0.245, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.6925 	EXP 	Created right_shard_11 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_11', opacity=1.0, ori=0.0, pos=array([0.505, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.6957 	EXP 	Created right_shard_12 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_12', opacity=1.0, ori=0.0, pos=array([0.375, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.6987 	EXP 	Created right_shard_13 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_13', opacity=1.0, ori=0.0, pos=array([0.245, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.7017 	EXP 	Created right_shard_14 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-11.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_14', opacity=1.0, ori=0.0, pos=array([ 0.505, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.7048 	EXP 	Created right_shard_15 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-12.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_15', opacity=1.0, ori=0.0, pos=array([ 0.375, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.7079 	EXP 	Created right_shard_16 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-13.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_16', opacity=1.0, ori=0.0, pos=array([ 0.245, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.7127 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+18.7146 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+18.7863 	EXP 	Created left_chest = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='stimuli/chest.png', interpolate=False, mask=None, maskParams=None, name='left_chest', opacity=1.0, ori=0.0, pos=array([-0.375,  0.   ]), size=array([0.6, 0.5]), texRes=128.0, units='height', win=Window(...))
+18.8381 	EXP 	Created right_chest = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=True, flipVert=False, image='stimuli/chest.png', interpolate=False, mask=None, maskParams=None, name='right_chest', opacity=1.0, ori=0.0, pos=array([0.375, 0.   ]), size=array([0.6, 0.5]), texRes=128.0, units='height', win=Window(...))
+18.8416 	EXP 	Created left_shard_0 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_0', opacity=1.0, ori=0.0, pos=array([-0.505,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.8448 	EXP 	Created left_shard_1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_1', opacity=1.0, ori=0.0, pos=array([-0.375,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.8480 	EXP 	Created left_shard_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_2', opacity=1.0, ori=0.0, pos=array([-0.245,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.8512 	EXP 	Created left_shard_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_3', opacity=1.0, ori=0.0, pos=array([-0.505, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.8544 	EXP 	Created left_shard_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_4', opacity=1.0, ori=0.0, pos=array([-0.375, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.8575 	EXP 	Created left_shard_5 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_5', opacity=1.0, ori=0.0, pos=array([-0.245, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.8620 	EXP 	Created right_shard_0 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_0', opacity=1.0, ori=0.0, pos=array([0.505, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.8651 	EXP 	Created right_shard_1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-11.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_1', opacity=1.0, ori=0.0, pos=array([0.375, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.8685 	EXP 	Created right_shard_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-12.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_2', opacity=1.0, ori=0.0, pos=array([0.245, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.8718 	EXP 	Created right_shard_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-13.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_3', opacity=1.0, ori=0.0, pos=array([ 0.505, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.8750 	EXP 	Created right_shard_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-14.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_4', opacity=1.0, ori=0.0, pos=array([ 0.375, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.8782 	EXP 	Created right_shard_5 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-15.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_5', opacity=1.0, ori=0.0, pos=array([ 0.245, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.9238 	EXP 	Created outline_shape = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='stimuli/highlight_nolid.png', interpolate=False, mask=None, maskParams=None, name='outline_shape', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.6, 0.5]), texRes=128.0, units='height', win=Window(...))
+18.9270 	EXP 	Created left_shard_17 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_17', opacity=1.0, ori=0.0, pos=array([-0.505,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.9304 	EXP 	Created left_shard_18 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_18', opacity=1.0, ori=0.0, pos=array([-0.375,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.9334 	EXP 	Created left_shard_19 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_19', opacity=1.0, ori=0.0, pos=array([-0.245,  0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.9364 	EXP 	Created left_shard_20 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_20', opacity=1.0, ori=0.0, pos=array([-0.505, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.9394 	EXP 	Created left_shard_21 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_21', opacity=1.0, ori=0.0, pos=array([-0.375, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.9424 	EXP 	Created left_shard_22 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='left_shard_22', opacity=1.0, ori=0.0, pos=array([-0.245, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.9463 	EXP 	Created right_shard_17 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_17', opacity=1.0, ori=0.0, pos=array([0.505, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.9494 	EXP 	Created right_shard_18 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_18', opacity=1.0, ori=0.0, pos=array([0.375, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.9528 	EXP 	Created right_shard_19 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_19', opacity=1.0, ori=0.0, pos=array([0.245, 0.085]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.9560 	EXP 	Created right_shard_20 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-11.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_20', opacity=1.0, ori=0.0, pos=array([ 0.505, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.9591 	EXP 	Created right_shard_21 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-12.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_21', opacity=1.0, ori=0.0, pos=array([ 0.375, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.9622 	EXP 	Created right_shard_22 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-13.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='right_shard_22', opacity=1.0, ori=0.0, pos=array([ 0.245, -0.045]), size=array([0.12, 0.12]), texRes=128.0, units='height', win=Window(...))
+18.9652 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.075, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+19.0078 	EXP 	Created colorblind_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='colorblind_txt', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+19.0088 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_5', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+19.0097 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_6', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+19.0098 	EXP 	window1: mouseVisible = True
+19.0102 	EXP 	window1: mouseVisible = False
+19.0118 	EXP 	Created back_forth = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='back_forth', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+19.0245 	EXP 	Created instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='instructions', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+19.4169 	EXP 	food_slider: autoLog = True
+19.4169 	EXP 	food_slider: markerPos = None
+19.4169 	EXP 	food_slider: styleTweaks = []
+19.4169 	EXP 	food_slider: styleTweaks = []
+19.4169 	EXP 	food_slider: styleTweaks = []
+19.4169 	EXP 	food_slider: styleTweaks = []
+19.4169 	EXP 	food_slider: contrast = 1.0
+19.4169 	EXP 	food_slider: autoLog = True
+19.4169 	EXP 	repeat_training_txt: autoDraw = False
+19.4169 	EXP 	back_forth: height = 0.05
+19.4169 	EXP 	back_forth: height = 0.05
+19.4169 	EXP 	back_forth: height = 0.05
+19.4169 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+19.4169 	EXP 	back_forth: autoDraw = True
+19.4169 	EXP 	instructions: height = 0.04
+19.4169 	EXP 	instructions: height = 0.04
+19.4169 	EXP 	instructions: height = 0.04
+19.4169 	EXP 	instructions: text = 'Today, your task will be to make a mining for treasure chests. Each chest will contain a variety of crystals inside, \nrepresenting different types of rewards.\n\n\n'
+19.4169 	EXP 	instructions: autoDraw = True
+19.4169 	EXP 	left_shard: image = 'stimuli/examples/shard-example_L1.png'
+19.4169 	EXP 	left_shard_6: image = 'stimuli/examples/shard-example_L2.png'
+19.4169 	EXP 	left_shard_7: image = 'stimuli/examples/shard-example_L3.png'
+19.4169 	EXP 	left_shard_8: image = 'stimuli/examples/shard-example_L4.png'
+19.4169 	EXP 	left_shard_9: image = 'stimuli/examples/shard-example_L5.png'
+19.4169 	EXP 	left_shard_10: image = 'stimuli/examples/shard-example_L6.png'
+19.4169 	EXP 	right_shard: image = 'stimuli/examples/shard-example_R1.png'
+19.4169 	EXP 	right_shard_6: image = 'stimuli/examples/shard-example_R2.png'
+19.4169 	EXP 	right_shard_7: image = 'stimuli/examples/shard-example_R3.png'
+19.4169 	EXP 	right_shard_8: image = 'stimuli/examples/shard-example_R4.png'
+19.4169 	EXP 	right_shard_9: image = 'stimuli/examples/shard-example_R5.png'
+19.4169 	EXP 	right_shard_10: image = 'stimuli/examples/shard-example_R6.png'
+19.4169 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+19.4838 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+19.5503 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+19.6170 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+19.6838 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+19.7505 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+19.8170 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+19.8839 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+19.9476 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+19.9880 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+20.0497 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+20.1172 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+20.1837 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+20.2505 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+20.3161 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+20.3513 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+20.3852 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+20.4185 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+20.4508 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+20.4837 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+20.5186 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+20.5512 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+20.5806 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+20.6186 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+20.6793 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+20.7218 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+20.7838 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+20.8505 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+20.9172 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+20.9831 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+21.0505 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+21.1171 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+21.1837 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+21.2505 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+21.3156 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+21.3519 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+21.3853 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+21.4186 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+21.4519 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+21.4832 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+21.5180 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+21.5471 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+21.5485 	DATA 	Keypress: right
+21.5998 	EXP 	back_forth: text = '\nPress RIGHT ARROW to continue.'
+21.5998 	EXP 	instructions: height = 0.04
+21.5998 	EXP 	instructions: height = 0.04
+21.5998 	EXP 	instructions: height = 0.04
+21.5998 	EXP 	instructions: text = 'Here are two diffferent treasure chest examples\n\n\n\n\n\n\n\n\n\n\n\n\n'
+21.5998 	EXP 	back_forth: autoDraw = True
+21.6695 	EXP 	left_chest: autoDraw = True
+21.6695 	EXP 	left_shard: autoDraw = True
+21.6695 	EXP 	left_shard_6: autoDraw = True
+21.6695 	EXP 	left_shard_7: autoDraw = True
+21.6695 	EXP 	left_shard_8: autoDraw = True
+21.6695 	EXP 	left_shard_9: autoDraw = True
+21.6695 	EXP 	left_shard_10: autoDraw = True
+21.6695 	EXP 	right_chest: autoDraw = True
+21.6695 	EXP 	right_shard: autoDraw = True
+21.6695 	EXP 	right_shard_6: autoDraw = True
+21.6695 	EXP 	right_shard_7: autoDraw = True
+21.6695 	EXP 	right_shard_8: autoDraw = True
+21.6695 	EXP 	right_shard_9: autoDraw = True
+21.6695 	EXP 	right_shard_10: autoDraw = True
+21.6695 	EXP 	back_forth: height = 0.05
+21.6695 	EXP 	back_forth: height = 0.05
+21.6695 	EXP 	back_forth: height = 0.05
+21.6695 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+21.7218 	EXP 	left_chest: autoDraw = True
+21.7218 	EXP 	left_shard: autoDraw = True
+21.7218 	EXP 	left_shard_6: autoDraw = True
+21.7218 	EXP 	left_shard_7: autoDraw = True
+21.7218 	EXP 	left_shard_8: autoDraw = True
+21.7218 	EXP 	left_shard_9: autoDraw = True
+21.7218 	EXP 	left_shard_10: autoDraw = True
+21.7218 	EXP 	right_chest: autoDraw = True
+21.7218 	EXP 	right_shard: autoDraw = True
+21.7218 	EXP 	right_shard_6: autoDraw = True
+21.7218 	EXP 	right_shard_7: autoDraw = True
+21.7218 	EXP 	right_shard_8: autoDraw = True
+21.7218 	EXP 	right_shard_9: autoDraw = True
+21.7218 	EXP 	right_shard_10: autoDraw = True
+21.7218 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+21.7719 	EXP 	left_chest: autoDraw = True
+21.7719 	EXP 	left_shard: autoDraw = True
+21.7719 	EXP 	left_shard_6: autoDraw = True
+21.7719 	EXP 	left_shard_7: autoDraw = True
+21.7719 	EXP 	left_shard_8: autoDraw = True
+21.7719 	EXP 	left_shard_9: autoDraw = True
+21.7719 	EXP 	left_shard_10: autoDraw = True
+21.7719 	EXP 	right_chest: autoDraw = True
+21.7719 	EXP 	right_shard: autoDraw = True
+21.7719 	EXP 	right_shard_6: autoDraw = True
+21.7719 	EXP 	right_shard_7: autoDraw = True
+21.7719 	EXP 	right_shard_8: autoDraw = True
+21.7719 	EXP 	right_shard_9: autoDraw = True
+21.7719 	EXP 	right_shard_10: autoDraw = True
+21.7719 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+21.8220 	EXP 	left_chest: autoDraw = True
+21.8220 	EXP 	left_shard: autoDraw = True
+21.8220 	EXP 	left_shard_6: autoDraw = True
+21.8220 	EXP 	left_shard_7: autoDraw = True
+21.8220 	EXP 	left_shard_8: autoDraw = True
+21.8220 	EXP 	left_shard_9: autoDraw = True
+21.8220 	EXP 	left_shard_10: autoDraw = True
+21.8220 	EXP 	right_chest: autoDraw = True
+21.8220 	EXP 	right_shard: autoDraw = True
+21.8220 	EXP 	right_shard_6: autoDraw = True
+21.8220 	EXP 	right_shard_7: autoDraw = True
+21.8220 	EXP 	right_shard_8: autoDraw = True
+21.8220 	EXP 	right_shard_9: autoDraw = True
+21.8220 	EXP 	right_shard_10: autoDraw = True
+21.8220 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+21.8715 	EXP 	left_chest: autoDraw = True
+21.8715 	EXP 	left_shard: autoDraw = True
+21.8715 	EXP 	left_shard_6: autoDraw = True
+21.8715 	EXP 	left_shard_7: autoDraw = True
+21.8715 	EXP 	left_shard_8: autoDraw = True
+21.8715 	EXP 	left_shard_9: autoDraw = True
+21.8715 	EXP 	left_shard_10: autoDraw = True
+21.8715 	EXP 	right_chest: autoDraw = True
+21.8715 	EXP 	right_shard: autoDraw = True
+21.8715 	EXP 	right_shard_6: autoDraw = True
+21.8715 	EXP 	right_shard_7: autoDraw = True
+21.8715 	EXP 	right_shard_8: autoDraw = True
+21.8715 	EXP 	right_shard_9: autoDraw = True
+21.8715 	EXP 	right_shard_10: autoDraw = True
+21.8715 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+21.9234 	EXP 	left_chest: autoDraw = True
+21.9234 	EXP 	left_shard: autoDraw = True
+21.9234 	EXP 	left_shard_6: autoDraw = True
+21.9234 	EXP 	left_shard_7: autoDraw = True
+21.9234 	EXP 	left_shard_8: autoDraw = True
+21.9234 	EXP 	left_shard_9: autoDraw = True
+21.9234 	EXP 	left_shard_10: autoDraw = True
+21.9234 	EXP 	right_chest: autoDraw = True
+21.9234 	EXP 	right_shard: autoDraw = True
+21.9234 	EXP 	right_shard_6: autoDraw = True
+21.9234 	EXP 	right_shard_7: autoDraw = True
+21.9234 	EXP 	right_shard_8: autoDraw = True
+21.9234 	EXP 	right_shard_9: autoDraw = True
+21.9234 	EXP 	right_shard_10: autoDraw = True
+21.9234 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+21.9703 	EXP 	left_chest: autoDraw = True
+21.9703 	EXP 	left_shard: autoDraw = True
+21.9703 	EXP 	left_shard_6: autoDraw = True
+21.9703 	EXP 	left_shard_7: autoDraw = True
+21.9703 	EXP 	left_shard_8: autoDraw = True
+21.9703 	EXP 	left_shard_9: autoDraw = True
+21.9703 	EXP 	left_shard_10: autoDraw = True
+21.9703 	EXP 	right_chest: autoDraw = True
+21.9703 	EXP 	right_shard: autoDraw = True
+21.9703 	EXP 	right_shard_6: autoDraw = True
+21.9703 	EXP 	right_shard_7: autoDraw = True
+21.9703 	EXP 	right_shard_8: autoDraw = True
+21.9703 	EXP 	right_shard_9: autoDraw = True
+21.9703 	EXP 	right_shard_10: autoDraw = True
+21.9703 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+22.0256 	EXP 	left_chest: autoDraw = True
+22.0256 	EXP 	left_shard: autoDraw = True
+22.0256 	EXP 	left_shard_6: autoDraw = True
+22.0256 	EXP 	left_shard_7: autoDraw = True
+22.0256 	EXP 	left_shard_8: autoDraw = True
+22.0256 	EXP 	left_shard_9: autoDraw = True
+22.0256 	EXP 	left_shard_10: autoDraw = True
+22.0256 	EXP 	right_chest: autoDraw = True
+22.0256 	EXP 	right_shard: autoDraw = True
+22.0256 	EXP 	right_shard_6: autoDraw = True
+22.0256 	EXP 	right_shard_7: autoDraw = True
+22.0256 	EXP 	right_shard_8: autoDraw = True
+22.0256 	EXP 	right_shard_9: autoDraw = True
+22.0256 	EXP 	right_shard_10: autoDraw = True
+22.0256 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+22.0265 	DATA 	Keypress: right
+22.1503 	EXP 	left_chest: autoDraw = True
+22.1503 	EXP 	left_shard: autoDraw = True
+22.1503 	EXP 	left_shard_6: autoDraw = True
+22.1503 	EXP 	left_shard_7: autoDraw = True
+22.1503 	EXP 	left_shard_8: autoDraw = True
+22.1503 	EXP 	left_shard_9: autoDraw = True
+22.1503 	EXP 	left_shard_10: autoDraw = True
+22.1503 	EXP 	right_chest: autoDraw = True
+22.1503 	EXP 	right_shard: autoDraw = True
+22.1503 	EXP 	right_shard_6: autoDraw = True
+22.1503 	EXP 	right_shard_7: autoDraw = True
+22.1503 	EXP 	right_shard_8: autoDraw = True
+22.1503 	EXP 	right_shard_9: autoDraw = True
+22.1503 	EXP 	right_shard_10: autoDraw = True
+22.1503 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+22.1503 	EXP 	swatch0: autoDraw = False
+22.1503 	EXP 	swatch1: autoDraw = False
+22.1503 	EXP 	swatch2: autoDraw = False
+22.1503 	EXP 	swatch3: autoDraw = False
+22.1503 	EXP 	swatch4: autoDraw = False
+22.1503 	EXP 	swatch5: autoDraw = False
+22.1503 	EXP 	swatch6: autoDraw = False
+22.1503 	EXP 	swatch7: autoDraw = False
+22.1503 	EXP 	swatch8: autoDraw = False
+22.1503 	EXP 	swatch9: autoDraw = False
+22.1503 	EXP 	swatch10: autoDraw = False
+22.1503 	EXP 	swatch11: autoDraw = False
+22.1503 	EXP 	left_chest: autoDraw = False
+22.1503 	EXP 	left_shard: autoDraw = False
+22.1503 	EXP 	left_shard_6: autoDraw = False
+22.1503 	EXP 	left_shard_7: autoDraw = False
+22.1503 	EXP 	left_shard_8: autoDraw = False
+22.1503 	EXP 	left_shard_9: autoDraw = False
+22.1503 	EXP 	left_shard_10: autoDraw = False
+22.1503 	EXP 	right_chest: autoDraw = False
+22.1503 	EXP 	right_shard: autoDraw = False
+22.1503 	EXP 	right_shard_6: autoDraw = False
+22.1503 	EXP 	right_shard_7: autoDraw = False
+22.1503 	EXP 	right_shard_8: autoDraw = False
+22.1503 	EXP 	right_shard_9: autoDraw = False
+22.1503 	EXP 	right_shard_10: autoDraw = False
+22.1503 	EXP 	instructions: height = 0.04
+22.1503 	EXP 	instructions: height = 0.04
+22.1503 	EXP 	instructions: height = 0.04
+22.1503 	EXP 	instructions: text = 'Over 150 rounds, you will be choosing the better of two treasure chests. The value of each treasure chest is simply the sum of the values of each crystal in the chest. The crystals are each worth a different number of points depending on their color, and each color is equally likely to appear. In order to know the value of a treasure chest, you will first need to learn what each color is worth.\n\n\n'
+22.1503 	EXP 	back_forth: autoDraw = True
+22.2170 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+22.2839 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+22.3502 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+22.4170 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+22.4174 	DATA 	Keypress: right
+22.4767 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+22.4767 	EXP 	swatch0: autoDraw = False
+22.4767 	EXP 	swatch1: autoDraw = False
+22.4767 	EXP 	swatch2: autoDraw = False
+22.4767 	EXP 	swatch3: autoDraw = False
+22.4767 	EXP 	swatch4: autoDraw = False
+22.4767 	EXP 	swatch5: autoDraw = False
+22.4767 	EXP 	swatch6: autoDraw = False
+22.4767 	EXP 	swatch7: autoDraw = False
+22.4767 	EXP 	swatch8: autoDraw = False
+22.4767 	EXP 	swatch9: autoDraw = False
+22.4767 	EXP 	swatch10: autoDraw = False
+22.4767 	EXP 	swatch11: autoDraw = False
+22.4767 	EXP 	left_chest: autoDraw = False
+22.4767 	EXP 	left_shard: autoDraw = False
+22.4767 	EXP 	left_shard_6: autoDraw = False
+22.4767 	EXP 	left_shard_7: autoDraw = False
+22.4767 	EXP 	left_shard_8: autoDraw = False
+22.4767 	EXP 	left_shard_9: autoDraw = False
+22.4767 	EXP 	left_shard_10: autoDraw = False
+22.4767 	EXP 	right_chest: autoDraw = False
+22.4767 	EXP 	right_shard: autoDraw = False
+22.4767 	EXP 	right_shard_6: autoDraw = False
+22.4767 	EXP 	right_shard_7: autoDraw = False
+22.4767 	EXP 	right_shard_8: autoDraw = False
+22.4767 	EXP 	right_shard_9: autoDraw = False
+22.4767 	EXP 	right_shard_10: autoDraw = False
+22.4767 	EXP 	instructions: height = 0.04
+22.4767 	EXP 	instructions: height = 0.04
+22.4767 	EXP 	instructions: height = 0.04
+22.4767 	EXP 	instructions: text = 'The following screen will display the colors you will see throughout this task.'
+22.4767 	EXP 	back_forth: autoDraw = True
+22.5263 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+22.5782 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+22.6217 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+22.6782 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+22.7198 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+22.7838 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+22.7842 	DATA 	Keypress: right
+22.8435 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
+22.8435 	EXP 	swatch0: autoDraw = False
+22.8435 	EXP 	swatch1: autoDraw = False
+22.8435 	EXP 	swatch2: autoDraw = False
+22.8435 	EXP 	swatch3: autoDraw = False
+22.8435 	EXP 	swatch4: autoDraw = False
+22.8435 	EXP 	swatch5: autoDraw = False
+22.8435 	EXP 	swatch6: autoDraw = False
+22.8435 	EXP 	swatch7: autoDraw = False
+22.8435 	EXP 	swatch8: autoDraw = False
+22.8435 	EXP 	swatch9: autoDraw = False
+22.8435 	EXP 	swatch10: autoDraw = False
+22.8435 	EXP 	swatch11: autoDraw = False
+22.8435 	EXP 	left_chest: autoDraw = False
+22.8435 	EXP 	left_shard: autoDraw = False
+22.8435 	EXP 	left_shard_6: autoDraw = False
+22.8435 	EXP 	left_shard_7: autoDraw = False
+22.8435 	EXP 	left_shard_8: autoDraw = False
+22.8435 	EXP 	left_shard_9: autoDraw = False
+22.8435 	EXP 	left_shard_10: autoDraw = False
+22.8435 	EXP 	right_chest: autoDraw = False
+22.8435 	EXP 	right_shard: autoDraw = False
+22.8435 	EXP 	right_shard_6: autoDraw = False
+22.8435 	EXP 	right_shard_7: autoDraw = False
+22.8435 	EXP 	right_shard_8: autoDraw = False
+22.8435 	EXP 	right_shard_9: autoDraw = False
+22.8435 	EXP 	right_shard_10: autoDraw = False
+22.8435 	EXP 	instructions: height = 0.04
+22.8435 	EXP 	instructions: height = 0.04
+22.8435 	EXP 	instructions: height = 0.04
+22.8435 	EXP 	instructions: text = 'The value of the colors increases across the spectrum, from left to right.\n\n\n\n\n\n\n\n\n\n\n\n\n\n'
+22.8435 	EXP 	back_forth: autoDraw = True
+22.9112 	EXP 	swatch0: autoDraw = True
+22.9112 	EXP 	swatch1: autoDraw = True
+22.9112 	EXP 	swatch2: autoDraw = True
+22.9112 	EXP 	swatch3: autoDraw = True
+22.9112 	EXP 	swatch4: autoDraw = True
+22.9112 	EXP 	swatch5: autoDraw = True
+22.9112 	EXP 	swatch6: autoDraw = True
+22.9112 	EXP 	swatch7: autoDraw = True
+22.9112 	EXP 	swatch8: autoDraw = True
+22.9112 	EXP 	swatch9: autoDraw = True
+22.9112 	EXP 	swatch10: autoDraw = True
+22.9112 	EXP 	swatch11: autoDraw = True
+22.9112 	EXP 	back_forth: height = 0.05
+22.9112 	EXP 	back_forth: height = 0.05
+22.9112 	EXP 	back_forth: height = 0.05
+22.9112 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to begin.'
+22.9836 	EXP 	swatch0: autoDraw = True
+22.9836 	EXP 	swatch1: autoDraw = True
+22.9836 	EXP 	swatch2: autoDraw = True
+22.9836 	EXP 	swatch3: autoDraw = True
+22.9836 	EXP 	swatch4: autoDraw = True
+22.9836 	EXP 	swatch5: autoDraw = True
+22.9836 	EXP 	swatch6: autoDraw = True
+22.9836 	EXP 	swatch7: autoDraw = True
+22.9836 	EXP 	swatch8: autoDraw = True
+22.9836 	EXP 	swatch9: autoDraw = True
+22.9836 	EXP 	swatch10: autoDraw = True
+22.9836 	EXP 	swatch11: autoDraw = True
+22.9836 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to begin.'
+23.0435 	EXP 	swatch0: autoDraw = True
+23.0435 	EXP 	swatch1: autoDraw = True
+23.0435 	EXP 	swatch2: autoDraw = True
+23.0435 	EXP 	swatch3: autoDraw = True
+23.0435 	EXP 	swatch4: autoDraw = True
+23.0435 	EXP 	swatch5: autoDraw = True
+23.0435 	EXP 	swatch6: autoDraw = True
+23.0435 	EXP 	swatch7: autoDraw = True
+23.0435 	EXP 	swatch8: autoDraw = True
+23.0435 	EXP 	swatch9: autoDraw = True
+23.0435 	EXP 	swatch10: autoDraw = True
+23.0435 	EXP 	swatch11: autoDraw = True
+23.0435 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to begin.'
+23.1171 	EXP 	swatch0: autoDraw = True
+23.1171 	EXP 	swatch1: autoDraw = True
+23.1171 	EXP 	swatch2: autoDraw = True
+23.1171 	EXP 	swatch3: autoDraw = True
+23.1171 	EXP 	swatch4: autoDraw = True
+23.1171 	EXP 	swatch5: autoDraw = True
+23.1171 	EXP 	swatch6: autoDraw = True
+23.1171 	EXP 	swatch7: autoDraw = True
+23.1171 	EXP 	swatch8: autoDraw = True
+23.1171 	EXP 	swatch9: autoDraw = True
+23.1171 	EXP 	swatch10: autoDraw = True
+23.1171 	EXP 	swatch11: autoDraw = True
+23.1171 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to begin.'
+23.1763 	EXP 	swatch0: autoDraw = True
+23.1763 	EXP 	swatch1: autoDraw = True
+23.1763 	EXP 	swatch2: autoDraw = True
+23.1763 	EXP 	swatch3: autoDraw = True
+23.1763 	EXP 	swatch4: autoDraw = True
+23.1763 	EXP 	swatch5: autoDraw = True
+23.1763 	EXP 	swatch6: autoDraw = True
+23.1763 	EXP 	swatch7: autoDraw = True
+23.1763 	EXP 	swatch8: autoDraw = True
+23.1763 	EXP 	swatch9: autoDraw = True
+23.1763 	EXP 	swatch10: autoDraw = True
+23.1763 	EXP 	swatch11: autoDraw = True
+23.1763 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to begin.'
+23.1770 	DATA 	Keypress: right
+23.1795 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+23.1797 	EXP 	New trial (rep=0, index=0): None
+23.2235 	EXP 	swatch0: autoDraw = True
+23.2235 	EXP 	swatch1: autoDraw = True
+23.2235 	EXP 	swatch2: autoDraw = True
+23.2235 	EXP 	swatch3: autoDraw = True
+23.2235 	EXP 	swatch4: autoDraw = True
+23.2235 	EXP 	swatch5: autoDraw = True
+23.2235 	EXP 	swatch6: autoDraw = True
+23.2235 	EXP 	swatch7: autoDraw = True
+23.2235 	EXP 	swatch8: autoDraw = True
+23.2235 	EXP 	swatch9: autoDraw = True
+23.2235 	EXP 	swatch10: autoDraw = True
+23.2235 	EXP 	swatch11: autoDraw = True
+23.2235 	EXP 	back_forth: text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to begin.'
+23.2235 	EXP 	swatch0: autoDraw = False
+23.2235 	EXP 	swatch1: autoDraw = False
+23.2235 	EXP 	swatch2: autoDraw = False
+23.2235 	EXP 	swatch3: autoDraw = False
+23.2235 	EXP 	swatch4: autoDraw = False
+23.2235 	EXP 	swatch5: autoDraw = False
+23.2235 	EXP 	swatch6: autoDraw = False
+23.2235 	EXP 	swatch7: autoDraw = False
+23.2235 	EXP 	swatch8: autoDraw = False
+23.2235 	EXP 	swatch9: autoDraw = False
+23.2235 	EXP 	swatch10: autoDraw = False
+23.2235 	EXP 	swatch11: autoDraw = False
+23.2235 	EXP 	back_forth: autoDraw = False
+23.2235 	EXP 	instructions: autoDraw = False
+23.2235 	EXP 	start_food_rat_text: autoDraw = True
+24.1543 	EXP 	window1: mouseVisible = True
+24.1725 	EXP 	Imported finalfooditems.xlsx as conditions, 76 conditions, 3 params
+24.1750 	EXP 	Created sequence: random, trialTypes=76, nReps=1, seed=None
+24.1754 	EXP 	New trial (rep=0, index=0): {'foodItem': 'm_and_m.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/m_and_m.jpg'}
+24.2035 	DATA 	Keypress: right
+24.2838 	EXP 	start_food_rat_text: autoDraw = False
+24.2838 	EXP 	food_slider: markerPos = None
+24.2838 	EXP 	food_slider: markerPos = None
+24.2838 	EXP 	foodImage: image = 'stimuli/food/m_and_m.jpg'
+24.2838 	EXP 	food_slider: autoDraw = True
+24.2838 	EXP 	foodImage: autoDraw = True
+25.6858 	DATA 	Mouse: Left button down, pos=(2287,815)
+25.7671 	EXP 	food_slider: markerPos = 6.876250000000001
+25.7681 	DATA 	Mouse:  Left button up, pos=(2287,815)
+25.8504 	EXP 	food_slider: markerPos = 6.876250000000001
+26.4369 	DATA 	Mouse: Left button down, pos=(1918,290)
+26.4962 	EXP 	food_slider: autoDraw = False
+26.4962 	EXP 	foodImage: autoDraw = False
+26.4962 	EXP 	text: autoDraw = True
+26.4981 	DATA 	Mouse:  Left button up, pos=(1918,290)
+26.9694 	EXP 	New trial (rep=0, index=1): {'foodItem': 'mozarella sticks.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/mozarella sticks.jpg'}
+27.0838 	EXP 	text: autoDraw = False
+27.0838 	EXP 	food_slider: markerPos = None
+27.0838 	EXP 	food_slider: markerPos = None
+27.0838 	EXP 	foodImage: image = 'stimuli/food/mozarella sticks.jpg'
+27.0838 	EXP 	food_slider: autoDraw = True
+27.0838 	EXP 	foodImage: autoDraw = True
+27.6349 	DATA 	Mouse: Left button down, pos=(2444,774)
+27.6853 	EXP 	food_slider: markerPos = 7.465
+27.7673 	EXP 	food_slider: markerPos = 7.465
+27.7683 	DATA 	Mouse:  Left button up, pos=(2444,774)
+27.8506 	EXP 	food_slider: markerPos = 7.465
+28.4716 	DATA 	Mouse: Left button down, pos=(1854,131)
+28.5696 	EXP 	food_slider: autoDraw = False
+28.5696 	EXP 	foodImage: autoDraw = False
+28.5696 	EXP 	text: autoDraw = True
+28.5718 	DATA 	Mouse:  Left button up, pos=(1854,131)
+29.0603 	EXP 	New trial (rep=0, index=2): {'foodItem': 'reeses.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/reeses.jpg'}
+29.1670 	EXP 	text: autoDraw = False
+29.1670 	EXP 	food_slider: markerPos = None
+29.1670 	EXP 	food_slider: markerPos = None
+29.1670 	EXP 	foodImage: image = 'stimuli/food/reeses.jpg'
+29.1670 	EXP 	food_slider: autoDraw = True
+29.1670 	EXP 	foodImage: autoDraw = True
+29.6820 	DATA 	Mouse: Left button down, pos=(1231,775)
+29.8339 	EXP 	food_slider: markerPos = 2.91625
+29.8352 	DATA 	Mouse:  Left button up, pos=(1231,775)
+29.9172 	EXP 	food_slider: markerPos = 2.91625
+30.4918 	DATA 	Mouse: Left button down, pos=(1892,260)
+30.5370 	EXP 	food_slider: autoDraw = False
+30.5370 	EXP 	foodImage: autoDraw = False
+30.5370 	EXP 	text: autoDraw = True
+30.5992 	DATA 	Mouse:  Left button up, pos=(1892,260)
+31.0032 	EXP 	New trial (rep=0, index=3): {'foodItem': 'grilled chicken strips.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/grilled chicken strips.jpg'}
+31.1171 	EXP 	text: autoDraw = False
+31.1171 	EXP 	food_slider: markerPos = None
+31.1171 	EXP 	food_slider: markerPos = None
+31.1171 	EXP 	foodImage: image = 'stimuli/food/grilled chicken strips.jpg'
+31.1171 	EXP 	food_slider: autoDraw = True
+31.1171 	EXP 	foodImage: autoDraw = True
+31.4535 	DATA 	Mouse: Left button down, pos=(1920,772)
+31.5340 	EXP 	food_slider: markerPos = 5.5
+31.6174 	EXP 	food_slider: markerPos = 5.5
+31.6187 	DATA 	Mouse:  Left button up, pos=(1920,772)
+31.7005 	EXP 	food_slider: markerPos = 5.5
+32.0847 	DATA 	Mouse: Left button down, pos=(1941,295)
+32.1505 	EXP 	food_slider: autoDraw = False
+32.1505 	EXP 	foodImage: autoDraw = False
+32.1505 	EXP 	text: autoDraw = True
+32.1521 	DATA 	Mouse:  Left button up, pos=(1941,295)
+32.6195 	EXP 	New trial (rep=0, index=4): {'foodItem': 'turkey sandwich.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/turkey sandwich.jpg'}
+32.7171 	EXP 	text: autoDraw = False
+32.7171 	EXP 	food_slider: markerPos = None
+32.7171 	EXP 	food_slider: markerPos = None
+32.7171 	EXP 	foodImage: image = 'stimuli/food/turkey sandwich.jpg'
+32.7171 	EXP 	food_slider: autoDraw = True
+32.7171 	EXP 	foodImage: autoDraw = True
+33.2492 	DATA 	Mouse: Left button down, pos=(2953,727)
+33.4002 	EXP 	food_slider: markerPos = 9.37375
+33.4017 	DATA 	Mouse:  Left button up, pos=(2953,727)
+33.4838 	EXP 	food_slider: markerPos = 9.37375
+34.0039 	DATA 	Mouse: Left button down, pos=(1972,257)
+34.1142 	EXP 	food_slider: autoDraw = False
+34.1142 	EXP 	foodImage: autoDraw = False
+34.1142 	EXP 	text: autoDraw = True
+34.1158 	DATA 	Mouse:  Left button up, pos=(1972,257)
+34.5859 	EXP 	New trial (rep=0, index=5): {'foodItem': 'american cheese.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/american cheese.jpg'}
+34.6839 	EXP 	text: autoDraw = False
+34.6839 	EXP 	food_slider: markerPos = None
+34.6839 	EXP 	food_slider: markerPos = None
+34.6839 	EXP 	foodImage: image = 'stimuli/food/american cheese.jpg'
+34.6839 	EXP 	food_slider: autoDraw = True
+34.6839 	EXP 	foodImage: autoDraw = True
+35.0377 	DATA 	Mouse: Left button down, pos=(2572,762)
+35.1173 	EXP 	food_slider: markerPos = 7.945
+35.2007 	EXP 	food_slider: markerPos = 7.945
+35.2022 	DATA 	Mouse:  Left button up, pos=(2572,762)
+35.2840 	EXP 	food_slider: markerPos = 7.945
+35.6657 	DATA 	Mouse: Left button down, pos=(1751,181)
+35.7295 	EXP 	food_slider: autoDraw = False
+35.7295 	EXP 	foodImage: autoDraw = False
+35.7295 	EXP 	text: autoDraw = True
+35.7789 	DATA 	Mouse:  Left button up, pos=(1751,181)
+36.2146 	EXP 	New trial (rep=0, index=6): {'foodItem': 'string cheese.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/string cheese.jpg'}
+36.3509 	EXP 	text: autoDraw = False
+36.3509 	EXP 	food_slider: markerPos = None
+36.3509 	EXP 	food_slider: markerPos = None
+36.3509 	EXP 	foodImage: image = 'stimuli/food/string cheese.jpg'
+36.3509 	EXP 	food_slider: autoDraw = True
+36.3509 	EXP 	foodImage: autoDraw = True
+36.7993 	DATA 	Mouse: Left button down, pos=(879,779)
+36.8796 	EXP 	food_slider: markerPos = 1.5962499999999997
+36.8809 	DATA 	Mouse:  Left button up, pos=(879,779)
+36.9399 	EXP 	food_slider: markerPos = 1.5962499999999997
+37.4756 	DATA 	Mouse: Left button down, pos=(1770,329)
+37.5189 	EXP 	food_slider: autoDraw = False
+37.5189 	EXP 	foodImage: autoDraw = False
+37.5189 	EXP 	text: autoDraw = True
+37.5877 	DATA 	Mouse:  Left button up, pos=(1770,329)
+37.9842 	EXP 	New trial (rep=0, index=7): {'foodItem': 'strawberries.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/strawberries.jpg'}
+38.0701 	EXP 	text: autoDraw = False
+38.0701 	EXP 	food_slider: markerPos = None
+38.0701 	EXP 	food_slider: markerPos = None
+38.0701 	EXP 	foodImage: image = 'stimuli/food/strawberries.jpg'
+38.0701 	EXP 	food_slider: autoDraw = True
+38.0701 	EXP 	foodImage: autoDraw = True
+38.4768 	DATA 	Mouse: Left button down, pos=(1469,781)
+38.5329 	EXP 	food_slider: markerPos = 3.80875
+38.5517 	DATA 	Mouse:  Left button up, pos=(1469,781)
+38.6064 	EXP 	food_slider: markerPos = 3.80875
+38.6771 	EXP 	food_slider: markerPos = 3.80875
+39.2138 	DATA 	Mouse: Left button down, pos=(2048,240)
+39.2843 	EXP 	food_slider: autoDraw = False
+39.2843 	EXP 	foodImage: autoDraw = False
+39.2843 	EXP 	text: autoDraw = True
+39.3524 	DATA 	Mouse:  Left button up, pos=(2048,240)
+39.7198 	EXP 	New trial (rep=0, index=8): {'foodItem': 'baguette oil.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/baguette oil.jpg'}
+39.8342 	EXP 	text: autoDraw = False
+39.8342 	EXP 	food_slider: markerPos = None
+39.8342 	EXP 	food_slider: markerPos = None
+39.8342 	EXP 	foodImage: image = 'stimuli/food/baguette oil.jpg'
+39.8342 	EXP 	food_slider: autoDraw = True
+39.8342 	EXP 	foodImage: autoDraw = True
+40.0856 	DATA 	Mouse: Left button down, pos=(1923,780)
+40.1674 	EXP 	food_slider: markerPos = 5.5112499999999995
+40.1842 	DATA 	Mouse:  Left button up, pos=(1923,780)
+40.2510 	EXP 	food_slider: markerPos = 5.5112499999999995
+40.3342 	EXP 	food_slider: markerPos = 5.5112499999999995
+40.8851 	DATA 	Mouse: Left button down, pos=(1972,239)
+40.9465 	EXP 	food_slider: autoDraw = False
+40.9465 	EXP 	foodImage: autoDraw = False
+40.9465 	EXP 	text: autoDraw = True
+40.9485 	DATA 	Mouse:  Left button up, pos=(1972,239)
+41.4027 	EXP 	New trial (rep=0, index=9): {'foodItem': 'kiwi.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/kiwi.jpg'}
+41.5175 	EXP 	text: autoDraw = False
+41.5175 	EXP 	food_slider: markerPos = None
+41.5175 	EXP 	food_slider: markerPos = None
+41.5175 	EXP 	foodImage: image = 'stimuli/food/kiwi.jpg'
+41.5175 	EXP 	food_slider: autoDraw = True
+41.5175 	EXP 	foodImage: autoDraw = True
+41.8916 	DATA 	Mouse: Left button down, pos=(938,774)
+41.9840 	EXP 	food_slider: markerPos = 1.8175
+42.0055 	DATA 	Mouse:  Left button up, pos=(938,774)
+42.0675 	EXP 	food_slider: markerPos = 1.8175
+42.1489 	EXP 	food_slider: markerPos = 1.8175
+42.8517 	DATA 	Mouse: Left button down, pos=(1816,358)
+42.9169 	EXP 	food_slider: autoDraw = False
+42.9169 	EXP 	foodImage: autoDraw = False
+42.9169 	EXP 	text: autoDraw = True
+42.9548 	DATA 	Mouse:  Left button up, pos=(1816,358)
+43.3697 	EXP 	New trial (rep=0, index=10): {'foodItem': 'PB.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/PB.jpg'}
+43.5009 	EXP 	text: autoDraw = False
+43.5009 	EXP 	food_slider: markerPos = None
+43.5009 	EXP 	food_slider: markerPos = None
+43.5009 	EXP 	foodImage: image = 'stimuli/food/PB.jpg'
+43.5009 	EXP 	food_slider: autoDraw = True
+43.5009 	EXP 	foodImage: autoDraw = True
+44.0019 	DATA 	Mouse: Left button down, pos=(2996,823)
+44.0752 	EXP 	food_slider: markerPos = 9.535
+44.1337 	EXP 	food_slider: markerPos = 9.535
+44.1497 	DATA 	Mouse:  Left button up, pos=(2996,823)
+44.2176 	EXP 	food_slider: markerPos = 9.535
+44.2907 	EXP 	food_slider: markerPos = 9.535
+45.0191 	DATA 	Mouse: Left button down, pos=(1955,300)
+45.0797 	EXP 	food_slider: autoDraw = False
+45.0797 	EXP 	foodImage: autoDraw = False
+45.0797 	EXP 	text: autoDraw = True
+45.0816 	DATA 	Mouse:  Left button up, pos=(1955,300)
+45.5618 	EXP 	New trial (rep=0, index=11): {'foodItem': 'Hershey Kisses.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/Hershey Kisses.jpg'}
+45.6678 	EXP 	text: autoDraw = False
+45.6678 	EXP 	food_slider: markerPos = None
+45.6678 	EXP 	food_slider: markerPos = None
+45.6678 	EXP 	foodImage: image = 'stimuli/food/Hershey Kisses.jpg'
+45.6678 	EXP 	food_slider: autoDraw = True
+45.6678 	EXP 	foodImage: autoDraw = True
+46.0020 	DATA 	Mouse: Left button down, pos=(2385,774)
+46.0819 	EXP 	food_slider: markerPos = 7.2437499999999995
+46.0831 	DATA 	Mouse:  Left button up, pos=(2385,774)
+46.1677 	EXP 	food_slider: markerPos = 7.2437499999999995
+46.6106 	DATA 	Mouse: Left button down, pos=(1898,306)
+46.7329 	EXP 	food_slider: autoDraw = False
+46.7329 	EXP 	foodImage: autoDraw = False
+46.7329 	EXP 	text: autoDraw = True
+46.7347 	DATA 	Mouse:  Left button up, pos=(1898,306)
+47.2029 	EXP 	New trial (rep=0, index=12): {'foodItem': 'steak.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/steak.jpg'}
+47.3341 	EXP 	text: autoDraw = False
+47.3341 	EXP 	food_slider: markerPos = None
+47.3341 	EXP 	food_slider: markerPos = None
+47.3341 	EXP 	foodImage: image = 'stimuli/food/steak.jpg'
+47.3341 	EXP 	food_slider: autoDraw = True
+47.3341 	EXP 	foodImage: autoDraw = True
+47.8186 	DATA 	Mouse: Left button down, pos=(2723,784)
+47.8949 	EXP 	food_slider: markerPos = 8.51125
+47.8961 	DATA 	Mouse:  Left button up, pos=(2723,784)
+47.9832 	EXP 	food_slider: markerPos = 8.51125
+48.5644 	DATA 	Mouse: Left button down, pos=(1901,278)
+48.6016 	EXP 	food_slider: autoDraw = False
+48.6016 	EXP 	foodImage: autoDraw = False
+48.6016 	EXP 	text: autoDraw = True
+48.6708 	DATA 	Mouse:  Left button up, pos=(1901,278)
+49.0725 	EXP 	New trial (rep=0, index=13): {'foodItem': 'salad w chicken.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/salad w chicken.jpg'}
+49.2177 	EXP 	text: autoDraw = False
+49.2177 	EXP 	food_slider: markerPos = None
+49.2177 	EXP 	food_slider: markerPos = None
+49.2177 	EXP 	foodImage: image = 'stimuli/food/salad w chicken.jpg'
+49.2177 	EXP 	food_slider: autoDraw = True
+49.2177 	EXP 	foodImage: autoDraw = True
+49.5527 	DATA 	Mouse: Left button down, pos=(964,794)
+49.6344 	EXP 	food_slider: markerPos = 1.915
+49.6377 	DATA 	Mouse:  Left button up, pos=(964,794)
+49.7133 	EXP 	food_slider: markerPos = 1.915
+50.4499 	DATA 	Mouse: Left button down, pos=(1817,254)
+50.5159 	EXP 	food_slider: autoDraw = False
+50.5159 	EXP 	foodImage: autoDraw = False
+50.5159 	EXP 	text: autoDraw = True
+50.5579 	DATA 	Mouse:  Left button up, pos=(1817,254)
+50.9844 	EXP 	New trial (rep=0, index=14): {'foodItem': 'lollipops.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/lollipops.jpg'}
+51.0843 	EXP 	text: autoDraw = False
+51.0843 	EXP 	food_slider: markerPos = None
+51.0843 	EXP 	food_slider: markerPos = None
+51.0843 	EXP 	foodImage: image = 'stimuli/food/lollipops.jpg'
+51.0843 	EXP 	food_slider: autoDraw = True
+51.0843 	EXP 	foodImage: autoDraw = True
+52.4584 	DATA 	Mouse: Left button down, pos=(1751,807)
+52.5286 	EXP 	food_slider: markerPos = 4.86625
+52.5299 	DATA 	Mouse:  Left button up, pos=(1751,807)
+52.6177 	EXP 	food_slider: markerPos = 4.86625
+53.5343 	DATA 	Mouse: Left button down, pos=(1884,166)
+53.5991 	EXP 	food_slider: autoDraw = False
+53.5991 	EXP 	foodImage: autoDraw = False
+53.5991 	EXP 	text: autoDraw = True
+53.6408 	DATA 	Mouse:  Left button up, pos=(1884,166)
+54.0996 	EXP 	New trial (rep=0, index=15): {'foodItem': 'apple slices.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/apple slices.jpg'}
+54.2176 	EXP 	text: autoDraw = False
+54.2176 	EXP 	food_slider: markerPos = None
+54.2176 	EXP 	food_slider: markerPos = None
+54.2176 	EXP 	foodImage: image = 'stimuli/food/apple slices.jpg'
+54.2176 	EXP 	food_slider: autoDraw = True
+54.2176 	EXP 	foodImage: autoDraw = True
+54.6869 	DATA 	Mouse: Left button down, pos=(2454,763)
+54.7646 	EXP 	food_slider: markerPos = 7.5025
+54.7815 	DATA 	Mouse:  Left button up, pos=(2454,763)
+54.8444 	EXP 	food_slider: markerPos = 7.5025
+54.9097 	EXP 	food_slider: markerPos = 7.5025
+55.3504 	DATA 	Mouse: Left button down, pos=(1821,147)
+55.4845 	EXP 	food_slider: autoDraw = False
+55.4845 	EXP 	foodImage: autoDraw = False
+55.4845 	EXP 	text: autoDraw = True
+55.4861 	DATA 	Mouse:  Left button up, pos=(1821,147)
+55.9198 	EXP 	New trial (rep=0, index=16): {'foodItem': 'soy chips.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/soy chips.jpg'}
+56.0344 	EXP 	text: autoDraw = False
+56.0344 	EXP 	food_slider: markerPos = None
+56.0344 	EXP 	food_slider: markerPos = None
+56.0344 	EXP 	foodImage: image = 'stimuli/food/soy chips.jpg'
+56.0344 	EXP 	food_slider: autoDraw = True
+56.0344 	EXP 	foodImage: autoDraw = True
+56.7689 	DATA 	Mouse: Left button down, pos=(2693,759)
+56.8438 	EXP 	food_slider: markerPos = 8.39875
+56.9096 	EXP 	food_slider: markerPos = 8.39875
+56.9110 	DATA 	Mouse:  Left button up, pos=(2693,759)
+56.9757 	EXP 	food_slider: markerPos = 8.39875
+57.8286 	DATA 	Mouse: Left button down, pos=(1880,235)
+57.8952 	EXP 	food_slider: autoDraw = False
+57.8952 	EXP 	foodImage: autoDraw = False
+57.8952 	EXP 	text: autoDraw = True
+57.8968 	DATA 	Mouse:  Left button up, pos=(1880,235)
+58.3830 	EXP 	New trial (rep=0, index=17): {'foodItem': 'raisin bran w milk.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/raisin bran w milk.jpg'}
+58.4995 	EXP 	text: autoDraw = False
+58.4995 	EXP 	food_slider: markerPos = None
+58.4995 	EXP 	food_slider: markerPos = None
+58.4995 	EXP 	foodImage: image = 'stimuli/food/raisin bran w milk.jpg'
+58.4995 	EXP 	food_slider: autoDraw = True
+58.4995 	EXP 	foodImage: autoDraw = True
+59.1699 	DATA 	Mouse: Left button down, pos=(999,761)
+59.2577 	DATA 	Mouse:  Left button up, pos=(999,761)
+59.3114 	EXP 	food_slider: markerPos = 2.04625
+59.4012 	EXP 	food_slider: markerPos = 2.04625
+59.9353 	DATA 	Mouse: Left button down, pos=(1854,310)
+59.9875 	EXP 	food_slider: autoDraw = False
+59.9875 	EXP 	foodImage: autoDraw = False
+59.9875 	EXP 	text: autoDraw = True
+60.0878 	DATA 	Mouse:  Left button up, pos=(1854,310)
+60.4530 	EXP 	New trial (rep=0, index=18): {'foodItem': 'saltines.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/saltines.jpg'}
+60.5678 	EXP 	text: autoDraw = False
+60.5678 	EXP 	food_slider: markerPos = None
+60.5678 	EXP 	food_slider: markerPos = None
+60.5678 	EXP 	foodImage: image = 'stimuli/food/saltines.jpg'
+60.5678 	EXP 	food_slider: autoDraw = True
+60.5678 	EXP 	foodImage: autoDraw = True
+61.1525 	DATA 	Mouse: Left button down, pos=(2186,809)
+61.2266 	EXP 	food_slider: markerPos = 6.4975000000000005
+61.2281 	DATA 	Mouse:  Left button up, pos=(2186,809)
+61.2941 	EXP 	food_slider: markerPos = 6.4975000000000005
+61.8018 	DATA 	Mouse: Left button down, pos=(1950,201)
+61.8633 	EXP 	food_slider: autoDraw = False
+61.8633 	EXP 	foodImage: autoDraw = False
+61.8633 	EXP 	text: autoDraw = True
+61.9069 	DATA 	Mouse:  Left button up, pos=(1950,201)
+62.3364 	EXP 	New trial (rep=0, index=19): {'foodItem': 'hotdog w must.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/hotdog w must.jpg'}
+62.4510 	EXP 	text: autoDraw = False
+62.4510 	EXP 	food_slider: markerPos = None
+62.4510 	EXP 	food_slider: markerPos = None
+62.4510 	EXP 	foodImage: image = 'stimuli/food/hotdog w must.jpg'
+62.4510 	EXP 	food_slider: autoDraw = True
+62.4510 	EXP 	foodImage: autoDraw = True
+62.8699 	DATA 	Mouse: Left button down, pos=(2479,745)
+62.9513 	EXP 	food_slider: markerPos = 7.5962499999999995
+62.9524 	DATA 	Mouse:  Left button up, pos=(2479,745)
+63.0346 	EXP 	food_slider: markerPos = 7.5962499999999995
+63.5164 	DATA 	Mouse: Left button down, pos=(2020,285)
+63.5480 	EXP 	food_slider: autoDraw = False
+63.5480 	EXP 	foodImage: autoDraw = False
+63.5480 	EXP 	text: autoDraw = True
+63.6548 	DATA 	Mouse:  Left button up, pos=(2020,285)
+64.0203 	EXP 	New trial (rep=0, index=20): {'foodItem': 'pizza.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/pizza.jpg'}
+64.1344 	EXP 	text: autoDraw = False
+64.1344 	EXP 	text: autoDraw = False
+64.1344 	EXP 	food_slider: markerPos = None
+64.1344 	EXP 	food_slider: markerPos = None
+64.1344 	EXP 	foodImage: image = 'stimuli/food/pizza.jpg'
+64.1344 	EXP 	food_slider: autoDraw = True
+64.1344 	EXP 	foodImage: autoDraw = True
+64.5191 	DATA 	Mouse: Left button down, pos=(1443,766)
+64.6012 	EXP 	food_slider: markerPos = 3.71125
+64.6175 	DATA 	Mouse:  Left button up, pos=(1443,766)
+64.6846 	EXP 	food_slider: markerPos = 3.71125
+64.7664 	EXP 	food_slider: markerPos = 3.71125
+65.0983 	DATA 	Mouse: Left button down, pos=(1848,223)
+65.1589 	EXP 	food_slider: autoDraw = False
+65.1589 	EXP 	foodImage: autoDraw = False
+65.1589 	EXP 	text: autoDraw = True
+65.2134 	DATA 	Mouse:  Left button up, pos=(1848,223)
+65.6195 	EXP 	New trial (rep=0, index=21): {'foodItem': 'pickles.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/pickles.jpg'}
+66.3848 	EXP 	text: autoDraw = False
+66.3848 	EXP 	food_slider: markerPos = None
+66.3848 	EXP 	food_slider: markerPos = None
+66.3848 	EXP 	foodImage: image = 'stimuli/food/pickles.jpg'
+66.3848 	EXP 	food_slider: autoDraw = True
+66.3848 	EXP 	foodImage: autoDraw = True
+66.7374 	DATA 	Mouse: Left button down, pos=(3060,763)
+66.8846 	EXP 	food_slider: markerPos = 9.775
+66.8871 	DATA 	Mouse:  Left button up, pos=(3060,763)
+66.9581 	EXP 	food_slider: markerPos = 9.775
+67.5307 	DATA 	Mouse: Left button down, pos=(2063,319)
+67.5980 	EXP 	food_slider: autoDraw = False
+67.5980 	EXP 	foodImage: autoDraw = False
+67.5980 	EXP 	text: autoDraw = True
+67.6718 	DATA 	Mouse:  Left button up, pos=(2063,319)
+68.0653 	EXP 	New trial (rep=0, index=22): {'foodItem': 'bagel plain.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/bagel plain.jpg'}
+68.1680 	EXP 	text: autoDraw = False
+68.1680 	EXP 	food_slider: markerPos = None
+68.1680 	EXP 	food_slider: markerPos = None
+68.1680 	EXP 	foodImage: image = 'stimuli/food/bagel plain.jpg'
+68.1680 	EXP 	food_slider: autoDraw = True
+68.1680 	EXP 	foodImage: autoDraw = True
+68.6716 	DATA 	Mouse: Left button down, pos=(1973,741)
+68.7498 	EXP 	food_slider: markerPos = 5.69875
+68.8291 	EXP 	food_slider: markerPos = 5.69875
+68.8304 	DATA 	Mouse:  Left button up, pos=(1973,741)
+68.9030 	EXP 	food_slider: markerPos = 5.69875
+69.3521 	DATA 	Mouse: Left button down, pos=(1842,351)
+69.4129 	EXP 	food_slider: autoDraw = False
+69.4129 	EXP 	foodImage: autoDraw = False
+69.4129 	EXP 	text: autoDraw = True
+69.4826 	DATA 	Mouse:  Left button up, pos=(1842,351)
+69.8699 	EXP 	New trial (rep=0, index=23): {'foodItem': 'Cheese nachos.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/Cheese nachos.jpg'}
+70.1678 	EXP 	text: autoDraw = False
+70.1678 	EXP 	food_slider: markerPos = None
+70.1678 	EXP 	food_slider: markerPos = None
+70.1678 	EXP 	foodImage: image = 'stimuli/food/Cheese nachos.jpg'
+70.1678 	EXP 	food_slider: autoDraw = True
+70.1678 	EXP 	foodImage: autoDraw = True
+70.7199 	DATA 	Mouse: Left button down, pos=(1216,764)
+70.8014 	EXP 	food_slider: markerPos = 2.86
+70.8848 	EXP 	food_slider: markerPos = 2.86
+70.8861 	DATA 	Mouse:  Left button up, pos=(1216,764)
+70.9682 	EXP 	food_slider: markerPos = 2.86
+71.4917 	DATA 	Mouse: Left button down, pos=(1900,250)
+71.6181 	EXP 	food_slider: autoDraw = False
+71.6181 	EXP 	foodImage: autoDraw = False
+71.6181 	EXP 	text: autoDraw = True
+71.6198 	DATA 	Mouse:  Left button up, pos=(1900,250)
+72.0836 	EXP 	New trial (rep=0, index=24): {'foodItem': 'sushi w_condiments.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/sushi w_condiments.jpg'}
+72.1951 	EXP 	text: autoDraw = False
+72.1951 	EXP 	food_slider: markerPos = None
+72.1951 	EXP 	food_slider: markerPos = None
+72.1951 	EXP 	foodImage: image = 'stimuli/food/sushi w_condiments.jpg'
+72.1951 	EXP 	food_slider: autoDraw = True
+72.1951 	EXP 	foodImage: autoDraw = True
+72.6359 	DATA 	Mouse: Left button down, pos=(2295,763)
+72.7180 	EXP 	food_slider: markerPos = 6.90625
+72.8013 	EXP 	food_slider: markerPos = 6.90625
+72.8025 	DATA 	Mouse:  Left button up, pos=(2295,763)
+72.8744 	EXP 	food_slider: markerPos = 6.90625
+73.3688 	DATA 	Mouse: Left button down, pos=(2086,216)
+73.4243 	EXP 	food_slider: autoDraw = False
+73.4243 	EXP 	foodImage: autoDraw = False
+73.4243 	EXP 	text: autoDraw = True
+73.5234 	DATA 	Mouse:  Left button up, pos=(2086,216)
+73.8867 	EXP 	New trial (rep=0, index=25): {'foodItem': 'yellow popcorn.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/yellow popcorn.jpg'}
+73.9735 	EXP 	text: autoDraw = False
+73.9735 	EXP 	food_slider: markerPos = None
+73.9735 	EXP 	food_slider: markerPos = None
+73.9735 	EXP 	foodImage: image = 'stimuli/food/yellow popcorn.jpg'
+73.9735 	EXP 	food_slider: autoDraw = True
+73.9735 	EXP 	foodImage: autoDraw = True
+74.3525 	DATA 	Mouse: Left button down, pos=(1405,806)
+74.4185 	EXP 	food_slider: markerPos = 3.5687499999999996
+74.4861 	EXP 	food_slider: markerPos = 3.5687499999999996
+74.4873 	DATA 	Mouse:  Left button up, pos=(1405,806)
+74.5530 	EXP 	food_slider: markerPos = 3.5687499999999996
+75.0081 	DATA 	Mouse: Left button down, pos=(1918,206)
+75.0530 	EXP 	food_slider: autoDraw = False
+75.0530 	EXP 	foodImage: autoDraw = False
+75.0530 	EXP 	text: autoDraw = True
+75.1222 	DATA 	Mouse:  Left button up, pos=(1918,206)
+75.5201 	EXP 	New trial (rep=0, index=26): {'foodItem': 'french fries.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/french fries.jpg'}
+75.6349 	EXP 	text: autoDraw = False
+75.6349 	EXP 	food_slider: markerPos = None
+75.6349 	EXP 	food_slider: markerPos = None
+75.6349 	EXP 	foodImage: image = 'stimuli/food/french fries.jpg'
+75.6349 	EXP 	food_slider: autoDraw = True
+75.6349 	EXP 	foodImage: autoDraw = True
+75.8860 	DATA 	Mouse: Left button down, pos=(975,731)
+75.9682 	EXP 	food_slider: markerPos = 1.95625
+76.0514 	EXP 	food_slider: markerPos = 1.95625
+76.0526 	DATA 	Mouse:  Left button up, pos=(975,731)
+76.1023 	EXP 	food_slider: markerPos = 1.95625
+76.7692 	DATA 	Mouse: Left button down, pos=(1721,275)
+76.8905 	DATA 	Mouse:  Left button up, pos=(1721,275)
+77.2369 	DATA 	Mouse: Left button down, pos=(1778,258)
+77.2937 	EXP 	food_slider: autoDraw = False
+77.2937 	EXP 	foodImage: autoDraw = False
+77.2937 	EXP 	text: autoDraw = True
+77.3962 	DATA 	Mouse:  Left button up, pos=(1778,258)
+77.7691 	EXP 	New trial (rep=0, index=27): {'foodItem': 'corn cob.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/corn cob.jpg'}
+77.8847 	EXP 	text: autoDraw = False
+77.8847 	EXP 	food_slider: markerPos = None
+77.8847 	EXP 	food_slider: markerPos = None
+77.8847 	EXP 	foodImage: image = 'stimuli/food/corn cob.jpg'
+77.8847 	EXP 	food_slider: autoDraw = True
+77.8847 	EXP 	foodImage: autoDraw = True
+78.4922 	DATA 	Mouse: Left button down, pos=(929,757)
+78.6103 	EXP 	food_slider: markerPos = 1.7837500000000002
+78.6116 	DATA 	Mouse:  Left button up, pos=(929,757)
+78.7016 	EXP 	food_slider: markerPos = 1.7837500000000002
+79.1764 	DATA 	Mouse: Left button down, pos=(1825,380)
+79.3249 	DATA 	Mouse:  Left button up, pos=(1825,380)
+79.6878 	DATA 	Mouse: Left button down, pos=(1837,309)
+79.7470 	EXP 	food_slider: autoDraw = False
+79.7470 	EXP 	foodImage: autoDraw = False
+79.7470 	EXP 	text: autoDraw = True
+79.8505 	DATA 	Mouse:  Left button up, pos=(1837,309)
+80.2203 	EXP 	New trial (rep=0, index=28): {'foodItem': 'Grapes.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/Grapes.jpg'}
+80.3350 	EXP 	text: autoDraw = False
+80.3350 	EXP 	food_slider: markerPos = None
+80.3350 	EXP 	food_slider: markerPos = None
+80.3350 	EXP 	foodImage: image = 'stimuli/food/Grapes.jpg'
+80.3350 	EXP 	food_slider: autoDraw = True
+80.3350 	EXP 	foodImage: autoDraw = True
+80.6028 	DATA 	Mouse: Left button down, pos=(1186,790)
+80.6848 	EXP 	food_slider: markerPos = 2.7474999999999996
+80.7642 	EXP 	food_slider: markerPos = 2.7474999999999996
+80.7654 	DATA 	Mouse:  Left button up, pos=(1186,790)
+80.8515 	EXP 	food_slider: markerPos = 2.7474999999999996
+81.4391 	DATA 	Mouse: Left button down, pos=(2003,254)
+81.5010 	EXP 	food_slider: autoDraw = False
+81.5010 	EXP 	foodImage: autoDraw = False
+81.5010 	EXP 	text: autoDraw = True
+81.5028 	DATA 	Mouse:  Left button up, pos=(2003,254)
+81.9701 	EXP 	New trial (rep=0, index=29): {'foodItem': 'cucumber slices.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/cucumber slices.jpg'}
+82.0835 	EXP 	text: autoDraw = False
+82.0835 	EXP 	food_slider: markerPos = None
+82.0835 	EXP 	food_slider: markerPos = None
+82.0835 	EXP 	foodImage: image = 'stimuli/food/cucumber slices.jpg'
+82.0835 	EXP 	food_slider: autoDraw = True
+82.0835 	EXP 	foodImage: autoDraw = True
+82.3419 	DATA 	Mouse: Left button down, pos=(1368,815)
+82.4593 	EXP 	food_slider: markerPos = 3.43
+82.4606 	DATA 	Mouse:  Left button up, pos=(1368,815)
+82.5518 	EXP 	food_slider: markerPos = 3.43
+83.2373 	DATA 	Mouse: Left button down, pos=(1887,294)
+83.3676 	EXP 	food_slider: autoDraw = False
+83.3676 	EXP 	foodImage: autoDraw = False
+83.3676 	EXP 	text: autoDraw = True
+83.3693 	DATA 	Mouse:  Left button up, pos=(1887,294)
+83.8326 	EXP 	New trial (rep=0, index=30): {'foodItem': 'doughnuts.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/doughnuts.jpg'}
+83.9652 	EXP 	text: autoDraw = False
+83.9652 	EXP 	food_slider: markerPos = None
+83.9652 	EXP 	food_slider: markerPos = None
+83.9652 	EXP 	foodImage: image = 'stimuli/food/doughnuts.jpg'
+83.9652 	EXP 	food_slider: autoDraw = True
+83.9652 	EXP 	foodImage: autoDraw = True
+84.5175 	DATA 	Mouse: Left button down, pos=(2986,825)
+84.5911 	EXP 	food_slider: markerPos = 9.497499999999999
+84.6096 	DATA 	Mouse:  Left button up, pos=(2986,825)
+84.6603 	EXP 	food_slider: markerPos = 9.497499999999999
+84.7287 	EXP 	food_slider: markerPos = 9.497499999999999
+85.3657 	DATA 	Mouse: Left button down, pos=(1845,216)
+85.4348 	EXP 	food_slider: autoDraw = False
+85.4348 	EXP 	foodImage: autoDraw = False
+85.4348 	EXP 	text: autoDraw = True
+85.4727 	DATA 	Mouse:  Left button up, pos=(1845,216)
+85.9036 	EXP 	New trial (rep=0, index=31): {'foodItem': 'soup with spoon.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/soup with spoon.jpg'}
+86.0015 	EXP 	text: autoDraw = False
+86.0015 	EXP 	food_slider: markerPos = None
+86.0015 	EXP 	food_slider: markerPos = None
+86.0015 	EXP 	foodImage: image = 'stimuli/food/soup with spoon.jpg'
+86.0015 	EXP 	food_slider: autoDraw = True
+86.0015 	EXP 	foodImage: autoDraw = True
+86.4291 	DATA 	Mouse: Left button down, pos=(2100,768)
+86.4949 	EXP 	food_slider: markerPos = 6.175
+86.5505 	EXP 	food_slider: markerPos = 6.175
+86.5529 	DATA 	Mouse:  Left button up, pos=(2100,768)
+86.6266 	EXP 	food_slider: markerPos = 6.175
+87.1667 	DATA 	Mouse: Left button down, pos=(1814,212)
+87.1984 	EXP 	food_slider: autoDraw = False
+87.1984 	EXP 	foodImage: autoDraw = False
+87.1984 	EXP 	text: autoDraw = True
+87.2722 	DATA 	Mouse:  Left button up, pos=(1814,212)
+87.6708 	EXP 	New trial (rep=0, index=32): {'foodItem': 'chicken nuggets2.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/chicken nuggets2.jpg'}
+87.7851 	EXP 	text: autoDraw = False
+87.7851 	EXP 	text: autoDraw = False
+87.7851 	EXP 	food_slider: markerPos = None
+87.7851 	EXP 	food_slider: markerPos = None
+87.7851 	EXP 	foodImage: image = 'stimuli/food/chicken nuggets2.jpg'
+87.7851 	EXP 	food_slider: autoDraw = True
+87.7851 	EXP 	foodImage: autoDraw = True
+88.2043 	DATA 	Mouse: Left button down, pos=(1557,798)
+88.3517 	EXP 	food_slider: markerPos = 4.13875
+88.3529 	DATA 	Mouse:  Left button up, pos=(1557,798)
+88.4200 	EXP 	food_slider: markerPos = 4.13875
+89.0382 	DATA 	Mouse: Left button down, pos=(1827,128)
+89.1599 	EXP 	food_slider: autoDraw = False
+89.1599 	EXP 	foodImage: autoDraw = False
+89.1599 	EXP 	text: autoDraw = True
+89.1993 	DATA 	Mouse:  Left button up, pos=(1827,128)
+89.6370 	EXP 	New trial (rep=0, index=33): {'foodItem': 'orange slices.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/orange slices.jpg'}
+89.7222 	EXP 	text: autoDraw = False
+89.7222 	EXP 	food_slider: markerPos = None
+89.7222 	EXP 	food_slider: markerPos = None
+89.7222 	EXP 	foodImage: image = 'stimuli/food/orange slices.jpg'
+89.7222 	EXP 	food_slider: autoDraw = True
+89.7222 	EXP 	foodImage: autoDraw = True
+90.2364 	DATA 	Mouse: Left button down, pos=(983,751)
+90.3184 	EXP 	food_slider: markerPos = 1.9862499999999998
+90.4017 	EXP 	food_slider: markerPos = 1.9862499999999998
+90.4033 	DATA 	Mouse:  Left button up, pos=(983,751)
+90.4752 	EXP 	food_slider: markerPos = 1.9862499999999998
+91.0971 	DATA 	Mouse: Left button down, pos=(1981,235)
+91.1684 	EXP 	food_slider: autoDraw = False
+91.1684 	EXP 	foodImage: autoDraw = False
+91.1684 	EXP 	text: autoDraw = True
+91.2366 	DATA 	Mouse:  Left button up, pos=(1981,235)
+91.6356 	EXP 	New trial (rep=0, index=34): {'foodItem': 'cupcakes am.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/cupcakes am.jpg'}
+91.7518 	EXP 	text: autoDraw = False
+91.7518 	EXP 	food_slider: markerPos = None
+91.7518 	EXP 	food_slider: markerPos = None
+91.7518 	EXP 	foodImage: image = 'stimuli/food/cupcakes am.jpg'
+91.7518 	EXP 	food_slider: autoDraw = True
+91.7518 	EXP 	foodImage: autoDraw = True
+92.3013 	DATA 	Mouse: Left button down, pos=(2923,728)
+92.4366 	EXP 	food_slider: markerPos = 9.26125
+92.4539 	DATA 	Mouse:  Left button up, pos=(2923,728)
+92.5180 	EXP 	food_slider: markerPos = 9.26125
+92.6018 	EXP 	food_slider: markerPos = 9.26125
+93.1712 	DATA 	Mouse: Left button down, pos=(2067,318)
+93.2636 	EXP 	food_slider: autoDraw = False
+93.2636 	EXP 	foodImage: autoDraw = False
+93.2636 	EXP 	text: autoDraw = True
+93.3082 	DATA 	Mouse:  Left button up, pos=(2067,318)
+93.7373 	EXP 	New trial (rep=0, index=35): {'foodItem': 'yogurt pretzels.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/yogurt pretzels.jpg'}
+93.8519 	EXP 	text: autoDraw = False
+93.8519 	EXP 	food_slider: markerPos = None
+93.8519 	EXP 	food_slider: markerPos = None
+93.8519 	EXP 	foodImage: image = 'stimuli/food/yogurt pretzels.jpg'
+93.8519 	EXP 	food_slider: autoDraw = True
+93.8519 	EXP 	foodImage: autoDraw = True
+94.1673 	DATA 	Mouse: Left button down, pos=(1118,806)
+94.2699 	EXP 	food_slider: markerPos = 2.4924999999999997
+94.2715 	DATA 	Mouse:  Left button up, pos=(1118,806)
+94.3463 	EXP 	food_slider: markerPos = 2.4924999999999997
+94.9575 	DATA 	Mouse: Left button down, pos=(1902,274)
+95.0106 	EXP 	food_slider: autoDraw = False
+95.0106 	EXP 	foodImage: autoDraw = False
+95.0106 	EXP 	text: autoDraw = True
+95.0669 	DATA 	Mouse:  Left button up, pos=(1902,274)
+95.4704 	EXP 	New trial (rep=0, index=36): {'foodItem': 'avacado.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/avacado.jpg'}
+95.5787 	EXP 	text: autoDraw = False
+95.5787 	EXP 	food_slider: markerPos = None
+95.5787 	EXP 	food_slider: markerPos = None
+95.5787 	EXP 	foodImage: image = 'stimuli/food/avacado.jpg'
+95.5787 	EXP 	food_slider: autoDraw = True
+95.5787 	EXP 	foodImage: autoDraw = True
+96.1146 	DATA 	Mouse: Left button down, pos=(2630,771)
+96.1779 	EXP 	food_slider: markerPos = 8.162500000000001
+96.2686 	EXP 	food_slider: markerPos = 8.162500000000001
+96.2712 	DATA 	Mouse:  Left button up, pos=(2630,771)
+96.3520 	EXP 	food_slider: markerPos = 8.162500000000001
+96.9367 	DATA 	Mouse: Left button down, pos=(1945,267)
+97.0004 	EXP 	food_slider: autoDraw = False
+97.0004 	EXP 	foodImage: autoDraw = False
+97.0004 	EXP 	text: autoDraw = True
+97.1037 	DATA 	Mouse:  Left button up, pos=(1945,267)
+97.4705 	EXP 	New trial (rep=0, index=37): {'foodItem': 'fried eggs.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/fried eggs.jpg'}
+97.5683 	EXP 	text: autoDraw = False
+97.5683 	EXP 	food_slider: markerPos = None
+97.5683 	EXP 	food_slider: markerPos = None
+97.5683 	EXP 	foodImage: image = 'stimuli/food/fried eggs.jpg'
+97.5683 	EXP 	food_slider: autoDraw = True
+97.5683 	EXP 	foodImage: autoDraw = True
+98.3822 	DATA 	Mouse: Left button down, pos=(2075,767)
+98.4670 	EXP 	food_slider: markerPos = 6.08125
+98.5153 	EXP 	food_slider: markerPos = 6.08125
+98.5685 	EXP 	food_slider: markerPos = 6.08125
+98.5865 	DATA 	Mouse:  Left button up, pos=(2075,767)
+98.6198 	EXP 	food_slider: markerPos = 6.08125
+98.6840 	EXP 	food_slider: markerPos = 6.08125
+98.9861 	DATA 	Mouse: Left button down, pos=(1958,777)
+99.0686 	EXP 	food_slider: markerPos = 5.6425
+99.1493 	EXP 	food_slider: markerPos = 5.6425
+99.1500 	DATA 	Mouse:  Left button up, pos=(1958,777)
+99.2036 	EXP 	food_slider: markerPos = 5.6425
+99.8725 	DATA 	Mouse: Left button down, pos=(1962,344)
+99.9997 	EXP 	food_slider: autoDraw = False
+99.9997 	EXP 	foodImage: autoDraw = False
+99.9997 	EXP 	text: autoDraw = True
+100.0015 	DATA 	Mouse:  Left button up, pos=(1962,344)
+100.4706 	EXP 	New trial (rep=0, index=38): {'foodItem': 'trail mix.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/trail mix.jpg'}
+100.5853 	EXP 	text: autoDraw = False
+100.5853 	EXP 	food_slider: markerPos = None
+100.5853 	EXP 	food_slider: markerPos = None
+100.5853 	EXP 	foodImage: image = 'stimuli/food/trail mix.jpg'
+100.5853 	EXP 	food_slider: autoDraw = True
+100.5853 	EXP 	foodImage: autoDraw = True
+101.3448 	DATA 	Mouse: Left button down, pos=(813,770)
+101.4594 	EXP 	food_slider: markerPos = 1.3487500000000001
+101.4607 	DATA 	Mouse:  Left button up, pos=(813,770)
+101.5519 	EXP 	food_slider: markerPos = 1.3487500000000001
+102.1701 	DATA 	Mouse: Left button down, pos=(1873,259)
+102.2419 	DATA 	Mouse:  Left button up, pos=(1873,259)
+102.3019 	EXP 	food_slider: autoDraw = False
+102.3019 	EXP 	foodImage: autoDraw = False
+102.3019 	EXP 	text: autoDraw = True
+102.7706 	EXP 	New trial (rep=0, index=39): {'foodItem': 'rigatoni.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/rigatoni.jpg'}
+102.8687 	EXP 	text: autoDraw = False
+102.8687 	EXP 	food_slider: markerPos = None
+102.8687 	EXP 	food_slider: markerPos = None
+102.8687 	EXP 	foodImage: image = 'stimuli/food/rigatoni.jpg'
+102.8687 	EXP 	food_slider: autoDraw = True
+102.8687 	EXP 	foodImage: autoDraw = True
+103.2865 	DATA 	Mouse: Left button down, pos=(1644,683)
+103.3836 	DATA 	Mouse:  Left button up, pos=(1644,683)
+103.7171 	DATA 	Mouse: Left button down, pos=(1648,731)
+103.8038 	EXP 	food_slider: markerPos = 4.48
+103.8210 	DATA 	Mouse:  Left button up, pos=(1648,731)
+103.8826 	EXP 	food_slider: markerPos = 4.48
+103.9650 	EXP 	food_slider: markerPos = 4.48
+104.4707 	DATA 	Mouse: Left button down, pos=(1992,212)
+104.5686 	EXP 	food_slider: autoDraw = False
+104.5686 	EXP 	foodImage: autoDraw = False
+104.5686 	EXP 	text: autoDraw = True
+104.6052 	DATA 	Mouse:  Left button up, pos=(1992,212)
+105.0374 	EXP 	New trial (rep=0, index=40): {'foodItem': 'green beans.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/green beans.jpg'}
+105.1519 	EXP 	text: autoDraw = False
+105.1519 	EXP 	food_slider: markerPos = None
+105.1519 	EXP 	food_slider: markerPos = None
+105.1519 	EXP 	foodImage: image = 'stimuli/food/green beans.jpg'
+105.1519 	EXP 	food_slider: autoDraw = True
+105.1519 	EXP 	foodImage: autoDraw = True
+105.5845 	DATA 	Mouse: Left button down, pos=(2364,793)
+105.7355 	EXP 	food_slider: markerPos = 7.165000000000001
+105.7369 	DATA 	Mouse:  Left button up, pos=(2364,793)
+105.8153 	EXP 	food_slider: markerPos = 7.165000000000001
+106.3210 	DATA 	Mouse: Left button down, pos=(2036,316)
+106.3840 	EXP 	food_slider: autoDraw = False
+106.3840 	EXP 	foodImage: autoDraw = False
+106.3840 	EXP 	text: autoDraw = True
+106.4870 	DATA 	Mouse:  Left button up, pos=(2036,316)
+106.8540 	EXP 	New trial (rep=0, index=41): {'foodItem': 'peaches.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/peaches.jpg'}
+106.9498 	EXP 	text: autoDraw = False
+106.9498 	EXP 	food_slider: markerPos = None
+106.9498 	EXP 	food_slider: markerPos = None
+106.9498 	EXP 	foodImage: image = 'stimuli/food/peaches.jpg'
+106.9498 	EXP 	food_slider: autoDraw = True
+106.9498 	EXP 	foodImage: autoDraw = True
+107.3818 	DATA 	Mouse: Left button down, pos=(2991,713)
+107.5436 	DATA 	Mouse:  Left button up, pos=(2991,713)
+107.9156 	DATA 	Mouse: Left button down, pos=(2926,746)
+108.0020 	EXP 	food_slider: markerPos = 9.2725
+108.0851 	EXP 	food_slider: markerPos = 9.2725
+108.0864 	DATA 	Mouse:  Left button up, pos=(2926,746)
+108.1493 	EXP 	food_slider: markerPos = 9.2725
+109.0498 	DATA 	Mouse: Left button down, pos=(2017,268)
+109.0871 	EXP 	food_slider: autoDraw = False
+109.0871 	EXP 	foodImage: autoDraw = False
+109.0871 	EXP 	text: autoDraw = True
+109.1546 	DATA 	Mouse:  Left button up, pos=(2017,268)
+109.5552 	EXP 	New trial (rep=0, index=42): {'foodItem': 'cookies.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/cookies.jpg'}
+109.6687 	EXP 	text: autoDraw = False
+109.6687 	EXP 	text: autoDraw = False
+109.6687 	EXP 	food_slider: markerPos = None
+109.6687 	EXP 	food_slider: markerPos = None
+109.6687 	EXP 	foodImage: image = 'stimuli/food/cookies.jpg'
+109.6687 	EXP 	food_slider: autoDraw = True
+109.6687 	EXP 	foodImage: autoDraw = True
+110.0865 	DATA 	Mouse: Left button down, pos=(1951,781)
+110.1648 	EXP 	food_slider: markerPos = 5.61625
+110.1668 	DATA 	Mouse:  Left button up, pos=(1951,781)
+110.2521 	EXP 	food_slider: markerPos = 5.61625
+110.8391 	DATA 	Mouse: Left button down, pos=(1925,250)
+110.9855 	EXP 	food_slider: autoDraw = False
+110.9855 	EXP 	foodImage: autoDraw = False
+110.9855 	EXP 	text: autoDraw = True
+110.9871 	DATA 	Mouse:  Left button up, pos=(1925,250)
+111.4512 	EXP 	New trial (rep=0, index=43): {'foodItem': 'burger.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/burger.jpg'}
+111.5378 	EXP 	text: autoDraw = False
+111.5378 	EXP 	food_slider: markerPos = None
+111.5378 	EXP 	food_slider: markerPos = None
+111.5378 	EXP 	foodImage: image = 'stimuli/food/burger.jpg'
+111.5378 	EXP 	food_slider: autoDraw = True
+111.5378 	EXP 	foodImage: autoDraw = True
+112.3160 	DATA 	Mouse: Left button down, pos=(1305,802)
+112.4023 	EXP 	food_slider: markerPos = 3.19375
+112.4034 	DATA 	Mouse:  Left button up, pos=(1305,802)
+112.4518 	EXP 	food_slider: markerPos = 3.19375
+113.1195 	DATA 	Mouse: Left button down, pos=(1866,275)
+113.1660 	EXP 	food_slider: autoDraw = False
+113.1660 	EXP 	foodImage: autoDraw = False
+113.1660 	EXP 	text: autoDraw = True
+113.2053 	DATA 	Mouse:  Left button up, pos=(1866,275)
+113.6374 	EXP 	New trial (rep=0, index=44): {'foodItem': 'celery and carrot sticks.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/celery and carrot sticks.jpg'}
+113.7355 	EXP 	text: autoDraw = False
+113.7355 	EXP 	food_slider: markerPos = None
+113.7355 	EXP 	food_slider: markerPos = None
+113.7355 	EXP 	foodImage: image = 'stimuli/food/celery and carrot sticks.jpg'
+113.7355 	EXP 	food_slider: autoDraw = True
+113.7355 	EXP 	foodImage: autoDraw = True
+114.6840 	DATA 	Mouse: Left button down, pos=(3021,798)
+114.8268 	EXP 	food_slider: markerPos = 9.62875
+114.8282 	DATA 	Mouse:  Left button up, pos=(3021,798)
+114.8868 	EXP 	food_slider: markerPos = 9.62875
+115.6872 	DATA 	Mouse: Left button down, pos=(2017,283)
+115.7387 	EXP 	food_slider: autoDraw = False
+115.7387 	EXP 	foodImage: autoDraw = False
+115.7387 	EXP 	text: autoDraw = True
+115.7403 	DATA 	Mouse:  Left button up, pos=(2017,283)
+116.2043 	EXP 	New trial (rep=0, index=45): {'foodItem': 'eggs.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/eggs.jpg'}
+116.3188 	EXP 	text: autoDraw = False
+116.3188 	EXP 	food_slider: markerPos = None
+116.3188 	EXP 	food_slider: markerPos = None
+116.3188 	EXP 	foodImage: image = 'stimuli/food/eggs.jpg'
+116.3188 	EXP 	food_slider: autoDraw = True
+116.3188 	EXP 	foodImage: autoDraw = True
+116.8042 	DATA 	Mouse: Left button down, pos=(1084,825)
+116.8683 	EXP 	food_slider: markerPos = 2.365
+116.9207 	EXP 	food_slider: markerPos = 2.365
+116.9222 	DATA 	Mouse:  Left button up, pos=(1084,825)
+116.9904 	EXP 	food_slider: markerPos = 2.365
+117.5401 	DATA 	Mouse: Left button down, pos=(1918,241)
+117.5826 	EXP 	food_slider: autoDraw = False
+117.5826 	EXP 	foodImage: autoDraw = False
+117.5826 	EXP 	text: autoDraw = True
+117.6177 	DATA 	Mouse:  Left button up, pos=(1918,241)
+118.0542 	EXP 	New trial (rep=0, index=46): {'foodItem': 'mac & cheese.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/mac & cheese.jpg'}
+118.1690 	EXP 	text: autoDraw = False
+118.1690 	EXP 	food_slider: markerPos = None
+118.1690 	EXP 	food_slider: markerPos = None
+118.1690 	EXP 	foodImage: image = 'stimuli/food/mac & cheese.jpg'
+118.1690 	EXP 	food_slider: autoDraw = True
+118.1690 	EXP 	foodImage: autoDraw = True
+119.0040 	DATA 	Mouse: Left button down, pos=(1909,736)
+119.0737 	EXP 	food_slider: markerPos = 5.45875
+119.0749 	DATA 	Mouse:  Left button up, pos=(1909,736)
+119.1158 	EXP 	food_slider: markerPos = 5.45875
+119.8533 	DATA 	Mouse: Left button down, pos=(1946,154)
+119.9161 	EXP 	food_slider: autoDraw = False
+119.9161 	EXP 	foodImage: autoDraw = False
+119.9161 	EXP 	text: autoDraw = True
+119.9608 	DATA 	Mouse:  Left button up, pos=(1946,154)
+120.3830 	EXP 	New trial (rep=0, index=47): {'foodItem': 'froot loops w milk.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/froot loops w milk.jpg'}
+120.4857 	EXP 	text: autoDraw = False
+120.4857 	EXP 	food_slider: markerPos = None
+120.4857 	EXP 	food_slider: markerPos = None
+120.4857 	EXP 	foodImage: image = 'stimuli/food/froot loops w milk.jpg'
+120.4857 	EXP 	food_slider: autoDraw = True
+120.4857 	EXP 	foodImage: autoDraw = True
+121.1208 	DATA 	Mouse: Left button down, pos=(2533,756)
+121.1997 	EXP 	food_slider: markerPos = 7.79875
+121.2022 	DATA 	Mouse:  Left button up, pos=(2533,756)
+121.2856 	EXP 	food_slider: markerPos = 7.79875
+121.8700 	DATA 	Mouse: Left button down, pos=(1778,244)
+121.9315 	EXP 	food_slider: autoDraw = False
+121.9315 	EXP 	foodImage: autoDraw = False
+121.9315 	EXP 	text: autoDraw = True
+121.9726 	DATA 	Mouse:  Left button up, pos=(1778,244)
+122.4044 	EXP 	New trial (rep=0, index=48): {'foodItem': 'rice cakes.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/rice cakes.jpg'}
+122.5191 	EXP 	text: autoDraw = False
+122.5191 	EXP 	food_slider: markerPos = None
+122.5191 	EXP 	food_slider: markerPos = None
+122.5191 	EXP 	foodImage: image = 'stimuli/food/rice cakes.jpg'
+122.5191 	EXP 	food_slider: autoDraw = True
+122.5191 	EXP 	foodImage: autoDraw = True
+123.2228 	DATA 	Mouse: Left button down, pos=(912,744)
+123.2841 	EXP 	food_slider: markerPos = 1.7200000000000002
+123.3690 	EXP 	food_slider: markerPos = 1.7200000000000002
+123.3703 	DATA 	Mouse:  Left button up, pos=(912,744)
+123.4525 	EXP 	food_slider: markerPos = 1.7200000000000002
+124.0545 	DATA 	Mouse: Left button down, pos=(1829,208)
+124.1802 	EXP 	food_slider: autoDraw = False
+124.1802 	EXP 	foodImage: autoDraw = False
+124.1802 	EXP 	text: autoDraw = True
+124.1820 	DATA 	Mouse:  Left button up, pos=(1829,208)
+124.6538 	EXP 	New trial (rep=0, index=49): {'foodItem': 'ice cream sundae 002.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/ice cream sundae 002.jpg'}
+125.0356 	EXP 	text: autoDraw = False
+125.0356 	EXP 	food_slider: markerPos = None
+125.0356 	EXP 	food_slider: markerPos = None
+125.0356 	EXP 	foodImage: image = 'stimuli/food/ice cream sundae 002.jpg'
+125.0356 	EXP 	food_slider: autoDraw = True
+125.0356 	EXP 	foodImage: autoDraw = True
+125.5039 	DATA 	Mouse: Left button down, pos=(2717,799)
+125.5858 	EXP 	food_slider: markerPos = 8.48875
+125.5869 	DATA 	Mouse:  Left button up, pos=(2717,799)
+125.6692 	EXP 	food_slider: markerPos = 8.48875
+126.2723 	DATA 	Mouse: Left button down, pos=(2086,348)
+126.3262 	EXP 	food_slider: autoDraw = False
+126.3262 	EXP 	foodImage: autoDraw = False
+126.3262 	EXP 	text: autoDraw = True
+126.4088 	DATA 	Mouse:  Left button up, pos=(2086,348)
+126.8000 	EXP 	New trial (rep=0, index=50): {'foodItem': 'mini muffins.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/mini muffins.jpg'}
+126.9182 	EXP 	text: autoDraw = False
+126.9182 	EXP 	food_slider: markerPos = None
+126.9182 	EXP 	food_slider: markerPos = None
+126.9182 	EXP 	foodImage: image = 'stimuli/food/mini muffins.jpg'
+126.9182 	EXP 	food_slider: autoDraw = True
+126.9182 	EXP 	foodImage: autoDraw = True
+127.2717 	DATA 	Mouse: Left button down, pos=(2394,846)
+127.4191 	EXP 	food_slider: markerPos = 7.2775
+127.4343 	DATA 	Mouse:  Left button up, pos=(2394,846)
+127.4829 	EXP 	food_slider: markerPos = 7.2775
+127.5372 	EXP 	food_slider: markerPos = 7.2775
+127.9875 	DATA 	Mouse: Left button down, pos=(1871,286)
+128.1320 	EXP 	food_slider: autoDraw = False
+128.1320 	EXP 	foodImage: autoDraw = False
+128.1320 	EXP 	text: autoDraw = True
+128.1336 	DATA 	Mouse:  Left button up, pos=(1871,286)
+128.5998 	EXP 	New trial (rep=0, index=51): {'foodItem': 'cherry tomato.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/cherry tomato.jpg'}
+128.7126 	EXP 	text: autoDraw = False
+128.7126 	EXP 	food_slider: markerPos = None
+128.7126 	EXP 	food_slider: markerPos = None
+128.7126 	EXP 	foodImage: image = 'stimuli/food/cherry tomato.jpg'
+128.7126 	EXP 	food_slider: autoDraw = True
+128.7126 	EXP 	foodImage: autoDraw = True
+129.2381 	DATA 	Mouse: Left button down, pos=(1972,771)
+129.3167 	EXP 	food_slider: markerPos = 5.695
+129.3325 	DATA 	Mouse:  Left button up, pos=(1972,771)
+129.4025 	EXP 	food_slider: markerPos = 5.695
+129.4858 	EXP 	food_slider: markerPos = 5.695
+129.9034 	DATA 	Mouse: Left button down, pos=(1928,142)
+129.9692 	EXP 	food_slider: autoDraw = False
+129.9692 	EXP 	foodImage: autoDraw = False
+129.9692 	EXP 	text: autoDraw = True
+130.0379 	DATA 	Mouse:  Left button up, pos=(1928,142)
+130.4359 	EXP 	New trial (rep=0, index=52): {'foodItem': 'Pretzels.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/Pretzels.jpg'}
+130.5207 	EXP 	text: autoDraw = False
+130.5207 	EXP 	food_slider: markerPos = None
+130.5207 	EXP 	food_slider: markerPos = None
+130.5207 	EXP 	foodImage: image = 'stimuli/food/Pretzels.jpg'
+130.5207 	EXP 	food_slider: autoDraw = True
+130.5207 	EXP 	foodImage: autoDraw = True
+130.8296 	DATA 	Mouse: Left button down, pos=(2291,895)
+131.0037 	DATA 	Mouse:  Left button up, pos=(2291,895)
+131.2701 	DATA 	Mouse: Left button down, pos=(2264,860)
+131.4209 	DATA 	Mouse:  Left button up, pos=(2264,860)
+131.6841 	DATA 	Mouse: Left button down, pos=(2248,840)
+131.8359 	EXP 	food_slider: markerPos = 6.73
+131.8375 	DATA 	Mouse:  Left button up, pos=(2248,840)
+131.9192 	EXP 	food_slider: markerPos = 6.73
+132.4707 	DATA 	Mouse: Left button down, pos=(1875,293)
+132.5358 	EXP 	food_slider: autoDraw = False
+132.5358 	EXP 	foodImage: autoDraw = False
+132.5358 	EXP 	text: autoDraw = True
+132.5379 	DATA 	Mouse:  Left button up, pos=(1875,293)
+133.0193 	EXP 	New trial (rep=0, index=53): {'foodItem': 'Skim milk.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/Skim milk.jpg'}
+133.1043 	EXP 	text: autoDraw = False
+133.1043 	EXP 	food_slider: markerPos = None
+133.1043 	EXP 	food_slider: markerPos = None
+133.1043 	EXP 	foodImage: image = 'stimuli/food/Skim milk.jpg'
+133.1043 	EXP 	food_slider: autoDraw = True
+133.1043 	EXP 	foodImage: autoDraw = True
+133.7684 	DATA 	Mouse: Left button down, pos=(1056,737)
+133.8533 	DATA 	Mouse:  Left button up, pos=(1056,737)
+133.9194 	EXP 	food_slider: markerPos = 2.2600000000000002
+133.9854 	EXP 	food_slider: markerPos = 2.2600000000000002
+134.6036 	DATA 	Mouse: Left button down, pos=(1798,264)
+134.6692 	EXP 	food_slider: autoDraw = False
+134.6692 	EXP 	foodImage: autoDraw = False
+134.6692 	EXP 	text: autoDraw = True
+134.7054 	DATA 	Mouse:  Left button up, pos=(1798,264)
+135.1382 	EXP 	New trial (rep=0, index=54): {'foodItem': 'seaweed.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/seaweed.jpg'}
+135.2526 	EXP 	text: autoDraw = False
+135.2526 	EXP 	food_slider: markerPos = None
+135.2526 	EXP 	food_slider: markerPos = None
+135.2526 	EXP 	foodImage: image = 'stimuli/food/seaweed.jpg'
+135.2526 	EXP 	food_slider: autoDraw = True
+135.2526 	EXP 	foodImage: autoDraw = True
+135.8821 	DATA 	Mouse: Left button down, pos=(1345,728)
+135.9985 	EXP 	food_slider: markerPos = 3.3437499999999996
+136.0163 	DATA 	Mouse:  Left button up, pos=(1345,728)
+136.0861 	EXP 	food_slider: markerPos = 3.3437499999999996
+136.1693 	EXP 	food_slider: markerPos = 3.3437499999999996
+136.7203 	DATA 	Mouse: Left button down, pos=(1875,308)
+136.7834 	EXP 	food_slider: autoDraw = False
+136.7834 	EXP 	foodImage: autoDraw = False
+136.7834 	EXP 	text: autoDraw = True
+136.8281 	DATA 	Mouse:  Left button up, pos=(1875,308)
+137.2502 	EXP 	New trial (rep=0, index=55): {'foodItem': 'mashed potato.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/mashed potato.jpg'}
+137.3528 	EXP 	text: autoDraw = False
+137.3528 	EXP 	food_slider: markerPos = None
+137.3528 	EXP 	food_slider: markerPos = None
+137.3528 	EXP 	foodImage: image = 'stimuli/food/mashed potato.jpg'
+137.3528 	EXP 	food_slider: autoDraw = True
+137.3528 	EXP 	foodImage: autoDraw = True
+137.8881 	DATA 	Mouse: Left button down, pos=(1652,751)
+138.0360 	EXP 	food_slider: markerPos = 4.494999999999999
+138.0375 	DATA 	Mouse:  Left button up, pos=(1652,751)
+138.1073 	EXP 	food_slider: markerPos = 4.494999999999999
+138.6871 	DATA 	Mouse: Left button down, pos=(2015,316)
+138.7526 	EXP 	food_slider: autoDraw = False
+138.7526 	EXP 	foodImage: autoDraw = False
+138.7526 	EXP 	text: autoDraw = True
+138.7542 	DATA 	Mouse:  Left button up, pos=(2015,316)
+139.2508 	EXP 	New trial (rep=0, index=56): {'foodItem': 'bagel and cc.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/bagel and cc.jpg'}
+139.3692 	EXP 	text: autoDraw = False
+139.3692 	EXP 	food_slider: markerPos = None
+139.3692 	EXP 	food_slider: markerPos = None
+139.3692 	EXP 	foodImage: image = 'stimuli/food/bagel and cc.jpg'
+139.3692 	EXP 	food_slider: autoDraw = True
+139.3692 	EXP 	foodImage: autoDraw = True
+140.4543 	DATA 	Mouse: Left button down, pos=(906,731)
+140.5361 	EXP 	food_slider: markerPos = 1.6975000000000002
+140.5377 	DATA 	Mouse:  Left button up, pos=(906,731)
+140.6195 	EXP 	food_slider: markerPos = 1.6975000000000002
+141.4869 	DATA 	Mouse: Left button down, pos=(1807,208)
+141.5527 	EXP 	food_slider: autoDraw = False
+141.5527 	EXP 	foodImage: autoDraw = False
+141.5527 	EXP 	text: autoDraw = True
+141.6208 	DATA 	Mouse:  Left button up, pos=(1807,208)
+142.0219 	EXP 	New trial (rep=0, index=57): {'foodItem': 'cherries.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/cherries.jpg'}
+142.1361 	EXP 	text: autoDraw = False
+142.1361 	EXP 	food_slider: markerPos = None
+142.1361 	EXP 	food_slider: markerPos = None
+142.1361 	EXP 	foodImage: image = 'stimuli/food/cherries.jpg'
+142.1361 	EXP 	food_slider: autoDraw = True
+142.1361 	EXP 	foodImage: autoDraw = True
+142.5215 	DATA 	Mouse: Left button down, pos=(1292,780)
+142.6026 	EXP 	food_slider: markerPos = 3.145
+142.6862 	EXP 	food_slider: markerPos = 3.145
+142.6879 	DATA 	Mouse:  Left button up, pos=(1292,780)
+142.7694 	EXP 	food_slider: markerPos = 3.145
+143.4050 	DATA 	Mouse: Left button down, pos=(1956,317)
+143.4557 	EXP 	food_slider: autoDraw = False
+143.4557 	EXP 	foodImage: autoDraw = False
+143.4557 	EXP 	text: autoDraw = True
+143.5227 	DATA 	Mouse:  Left button up, pos=(1956,317)
+143.9169 	EXP 	New trial (rep=0, index=58): {'foodItem': 'banana.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/banana.jpg'}
+144.0361 	EXP 	text: autoDraw = False
+144.0361 	EXP 	food_slider: markerPos = None
+144.0361 	EXP 	food_slider: markerPos = None
+144.0361 	EXP 	foodImage: image = 'stimuli/food/banana.jpg'
+144.0361 	EXP 	food_slider: autoDraw = True
+144.0361 	EXP 	foodImage: autoDraw = True
+144.4562 	DATA 	Mouse: Left button down, pos=(2963,797)
+144.5321 	EXP 	food_slider: markerPos = 9.411249999999999
+144.5338 	DATA 	Mouse:  Left button up, pos=(2963,797)
+144.6196 	EXP 	food_slider: markerPos = 9.411249999999999
+145.1203 	DATA 	Mouse: Left button down, pos=(1940,301)
+145.1822 	EXP 	food_slider: autoDraw = False
+145.1822 	EXP 	foodImage: autoDraw = False
+145.1822 	EXP 	text: autoDraw = True
+145.2309 	DATA 	Mouse:  Left button up, pos=(1940,301)
+145.6548 	EXP 	New trial (rep=0, index=59): {'foodItem': 'grilled cheese.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/grilled cheese.jpg'}
+145.8362 	EXP 	text: autoDraw = False
+145.8362 	EXP 	food_slider: markerPos = None
+145.8362 	EXP 	food_slider: markerPos = None
+145.8362 	EXP 	foodImage: image = 'stimuli/food/grilled cheese.jpg'
+145.8362 	EXP 	food_slider: autoDraw = True
+145.8362 	EXP 	foodImage: autoDraw = True
+146.2538 	DATA 	Mouse: Left button down, pos=(2446,782)
+146.3361 	EXP 	food_slider: markerPos = 7.4725
+146.3372 	DATA 	Mouse:  Left button up, pos=(2446,782)
+146.4196 	EXP 	food_slider: markerPos = 7.4725
+146.9870 	DATA 	Mouse: Left button down, pos=(1959,271)
+147.0521 	EXP 	food_slider: autoDraw = False
+147.0521 	EXP 	foodImage: autoDraw = False
+147.0521 	EXP 	text: autoDraw = True
+147.0539 	DATA 	Mouse:  Left button up, pos=(1959,271)
+147.5214 	EXP 	New trial (rep=0, index=60): {'foodItem': 'broccoli cauliflower.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/broccoli cauliflower.jpg'}
+147.6062 	EXP 	text: autoDraw = False
+147.6062 	EXP 	food_slider: markerPos = None
+147.6062 	EXP 	food_slider: markerPos = None
+147.6062 	EXP 	foodImage: image = 'stimuli/food/broccoli cauliflower.jpg'
+147.6062 	EXP 	food_slider: autoDraw = True
+147.6062 	EXP 	foodImage: autoDraw = True
+148.0832 	DATA 	Mouse: Left button down, pos=(2109,753)
+148.1584 	EXP 	food_slider: markerPos = 6.20875
+148.1595 	DATA 	Mouse:  Left button up, pos=(2109,753)
+148.2355 	EXP 	food_slider: markerPos = 6.20875
+148.7866 	DATA 	Mouse: Left button down, pos=(1891,295)
+148.8538 	DATA 	Mouse:  Left button up, pos=(1891,295)
+149.6314 	DATA 	Mouse: Left button down, pos=(1891,295)
+149.7030 	EXP 	food_slider: autoDraw = False
+149.7030 	EXP 	foodImage: autoDraw = False
+149.7030 	EXP 	text: autoDraw = True
+149.7715 	DATA 	Mouse:  Left button up, pos=(1891,295)
+150.1382 	EXP 	New trial (rep=0, index=61): {'foodItem': 'baby cheese.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/baby cheese.jpg'}
+150.2695 	EXP 	text: autoDraw = False
+150.2695 	EXP 	food_slider: markerPos = None
+150.2695 	EXP 	food_slider: markerPos = None
+150.2695 	EXP 	foodImage: image = 'stimuli/food/baby cheese.jpg'
+150.2695 	EXP 	food_slider: autoDraw = True
+150.2695 	EXP 	foodImage: autoDraw = True
+150.7877 	DATA 	Mouse: Left button down, pos=(3006,772)
+150.8698 	EXP 	food_slider: markerPos = 9.5725
+150.8713 	DATA 	Mouse:  Left button up, pos=(3006,772)
+150.9314 	EXP 	food_slider: markerPos = 9.5725
+151.6204 	DATA 	Mouse: Left button down, pos=(1988,226)
+151.6659 	EXP 	food_slider: autoDraw = False
+151.6659 	EXP 	foodImage: autoDraw = False
+151.6659 	EXP 	text: autoDraw = True
+151.7335 	DATA 	Mouse:  Left button up, pos=(1988,226)
+152.1385 	EXP 	New trial (rep=0, index=62): {'foodItem': 'Whole milk.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/Whole milk.jpg'}
+152.2530 	EXP 	text: autoDraw = False
+152.2530 	EXP 	food_slider: markerPos = None
+152.2530 	EXP 	food_slider: markerPos = None
+152.2530 	EXP 	foodImage: image = 'stimuli/food/Whole milk.jpg'
+152.2530 	EXP 	food_slider: autoDraw = True
+152.2530 	EXP 	foodImage: autoDraw = True
+152.6010 	DATA 	Mouse: Left button down, pos=(2503,813)
+152.6863 	EXP 	food_slider: markerPos = 7.68625
+152.7696 	EXP 	food_slider: markerPos = 7.68625
+152.7710 	DATA 	Mouse:  Left button up, pos=(2503,813)
+152.8529 	EXP 	food_slider: markerPos = 7.68625
+153.3670 	DATA 	Mouse: Left button down, pos=(1939,387)
+153.3674 	DATA 	Mouse:  Left button up, pos=(1939,387)
+153.5372 	DATA 	Mouse: Left button down, pos=(1939,372)
+153.7047 	DATA 	Mouse:  Left button up, pos=(1939,372)
+154.4879 	DATA 	Mouse: Left button down, pos=(1898,254)
+154.5507 	EXP 	food_slider: autoDraw = False
+154.5507 	EXP 	foodImage: autoDraw = False
+154.5507 	EXP 	text: autoDraw = True
+154.6953 	DATA 	Mouse:  Left button up, pos=(1898,254)
+155.0216 	EXP 	New trial (rep=0, index=63): {'foodItem': 'Tribe humus pita.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/Tribe humus pita.jpg'}
+155.1325 	EXP 	text: autoDraw = False
+155.1325 	EXP 	food_slider: markerPos = None
+155.1325 	EXP 	food_slider: markerPos = None
+155.1325 	EXP 	foodImage: image = 'stimuli/food/Tribe humus pita.jpg'
+155.1325 	EXP 	food_slider: autoDraw = True
+155.1325 	EXP 	foodImage: autoDraw = True
+156.1319 	DATA 	Mouse: Left button down, pos=(2750,799)
+156.2047 	EXP 	food_slider: markerPos = 8.6125
+156.2075 	DATA 	Mouse:  Left button up, pos=(2750,799)
+156.2830 	EXP 	food_slider: markerPos = 8.6125
+157.2881 	DATA 	Mouse: Left button down, pos=(1967,258)
+157.3508 	EXP 	food_slider: autoDraw = False
+157.3508 	EXP 	foodImage: autoDraw = False
+157.3508 	EXP 	text: autoDraw = True
+157.3942 	DATA 	Mouse:  Left button up, pos=(1967,258)
+157.8215 	EXP 	New trial (rep=0, index=64): {'foodItem': '1%milk.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/1%milk.jpg'}
+157.9199 	EXP 	text: autoDraw = False
+157.9199 	EXP 	food_slider: markerPos = None
+157.9199 	EXP 	food_slider: markerPos = None
+157.9199 	EXP 	foodImage: image = 'stimuli/food/1%milk.jpg'
+157.9199 	EXP 	food_slider: autoDraw = True
+157.9199 	EXP 	foodImage: autoDraw = True
+158.7876 	DATA 	Mouse: Left button down, pos=(2951,771)
+158.8703 	EXP 	food_slider: markerPos = 9.366249999999999
+158.9531 	EXP 	food_slider: markerPos = 9.366249999999999
+158.9549 	DATA 	Mouse:  Left button up, pos=(2951,771)
+159.0363 	EXP 	food_slider: markerPos = 9.366249999999999
+159.6206 	DATA 	Mouse: Left button down, pos=(1987,289)
+159.6862 	EXP 	food_slider: autoDraw = False
+159.6862 	EXP 	foodImage: autoDraw = False
+159.6862 	EXP 	text: autoDraw = True
+159.6879 	DATA 	Mouse:  Left button up, pos=(1987,289)
+160.1553 	EXP 	New trial (rep=0, index=65): {'foodItem': 'yogurt no spoon.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/yogurt no spoon.jpg'}
+160.2697 	EXP 	text: autoDraw = False
+160.2697 	EXP 	food_slider: markerPos = None
+160.2697 	EXP 	food_slider: markerPos = None
+160.2697 	EXP 	foodImage: image = 'stimuli/food/yogurt no spoon.jpg'
+160.2697 	EXP 	food_slider: autoDraw = True
+160.2697 	EXP 	foodImage: autoDraw = True
+160.6027 	DATA 	Mouse: Left button down, pos=(1051,759)
+160.6864 	EXP 	food_slider: markerPos = 2.24125
+160.7700 	EXP 	food_slider: markerPos = 2.24125
+160.7711 	DATA 	Mouse:  Left button up, pos=(1051,759)
+160.8532 	EXP 	food_slider: markerPos = 2.24125
+161.3729 	DATA 	Mouse: Left button down, pos=(1845,262)
+161.4265 	EXP 	food_slider: autoDraw = False
+161.4265 	EXP 	foodImage: autoDraw = False
+161.4265 	EXP 	text: autoDraw = True
+161.4877 	DATA 	Mouse:  Left button up, pos=(1845,262)
+161.9055 	EXP 	New trial (rep=0, index=66): {'foodItem': 'baked potato.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/baked potato.jpg'}
+162.0198 	EXP 	text: autoDraw = False
+162.0198 	EXP 	food_slider: markerPos = None
+162.0198 	EXP 	food_slider: markerPos = None
+162.0198 	EXP 	foodImage: image = 'stimuli/food/baked potato.jpg'
+162.0198 	EXP 	food_slider: autoDraw = True
+162.0198 	EXP 	foodImage: autoDraw = True
+162.3199 	DATA 	Mouse: Left button down, pos=(1915,804)
+162.3667 	EXP 	food_slider: markerPos = 5.48125
+162.4531 	EXP 	food_slider: markerPos = 5.48125
+162.4551 	DATA 	Mouse:  Left button up, pos=(1915,804)
+162.5047 	EXP 	food_slider: markerPos = 5.48125
+163.0754 	DATA 	Mouse: Left button down, pos=(1979,279)
+163.1714 	EXP 	food_slider: autoDraw = False
+163.1714 	EXP 	foodImage: autoDraw = False
+163.1714 	EXP 	text: autoDraw = True
+163.1743 	DATA 	Mouse:  Left button up, pos=(1979,279)
+163.6385 	EXP 	New trial (rep=0, index=67): {'foodItem': 'brownie.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/brownie.jpg'}
+163.7543 	EXP 	text: autoDraw = False
+163.7543 	EXP 	food_slider: markerPos = None
+163.7543 	EXP 	food_slider: markerPos = None
+163.7543 	EXP 	foodImage: image = 'stimuli/food/brownie.jpg'
+163.7543 	EXP 	food_slider: autoDraw = True
+163.7543 	EXP 	foodImage: autoDraw = True
+164.1656 	DATA 	Mouse: Left button down, pos=(905,781)
+164.2532 	EXP 	food_slider: markerPos = 1.69375
+164.2695 	DATA 	Mouse:  Left button up, pos=(905,781)
+164.3367 	EXP 	food_slider: markerPos = 1.69375
+164.4198 	EXP 	food_slider: markerPos = 1.69375
+165.2398 	DATA 	Mouse: Left button down, pos=(1901,248)
+165.3264 	DATA 	Mouse:  Left button up, pos=(1901,248)
+165.3816 	EXP 	food_slider: autoDraw = False
+165.3816 	EXP 	foodImage: autoDraw = False
+165.3816 	EXP 	text: autoDraw = True
+165.8386 	EXP 	New trial (rep=0, index=68): {'foodItem': 'sour patch.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/sour patch.jpg'}
+165.9532 	EXP 	text: autoDraw = False
+165.9532 	EXP 	food_slider: markerPos = None
+165.9532 	EXP 	food_slider: markerPos = None
+165.9532 	EXP 	foodImage: image = 'stimuli/food/sour patch.jpg'
+165.9532 	EXP 	food_slider: autoDraw = True
+165.9532 	EXP 	foodImage: autoDraw = True
+166.5005 	DATA 	Mouse: Left button down, pos=(2179,801)
+166.5882 	EXP 	food_slider: markerPos = 6.4712499999999995
+166.6699 	EXP 	food_slider: markerPos = 6.4712499999999995
+166.6714 	DATA 	Mouse:  Left button up, pos=(2179,801)
+166.7533 	EXP 	food_slider: markerPos = 6.4712499999999995
+167.4147 	DATA 	Mouse: Left button down, pos=(2024,268)
+167.4866 	EXP 	food_slider: autoDraw = False
+167.4866 	EXP 	foodImage: autoDraw = False
+167.4866 	EXP 	text: autoDraw = True
+167.5553 	DATA 	Mouse:  Left button up, pos=(2024,268)
+167.9668 	EXP 	New trial (rep=0, index=69): {'foodItem': 'mushrooms.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/mushrooms.jpg'}
+168.0548 	EXP 	text: autoDraw = False
+168.0548 	EXP 	food_slider: markerPos = None
+168.0548 	EXP 	food_slider: markerPos = None
+168.0548 	EXP 	foodImage: image = 'stimuli/food/mushrooms.jpg'
+168.0548 	EXP 	food_slider: autoDraw = True
+168.0548 	EXP 	foodImage: autoDraw = True
+168.4914 	DATA 	Mouse: Left button down, pos=(1426,722)
+168.5634 	EXP 	food_slider: markerPos = 3.6475
+168.5802 	DATA 	Mouse:  Left button up, pos=(1426,722)
+168.6534 	EXP 	food_slider: markerPos = 3.6475
+168.7366 	EXP 	food_slider: markerPos = 3.6475
+169.2395 	DATA 	Mouse: Left button down, pos=(1933,227)
+169.3866 	EXP 	food_slider: autoDraw = False
+169.3866 	EXP 	foodImage: autoDraw = False
+169.3866 	EXP 	text: autoDraw = True
+169.3882 	DATA 	Mouse:  Left button up, pos=(1933,227)
+169.8391 	EXP 	New trial (rep=0, index=70): {'foodItem': 'ritz.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/ritz.jpg'}
+169.9533 	EXP 	text: autoDraw = False
+169.9533 	EXP 	food_slider: markerPos = None
+169.9533 	EXP 	food_slider: markerPos = None
+169.9533 	EXP 	foodImage: image = 'stimuli/food/ritz.jpg'
+169.9533 	EXP 	food_slider: autoDraw = True
+169.9533 	EXP 	foodImage: autoDraw = True
+170.5734 	DATA 	Mouse: Left button down, pos=(2445,778)
+170.6534 	EXP 	food_slider: markerPos = 7.46875
+170.7366 	EXP 	food_slider: markerPos = 7.46875
+170.7379 	DATA 	Mouse:  Left button up, pos=(2445,778)
+170.8201 	EXP 	food_slider: markerPos = 7.46875
+171.3040 	DATA 	Mouse: Left button down, pos=(2002,285)
+171.3610 	EXP 	food_slider: autoDraw = False
+171.3610 	EXP 	foodImage: autoDraw = False
+171.3610 	EXP 	text: autoDraw = True
+171.4137 	DATA 	Mouse:  Left button up, pos=(2002,285)
+171.8217 	EXP 	New trial (rep=0, index=71): {'foodItem': 'rigatoni and sauce.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/rigatoni and sauce.jpg'}
+171.9200 	EXP 	text: autoDraw = False
+171.9200 	EXP 	food_slider: markerPos = None
+171.9200 	EXP 	food_slider: markerPos = None
+171.9200 	EXP 	foodImage: image = 'stimuli/food/rigatoni and sauce.jpg'
+171.9200 	EXP 	food_slider: autoDraw = True
+171.9200 	EXP 	foodImage: autoDraw = True
+172.4828 	DATA 	Mouse: Left button down, pos=(1944,731)
+172.5700 	EXP 	food_slider: markerPos = 5.59
+172.5713 	DATA 	Mouse:  Left button up, pos=(1944,731)
+172.6535 	EXP 	food_slider: markerPos = 5.59
+173.2388 	DATA 	Mouse: Left button down, pos=(1941,251)
+173.2883 	EXP 	food_slider: autoDraw = False
+173.2883 	EXP 	foodImage: autoDraw = False
+173.2883 	EXP 	text: autoDraw = True
+173.2901 	DATA 	Mouse:  Left button up, pos=(1941,251)
+173.7554 	EXP 	New trial (rep=0, index=72): {'foodItem': 'tacos.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/tacos.jpg'}
+173.8496 	EXP 	text: autoDraw = False
+173.8496 	EXP 	food_slider: markerPos = None
+173.8496 	EXP 	food_slider: markerPos = None
+173.8496 	EXP 	foodImage: image = 'stimuli/food/tacos.jpg'
+173.8496 	EXP 	food_slider: autoDraw = True
+173.8496 	EXP 	foodImage: autoDraw = True
+174.1714 	DATA 	Mouse: Left button down, pos=(1382,761)
+174.2532 	EXP 	food_slider: markerPos = 3.4825000000000004
+174.2543 	DATA 	Mouse:  Left button up, pos=(1382,761)
+174.3368 	EXP 	food_slider: markerPos = 3.4825000000000004
+174.9408 	DATA 	Mouse: Left button down, pos=(1918,272)
+174.9915 	EXP 	food_slider: autoDraw = False
+174.9915 	EXP 	foodImage: autoDraw = False
+174.9915 	EXP 	text: autoDraw = True
+175.0552 	DATA 	Mouse:  Left button up, pos=(1918,272)
+175.4512 	EXP 	New trial (rep=0, index=73): {'foodItem': 'granola w milk.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/granola w milk.jpg'}
+175.5657 	EXP 	text: autoDraw = False
+175.5657 	EXP 	food_slider: markerPos = None
+175.5657 	EXP 	food_slider: markerPos = None
+175.5657 	EXP 	foodImage: image = 'stimuli/food/granola w milk.jpg'
+175.5657 	EXP 	food_slider: autoDraw = True
+175.5657 	EXP 	foodImage: autoDraw = True
+176.1885 	DATA 	Mouse: Left button down, pos=(968,736)
+176.2701 	EXP 	food_slider: markerPos = 1.93
+176.2712 	DATA 	Mouse:  Left button up, pos=(968,736)
+176.3534 	EXP 	food_slider: markerPos = 1.93
+177.0161 	DATA 	Mouse: Left button down, pos=(2025,202)
+177.1051 	EXP 	food_slider: autoDraw = False
+177.1051 	EXP 	foodImage: autoDraw = False
+177.1051 	EXP 	text: autoDraw = True
+177.1069 	DATA 	Mouse:  Left button up, pos=(2025,202)
+177.5682 	EXP 	New trial (rep=0, index=74): {'foodItem': 'air popcorn.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/air popcorn.jpg'}
+177.6866 	EXP 	text: autoDraw = False
+177.6866 	EXP 	food_slider: markerPos = None
+177.6866 	EXP 	food_slider: markerPos = None
+177.6866 	EXP 	foodImage: image = 'stimuli/food/air popcorn.jpg'
+177.6866 	EXP 	food_slider: autoDraw = True
+177.6866 	EXP 	foodImage: autoDraw = True
+178.2323 	DATA 	Mouse: Left button down, pos=(2962,744)
+178.3046 	DATA 	Mouse:  Left button up, pos=(2962,744)
+178.9711 	DATA 	Mouse: Left button down, pos=(2942,784)
+179.0432 	EXP 	food_slider: markerPos = 9.3325
+179.1029 	EXP 	food_slider: markerPos = 9.3325
+179.1041 	DATA 	Mouse:  Left button up, pos=(2942,784)
+179.1552 	EXP 	food_slider: markerPos = 9.3325
+182.7661 	DATA 	Mouse: Left button down, pos=(2043,316)
+182.8368 	EXP 	food_slider: autoDraw = False
+182.8368 	EXP 	foodImage: autoDraw = False
+182.8368 	EXP 	text: autoDraw = True
+182.9052 	DATA 	Mouse:  Left button up, pos=(2043,316)
+183.2723 	EXP 	New trial (rep=0, index=75): {'foodItem': 'raisins.jpg', 'path': 'stimuli/food/', 'image': 'stimuli/food/raisins.jpg'}
+183.3701 	EXP 	text: autoDraw = False
+183.3701 	EXP 	food_slider: markerPos = None
+183.3701 	EXP 	food_slider: markerPos = None
+183.3701 	EXP 	foodImage: image = 'stimuli/food/raisins.jpg'
+183.3701 	EXP 	food_slider: autoDraw = True
+183.3701 	EXP 	foodImage: autoDraw = True
+184.0823 	DATA 	Mouse: Left button down, pos=(2213,710)
+184.2382 	DATA 	Mouse:  Left button up, pos=(2213,710)
+184.6694 	DATA 	Mouse: Left button down, pos=(2196,751)
+184.8202 	EXP 	food_slider: markerPos = 6.535
+184.8379 	DATA 	Mouse:  Left button up, pos=(2196,751)
+184.9036 	EXP 	food_slider: markerPos = 6.535
+184.9871 	EXP 	food_slider: markerPos = 6.535
+185.4750 	DATA 	Mouse: Left button down, pos=(1943,451)
+185.4754 	DATA 	Mouse:  Left button up, pos=(1943,451)
+185.8067 	DATA 	Mouse: Left button down, pos=(1938,283)
+185.9536 	EXP 	food_slider: autoDraw = False
+185.9536 	EXP 	foodImage: autoDraw = False
+185.9536 	EXP 	text: autoDraw = True
+185.9557 	DATA 	Mouse:  Left button up, pos=(1938,283)
+186.5144 	EXP 	window1: mouseVisible = True

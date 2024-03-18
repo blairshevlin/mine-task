@@ -1,0 +1,4 @@
+﻿foodItem,path,image,rateFoodLoop.thisRepN,rateFoodLoop.thisTrialN,rateFoodLoop.thisN,rateFoodLoop.thisIndex,foodImage.started,next_button.started,food_slider.response,food_slider.rt,next_button.numClicks,next_button.timesOn,next_button.timesOff,participant,group,extra,practice,rainbow,date,expName,psychopyVersion,frameRate,
+mozarella sticks.jpg,stimuli/food/,stimuli/food/mozarella sticks.jpg,0,0,0,42,39.98019959998783,39.98019959998783,None,None,1,[6.142506500007585],[6.142511600046419],666,,0,1,BR,2023-06-23_10h36.27.192,crystals,2022.2.4,59.96559176068282,
+salad w chicken.jpg,stimuli/food/,stimuli/food/salad w chicken.jpg,0,1,1,57,47.14274409995414,47.14274409995414,5.9575,1.200299400021322,2,"[6.142506500007585, 2.357866100035608]","[6.142511600046419, 2.3578733999747783]",666,,0,1,BR,2023-06-23_10h36.27.192,crystals,2022.2.4,59.96559176068282,
+,,,,,,,50.526573800016195,50.526573800016195,,,,,,,,,,,,,,,

@@ -1,0 +1,7 @@
+﻿foodItem,path,image,rateFoodLoop.thisRepN,rateFoodLoop.thisTrialN,rateFoodLoop.thisN,rateFoodLoop.thisIndex,foodImage.started,food_slider.response,food_slider.rt,participant,group,extra,practice,rainbow,date,expName,psychopyVersion,frameRate,
+fried eggs.jpg,stimuli/food/,stimuli/food/fried eggs.jpg,0,0,0,26,347.1855375999585,4.96,14.427881399984471,666,,0,1,BR,2023-06-23_10h29.05.756,crystals,2022.2.4,59.995668307702246,
+m_and_m.jpg,stimuli/food/,stimuli/food/m_and_m.jpg,0,1,1,38,362.62995810003486,5.98375,2.199707999941893,666,,0,1,BR,2023-06-23_10h29.05.756,crystals,2022.2.4,59.995668307702246,
+kiwi.jpg,stimuli/food/,stimuli/food/kiwi.jpg,0,2,2,36,365.8800578999799,2.89,5.139797800104134,666,,0,1,BR,2023-06-23_10h29.05.756,crystals,2022.2.4,59.995668307702246,
+string cheese.jpg,stimuli/food/,stimuli/food/string cheese.jpg,0,3,3,66,372.22910510003567,2.02,0.7087812999961898,666,,0,1,BR,2023-06-23_10h29.05.756,crystals,2022.2.4,59.995668307702246,
+Hershey Kisses.jpg,stimuli/food/,stimuli/food/Hershey Kisses.jpg,0,4,4,33,373.88039349997416,1,0.7998316999292001,666,,0,1,BR,2023-06-23_10h29.05.756,crystals,2022.2.4,59.995668307702246,
+,,,,,,,375.7475348999724,,,,,,,,,,,,
