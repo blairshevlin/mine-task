@@ -49,37 +49,35 @@ const skip_foodLoopScheduler = new Scheduler(psychoJS);
 flowScheduler.add(skip_foodLoopBegin(skip_foodLoopScheduler));
 flowScheduler.add(skip_foodLoopScheduler);
 flowScheduler.add(skip_foodLoopEnd);
-const choose_food_loopLoopScheduler = new Scheduler(psychoJS);
-flowScheduler.add(choose_food_loopLoopBegin(choose_food_loopLoopScheduler));
-flowScheduler.add(choose_food_loopLoopScheduler);
-flowScheduler.add(choose_food_loopLoopEnd);
 flowScheduler.add(hide_mouse_routineRoutineBegin());
 flowScheduler.add(hide_mouse_routineRoutineEachFrame());
 flowScheduler.add(hide_mouse_routineRoutineEnd());
-flowScheduler.add(instr_2RoutineBegin());
-flowScheduler.add(instr_2RoutineEachFrame());
-flowScheduler.add(instr_2RoutineEnd());
 const skip_practiceLoopScheduler = new Scheduler(psychoJS);
 flowScheduler.add(skip_practiceLoopBegin(skip_practiceLoopScheduler));
 flowScheduler.add(skip_practiceLoopScheduler);
 flowScheduler.add(skip_practiceLoopEnd);
-flowScheduler.add(self_instrRoutineBegin());
-flowScheduler.add(self_instrRoutineEachFrame());
-flowScheduler.add(self_instrRoutineEnd());
-const self_trialsLoopScheduler = new Scheduler(psychoJS);
-flowScheduler.add(self_trialsLoopBegin(self_trialsLoopScheduler));
-flowScheduler.add(self_trialsLoopScheduler);
-flowScheduler.add(self_trialsLoopEnd);
+flowScheduler.add(choice_instrRoutineBegin());
+flowScheduler.add(choice_instrRoutineEachFrame());
+flowScheduler.add(choice_instrRoutineEnd());
+const choice_trialsLoopScheduler = new Scheduler(psychoJS);
+flowScheduler.add(choice_trialsLoopBegin(choice_trialsLoopScheduler));
+flowScheduler.add(choice_trialsLoopScheduler);
+flowScheduler.add(choice_trialsLoopEnd);
 flowScheduler.add(colorblindnessRoutineBegin());
 flowScheduler.add(colorblindnessRoutineEachFrame());
 flowScheduler.add(colorblindnessRoutineEnd());
 flowScheduler.add(enderRoutineBegin());
 flowScheduler.add(enderRoutineEachFrame());
 flowScheduler.add(enderRoutineEnd());
-const bonus_dispLoopScheduler = new Scheduler(psychoJS);
-flowScheduler.add(bonus_dispLoopBegin(bonus_dispLoopScheduler));
-flowScheduler.add(bonus_dispLoopScheduler);
-flowScheduler.add(bonus_dispLoopEnd);
+flowScheduler.add(reward_infoRoutineBegin());
+flowScheduler.add(reward_infoRoutineEachFrame());
+flowScheduler.add(reward_infoRoutineEnd());
+flowScheduler.add(view_rewardRoutineBegin());
+flowScheduler.add(view_rewardRoutineEachFrame());
+flowScheduler.add(view_rewardRoutineEnd());
+flowScheduler.add(end_experimentRoutineBegin());
+flowScheduler.add(end_experimentRoutineEachFrame());
+flowScheduler.add(end_experimentRoutineEnd());
 flowScheduler.add(quitPsychoJS, '', true);
 
 // quit if user presses Cancel in dialog box:
@@ -89,92 +87,93 @@ psychoJS.start({
   expName: expName,
   expInfo: expInfo,
   resources: [
-    {'name': 'stimuli/food/m_and_m.jpg', 'path': 'stimuli/food/m_and_m.jpg'},
-    {'name': 'stimuli/food/mac & cheese.jpg', 'path': 'stimuli/food/mac & cheese.jpg'},
-    {'name': 'stimuli/food/soup with spoon.jpg', 'path': 'stimuli/food/soup with spoon.jpg'},
-    {'name': 'stimuli/food/string cheese.jpg', 'path': 'stimuli/food/string cheese.jpg'},
-    {'name': 'stimuli/food/green beans.jpg', 'path': 'stimuli/food/green beans.jpg'},
-    {'name': 'stimuli/food/chicken nuggets2.jpg', 'path': 'stimuli/food/chicken nuggets2.jpg'},
-    {'name': 'stimuli/food/doughnuts.jpg', 'path': 'stimuli/food/doughnuts.jpg'},
-    {'name': 'stimuli/food/trail mix.jpg', 'path': 'stimuli/food/trail mix.jpg'},
-    {'name': 'stimuli/food/eggs.jpg', 'path': 'stimuli/food/eggs.jpg'},
-    {'name': 'stimuli/food/AA026360.png', 'path': 'stimuli/food/AA026360.png'},
-    {'name': 'stimuli/food/seaweed.jpg', 'path': 'stimuli/food/seaweed.jpg'},
-    {'name': 'stimuli/food/burger.jpg', 'path': 'stimuli/food/burger.jpg'},
-    {'name': 'stimuli/food/Grapes.jpg', 'path': 'stimuli/food/Grapes.jpg'},
-    {'name': 'stimuli/food/orange slices.jpg', 'path': 'stimuli/food/orange slices.jpg'},
-    {'name': 'practice.csv', 'path': 'practice.csv'},
-    {'name': 'stimuli/food/cucumber slices.jpg', 'path': 'stimuli/food/cucumber slices.jpg'},
-    {'name': 'stimuli/food/sushi w_condiments.jpg', 'path': 'stimuli/food/sushi w_condiments.jpg'},
-    {'name': 'stimuli/food/celery and carrot sticks.jpg', 'path': 'stimuli/food/celery and carrot sticks.jpg'},
-    {'name': 'stimuli/food/raisins.jpg', 'path': 'stimuli/food/raisins.jpg'},
-    {'name': 'stimuli/food/banana.jpg', 'path': 'stimuli/food/banana.jpg'},
-    {'name': 'stimuli/food/grilled cheese.jpg', 'path': 'stimuli/food/grilled cheese.jpg'},
-    {'name': 'stimuli/food/broccoli cauliflower.jpg', 'path': 'stimuli/food/broccoli cauliflower.jpg'},
-    {'name': 'stimuli/food/Tribe humus pita.jpg', 'path': 'stimuli/food/Tribe humus pita.jpg'},
-    {'name': 'stimuli/food/air popcorn.jpg', 'path': 'stimuli/food/air popcorn.jpg'},
+    {'name': 'stimuli/food/yellow rice_beans.jpg', 'path': 'stimuli/food/yellow rice_beans.jpg'},
     {'name': 'stimuli/food/Pretzels.jpg', 'path': 'stimuli/food/Pretzels.jpg'},
-    {'name': 'stimuli/food/yogurt pretzels.jpg', 'path': 'stimuli/food/yogurt pretzels.jpg'},
-    {'name': 'stimuli/food/ritz.jpg', 'path': 'stimuli/food/ritz.jpg'},
-    {'name': 'foodChoiceTrials.xlsx', 'path': 'foodChoiceTrials.xlsx'},
-    {'name': 'stimuli/food/corn cob.jpg', 'path': 'stimuli/food/corn cob.jpg'},
-    {'name': 'stimuli/food/froot loops w milk.jpg', 'path': 'stimuli/food/froot loops w milk.jpg'},
+    {'name': 'stimuli/food/eggs.jpg', 'path': 'stimuli/food/eggs.jpg'},
+    {'name': 'stimuli/food/rigatoni.jpg', 'path': 'stimuli/food/rigatoni.jpg'},
+    {'name': 'stimuli/food/Cheese nachos.jpg', 'path': 'stimuli/food/Cheese nachos.jpg'},
+    {'name': 'stimuli/food/avacado.jpg', 'path': 'stimuli/food/avacado.jpg'},
+    {'name': 'stimuli/food/chicken nuggets2.jpg', 'path': 'stimuli/food/chicken nuggets2.jpg'},
+    {'name': 'stimuli/food/string cheese.jpg', 'path': 'stimuli/food/string cheese.jpg'},
     {'name': 'stimuli/food/fried eggs.jpg', 'path': 'stimuli/food/fried eggs.jpg'},
     {'name': 'stimuli/food/grilled chicken strips.jpg', 'path': 'stimuli/food/grilled chicken strips.jpg'},
-    {'name': 'stimuli/food/cherry tomato.jpg', 'path': 'stimuli/food/cherry tomato.jpg'},
-    {'name': 'stimuli/food/sour patch.jpg', 'path': 'stimuli/food/sour patch.jpg'},
-    {'name': 'stimuli/food/baby cheese.jpg', 'path': 'stimuli/food/baby cheese.jpg'},
+    {'name': 'stimuli/food/pickles.jpg', 'path': 'stimuli/food/pickles.jpg'},
+    {'name': 'stimuli/practice/AA026337.png', 'path': 'stimuli/practice/AA026337.png'},
+    {'name': 'stimuli/food/soup with spoon.jpg', 'path': 'stimuli/food/soup with spoon.jpg'},
+    {'name': 'stimuli/food/mac & cheese.jpg', 'path': 'stimuli/food/mac & cheese.jpg'},
+    {'name': 'stimuli/food/cucumber slices.jpg', 'path': 'stimuli/food/cucumber slices.jpg'},
+    {'name': 'stimuli/food/apple slices.jpg', 'path': 'stimuli/food/apple slices.jpg'},
+    {'name': 'stimuli/food/green beans.jpg', 'path': 'stimuli/food/green beans.jpg'},
     {'name': 'stimuli/food/Skim milk.jpg', 'path': 'stimuli/food/Skim milk.jpg'},
-    {'name': 'stimuli/food/granola w milk.jpg', 'path': 'stimuli/food/granola w milk.jpg'},
-    {'name': 'stimuli/food/mozarella sticks.jpg', 'path': 'stimuli/food/mozarella sticks.jpg'},
-    {'name': 'finalfooditems.xlsx', 'path': 'finalfooditems.xlsx'},
-    {'name': 'stimuli/food/AA026337.png', 'path': 'stimuli/food/AA026337.png'},
-    {'name': 'stimuli/food/mashed potato.jpg', 'path': 'stimuli/food/mashed potato.jpg'},
-    {'name': 'stimuli/food/bagel and cc.jpg', 'path': 'stimuli/food/bagel and cc.jpg'},
-    {'name': 'trials.csv', 'path': 'trials.csv'},
-    {'name': 'stimuli/food/rice cakes.jpg', 'path': 'stimuli/food/rice cakes.jpg'},
-    {'name': 'stimuli/food/PB.jpg', 'path': 'stimuli/food/PB.jpg'},
-    {'name': 'stimuli/food/bagel plain.jpg', 'path': 'stimuli/food/bagel plain.jpg'},
-    {'name': 'stimuli/food/turkey sandwich.jpg', 'path': 'stimuli/food/turkey sandwich.jpg'},
-    {'name': 'stimuli/food/lollipops.jpg', 'path': 'stimuli/food/lollipops.jpg'},
-    {'name': 'stimuli/food/kiwi.jpg', 'path': 'stimuli/food/kiwi.jpg'},
-    {'name': 'stimuli/food/mini muffins.jpg', 'path': 'stimuli/food/mini muffins.jpg'},
-    {'name': 'stimuli/food/rigatoni.jpg', 'path': 'stimuli/food/rigatoni.jpg'},
-    {'name': 'stimuli/food/saltines.jpg', 'path': 'stimuli/food/saltines.jpg'},
-    {'name': 'stimuli/food/salad w chicken.jpg', 'path': 'stimuli/food/salad w chicken.jpg'},
     {'name': 'stimuli/food/mushrooms.jpg', 'path': 'stimuli/food/mushrooms.jpg'},
+    {'name': 'stimuli/food/celery and carrot sticks.jpg', 'path': 'stimuli/food/celery and carrot sticks.jpg'},
+    {'name': 'stimuli/food/m_and_m.jpg', 'path': 'stimuli/food/m_and_m.jpg'},
+    {'name': 'stimuli/food/yogurt pretzels.jpg', 'path': 'stimuli/food/yogurt pretzels.jpg'},
+    {'name': 'stimuli/food/yellow popcorn.jpg', 'path': 'stimuli/food/yellow popcorn.jpg'},
+    {'name': 'stimuli/food/cherry tomato.jpg', 'path': 'stimuli/food/cherry tomato.jpg'},
+    {'name': 'stimuli/food/saltines.jpg', 'path': 'stimuli/food/saltines.jpg'},
+    {'name': 'stimuli/food/seaweed.jpg', 'path': 'stimuli/food/seaweed.jpg'},
+    {'name': 'stimuli/practice/AA026307.png', 'path': 'stimuli/practice/AA026307.png'},
+    {'name': 'stimuli/food/soy chips.jpg', 'path': 'stimuli/food/soy chips.jpg'},
+    {'name': 'stimuli/food/cherries.jpg', 'path': 'stimuli/food/cherries.jpg'},
+    {'name': 'stimuli/food/PB.jpg', 'path': 'stimuli/food/PB.jpg'},
+    {'name': 'stimuli/food/salad w chicken.jpg', 'path': 'stimuli/food/salad w chicken.jpg'},
+    {'name': 'stimuli/food/mini muffins.jpg', 'path': 'stimuli/food/mini muffins.jpg'},
+    {'name': 'stimuli/food/turkey sandwich.jpg', 'path': 'stimuli/food/turkey sandwich.jpg'},
+    {'name': 'stimuli/food/ritz.jpg', 'path': 'stimuli/food/ritz.jpg'},
+    {'name': 'stimuli/food/bagel and cc.jpg', 'path': 'stimuli/food/bagel and cc.jpg'},
+    {'name': 'stimuli/food/froot loops w milk.jpg', 'path': 'stimuli/food/froot loops w milk.jpg'},
+    {'name': 'stimuli/food/reeses.jpg', 'path': 'stimuli/food/reeses.jpg'},
+    {'name': 'stimuli/food/sour patch.jpg', 'path': 'stimuli/food/sour patch.jpg'},
+    {'name': 'stimuli/food/Whole milk.jpg', 'path': 'stimuli/food/Whole milk.jpg'},
+    {'name': 'stimuli/food/grilled cheese.jpg', 'path': 'stimuli/food/grilled cheese.jpg'},
+    {'name': 'stimuli/food/pizza.jpg', 'path': 'stimuli/food/pizza.jpg'},
+    {'name': 'stimuli/food/kiwi.jpg', 'path': 'stimuli/food/kiwi.jpg'},
+    {'name': 'stimuli/food/peaches.jpg', 'path': 'stimuli/food/peaches.jpg'},
+    {'name': 'stimuli/food/mashed potato.jpg', 'path': 'stimuli/food/mashed potato.jpg'},
+    {'name': 'stimuli/food/rigatoni and sauce.jpg', 'path': 'stimuli/food/rigatoni and sauce.jpg'},
     {'name': 'stimuli/food/cupcakes am.jpg', 'path': 'stimuli/food/cupcakes am.jpg'},
-    {'name': 'stimuli/food/steak.jpg', 'path': 'stimuli/food/steak.jpg'},
+    {'name': 'stimuli/food/brownie.jpg', 'path': 'stimuli/food/brownie.jpg'},
+    {'name': 'stimuli/food/raisins.jpg', 'path': 'stimuli/food/raisins.jpg'},
+    {'name': 'stimuli/food/broccoli cauliflower.jpg', 'path': 'stimuli/food/broccoli cauliflower.jpg'},
+    {'name': 'stimuli/food/burger.jpg', 'path': 'stimuli/food/burger.jpg'},
+    {'name': 'stimuli/food/american cheese.jpg', 'path': 'stimuli/food/american cheese.jpg'},
+    {'name': 'stimuli/food/orange slices.jpg', 'path': 'stimuli/food/orange slices.jpg'},
+    {'name': 'stimuli/food/strawberries.jpg', 'path': 'stimuli/food/strawberries.jpg'},
+    {'name': 'stimuli/practice/AA026360.png', 'path': 'stimuli/practice/AA026360.png'},
+    {'name': 'stimuli/food/granola w milk.jpg', 'path': 'stimuli/food/granola w milk.jpg'},
     {'name': 'stimuli/food/hotdog w must.jpg', 'path': 'stimuli/food/hotdog w must.jpg'},
     {'name': 'stimuli/food/1%milk.jpg', 'path': 'stimuli/food/1%milk.jpg'},
-    {'name': 'stimuli/food/yellow rice_beans.jpg', 'path': 'stimuli/food/yellow rice_beans.jpg'},
-    {'name': 'stimuli/food/ice cream sundae 002.jpg', 'path': 'stimuli/food/ice cream sundae 002.jpg'},
-    {'name': 'stimuli/food/pickles.jpg', 'path': 'stimuli/food/pickles.jpg'},
-    {'name': 'stimuli/food/strawberries.jpg', 'path': 'stimuli/food/strawberries.jpg'},
-    {'name': 'stimuli/food/apple slices.jpg', 'path': 'stimuli/food/apple slices.jpg'},
-    {'name': 'stimuli/food/baked potato.jpg', 'path': 'stimuli/food/baked potato.jpg'},
-    {'name': 'stimuli/food/AA026307.png', 'path': 'stimuli/food/AA026307.png'},
-    {'name': 'stimuli/food/Whole milk.jpg', 'path': 'stimuli/food/Whole milk.jpg'},
-    {'name': 'stimuli/food/yogurt no spoon.jpg', 'path': 'stimuli/food/yogurt no spoon.jpg'},
-    {'name': 'stimuli/food/american cheese.jpg', 'path': 'stimuli/food/american cheese.jpg'},
-    {'name': 'stimuli/food/baguette oil.jpg', 'path': 'stimuli/food/baguette oil.jpg'},
-    {'name': 'stimuli/food/avacado.jpg', 'path': 'stimuli/food/avacado.jpg'},
-    {'name': 'stimuli/food/rigatoni and sauce.jpg', 'path': 'stimuli/food/rigatoni and sauce.jpg'},
-    {'name': 'stimuli/food/Hershey Kisses.jpg', 'path': 'stimuli/food/Hershey Kisses.jpg'},
-    {'name': 'stimuli/food/french fries.jpg', 'path': 'stimuli/food/french fries.jpg'},
-    {'name': 'stimuli/food/pizza.jpg', 'path': 'stimuli/food/pizza.jpg'},
+    {'name': 'stimuli/food/corn cob.jpg', 'path': 'stimuli/food/corn cob.jpg'},
+    {'name': 'foodChoiceTrials.xlsx', 'path': 'foodChoiceTrials.xlsx'},
     {'name': 'stimuli/food/cookies.jpg', 'path': 'stimuli/food/cookies.jpg'},
-    {'name': 'stimuli/food/reeses.jpg', 'path': 'stimuli/food/reeses.jpg'},
-    {'name': 'stimuli/food/brownie.jpg', 'path': 'stimuli/food/brownie.jpg'},
+    {'name': 'stimuli/food/doughnuts.jpg', 'path': 'stimuli/food/doughnuts.jpg'},
+    {'name': 'stimuli/food/french fries.jpg', 'path': 'stimuli/food/french fries.jpg'},
+    {'name': 'stimuli/food/sushi w_condiments.jpg', 'path': 'stimuli/food/sushi w_condiments.jpg'},
+    {'name': 'stimuli/food/ice cream sundae 002.jpg', 'path': 'stimuli/food/ice cream sundae 002.jpg'},
+    {'name': 'stimuli/selection_box.png', 'path': 'stimuli/selection_box.png'},
     {'name': 'stimuli/food/tacos.jpg', 'path': 'stimuli/food/tacos.jpg'},
-    {'name': 'stimuli/food/peaches.jpg', 'path': 'stimuli/food/peaches.jpg'},
-    {'name': 'stimuli/food/Cheese nachos.jpg', 'path': 'stimuli/food/Cheese nachos.jpg'},
-    {'name': 'stimuli/food/cherries.jpg', 'path': 'stimuli/food/cherries.jpg'},
+    {'name': 'trials.csv', 'path': 'trials.csv'},
+    {'name': 'stimuli/food/trail mix.jpg', 'path': 'stimuli/food/trail mix.jpg'},
     {'name': 'stimuli/food/raisin bran w milk.jpg', 'path': 'stimuli/food/raisin bran w milk.jpg'},
-    {'name': 'stimuli/food/yellow popcorn.jpg', 'path': 'stimuli/food/yellow popcorn.jpg'},
-    {'name': 'finalfooditems.csv', 'path': 'finalfooditems.csv'},
-    {'name': 'stimuli/food/soy chips.jpg', 'path': 'stimuli/food/soy chips.jpg'},
-    {'name': 'stimuli/food/AA026339.png', 'path': 'stimuli/food/AA026339.png'}
+    {'name': 'finalfooditems.xlsx', 'path': 'finalfooditems.xlsx'},
+    {'name': 'stimuli/food/rice cakes.jpg', 'path': 'stimuli/food/rice cakes.jpg'},
+    {'name': 'stimuli/food/Grapes.jpg', 'path': 'stimuli/food/Grapes.jpg'},
+    {'name': 'stimuli/practice/AA026339.png', 'path': 'stimuli/practice/AA026339.png'},
+    {'name': 'practice.csv', 'path': 'practice.csv'},
+    {'name': 'stimuli/food/steak.jpg', 'path': 'stimuli/food/steak.jpg'},
+    {'name': 'stimuli/food/bagel plain.jpg', 'path': 'stimuli/food/bagel plain.jpg'},
+    {'name': 'stimuli/food/yogurt no spoon.jpg', 'path': 'stimuli/food/yogurt no spoon.jpg'},
+    {'name': 'stimuli/food/baked potato.jpg', 'path': 'stimuli/food/baked potato.jpg'},
+    {'name': 'stimuli/food/Hershey Kisses.jpg', 'path': 'stimuli/food/Hershey Kisses.jpg'},
+    {'name': 'stimuli/food/mozarella sticks.jpg', 'path': 'stimuli/food/mozarella sticks.jpg'},
+    {'name': 'stimuli/food/banana.jpg', 'path': 'stimuli/food/banana.jpg'},
+    {'name': 'stimuli/food/baguette oil.jpg', 'path': 'stimuli/food/baguette oil.jpg'},
+    {'name': 'stimuli/food/lollipops.jpg', 'path': 'stimuli/food/lollipops.jpg'},
+    {'name': 'stimuli/food/Tribe humus pita.jpg', 'path': 'stimuli/food/Tribe humus pita.jpg'},
+    {'name': 'stimuli/food/air popcorn.jpg', 'path': 'stimuli/food/air popcorn.jpg'},
+    {'name': 'stimuli/food/baby cheese.jpg', 'path': 'stimuli/food/baby cheese.jpg'},
+    {'name': 'finalfooditems.csv', 'path': 'finalfooditems.csv'}
   ]
 });
 
@@ -215,6 +214,7 @@ var thisExp;
 var win;
 var event;
 var shuffle;
+var outline_shape;
 var BONUS_BOOL;
 var participant_id;
 var FOOD_BOOL;
@@ -234,53 +234,69 @@ var food_image_1;
 var food_image_2;
 var drug_image;
 var social_image;
+var food_slide_showClock;
+var slide_show_img;
 var start_food_ratingsClock;
 var start_food_rat_key;
 var start_food_rat_text;
 var rateFoodClock;
 var food_slider;
-var foodImage;
+var slideshow_foodImage;
 var next_button;
 var check_space_key;
-var fixation_500msClock;
+var fixation_750msClock;
 var text;
 var sort_foodClock;
-var choose_foodClock;
-var food_img_choice;
 var hide_mouse_routineClock;
-var instr_2Clock;
-var days;
-var rounds;
-var instr_2_resp;
 var prac_instrClock;
 var text_3;
 var key_resp_3;
 var practice_choiceClock;
-var left_chest;
-var right_chest;
 var choice_resp_2;
-var self_instrClock;
+var practice_img_A;
+var practice_img_B;
+var practice_feedbackClock;
+var practice_img_A_feedback;
+var practice_img_2_feedback;
+var choice_instrClock;
 var text_4;
 var key_resp_2;
 var choiceClock;
-var bonus_amt_pts;
-var left_shard_5;
-var right_shard_0;
-var right_shard_1;
-var right_shard_2;
-var right_shard_3;
-var right_shard_4;
-var right_shard_5;
+var thisImageA;
+var thisImageB;
+var bonus_img_left;
+var bonus_img_right;
+var bonus_choice;
+var thisImage_obj;
+var thisImage_obj_A;
+var thisImage_obj_B;
+var trialN;
+var bonus_img;
 var choice_resp;
+var image_A;
+var image_B;
+var choice_feedbackClock;
+var ImageA;
+var ImageB;
 var colorblindnessClock;
 var colorblind_txt;
 var full_color_vision;
 var enderClock;
 var text_5;
 var key_resp_4;
-var rewardClock;
+var reward_infoClock;
+var nseconds;
 var text_6;
 var key_resp_5;
+var image_left;
+var image_right;
+var view_rewardClock;
+var bous_img;
+var bonus_img_txt;
+var exit_rsp;
+var end_experimentClock;
+var end_exp_txt;
+var new_url;
 var globalClock;
 var routineTimer;
 async function experimentInit() {
@@ -293,6 +309,7 @@ async function experimentInit() {
   shuffle = util.shuffle;
   Array.prototype.append = [].push;
   //util.addInfoFromUrl(expInfo);
+  outline_shape = new visual.ImageStim({"win": psychoJS.window, "name": "outline_shape", "image": "stimuli/selection_box.png", "mask": null, "anchor": "center", "ori": 0.0, "pos": [0, 0], "size": [0.5, 0.5], "color": [1, 1, 1], "colorSpace": "rgb", "opacity": null, "flipHoriz": false, "flipVert": false, "texRes": 128.0, "interpolate": false, "depth": 0.0});
   
   // Run 'Begin Experiment' code from check_bonus
   if ((expInfo["extra"] === "1")) {
@@ -393,19 +410,23 @@ async function experimentInit() {
   
   
   if ((RATE_BOOL === 0)) {
+      // Settings
+      let nTrial = 45;
+      let minDiff = 0.5;
+      let maxDiff = 3;
    // Separate foods based on value category
       let HVdf = [];
       let MVdf = [];
       let LVdf = [];
   
       for (var i = 0; i <= food_ratings_df.id.length; i++) {
-      if (food_ratings_df.val_cat[i] === 'HV') {
-          HVdf.push( {id: food_ratings_df.id[i], image: food_ratings_df.image[i], rating: food_ratings_df.rating[i], val_cat: food_ratings_df.val_cat[i], nrepeat: 0});
-      } else if (food_ratings_df.val_cat[i] === 'MV') {
-          MVdf.push( {id: food_ratings_df.id[i], image: food_ratings_df.image[i], rating: food_ratings_df.rating[i], val_cat: food_ratings_df.val_cat[i], nrepeat: 0});
-      } else if (food_ratings_df.val_cat[i] === 'LV') {
-          LVdf.push( {id: food_ratings_df.id[i], image: food_ratings_df.image[i], rating: food_ratings_df.rating[i], val_cat: food_ratings_df.val_cat[i], nrepeat: 0});
-      }
+          if (food_ratings_df.val_cat[i] === 'HV') {
+              HVdf.push( {id: food_ratings_df.id[i], image: food_ratings_df.image[i], rating: food_ratings_df.rating[i], val_cat: food_ratings_df.val_cat[i], nrepeat: 0});
+          } else if (food_ratings_df.val_cat[i] === 'MV') {
+              MVdf.push( {id: food_ratings_df.id[i], image: food_ratings_df.image[i], rating: food_ratings_df.rating[i], val_cat: food_ratings_df.val_cat[i], nrepeat: 0});
+          } else if (food_ratings_df.val_cat[i] === 'LV') {
+              LVdf.push( {id: food_ratings_df.id[i], image: food_ratings_df.image[i], rating: food_ratings_df.rating[i], val_cat: food_ratings_df.val_cat[i], nrepeat: 0});
+          }
       }
   
       // Ranking for foods
@@ -422,13 +443,13 @@ async function experimentInit() {
       for (var i = 0; i < LVdf.length; i++) {
           LVdf[i].ranking = (i+1);
       }
-      
+  
   
       // Function to calculate the absolute difference between two values
       function absDiff(a, b) {
           return Math.abs(a - b);
       }
-      
+  
       // Function to find the intersection of two arrays
       function intersect(arr1, arr2) {
           return arr1.filter((value) => arr2.includes(value));
@@ -442,11 +463,11 @@ async function experimentInit() {
       // Helper function for median
       function median(values){
           if(values.length ===0) throw new Error("No inputs");
-      
+  
           values.sort(function(a,b){
           return a-b;
           });
-      
+  
           var half = Math.floor(values.length / 2);
           
           if (values.length % 2)
@@ -455,249 +476,337 @@ async function experimentInit() {
           return (values[half - 1] + values[half]) / 2.0;
       }
   
-      // Other necessary variables
-      // Implementation of the provided Python code in JavaScript
+      // Shuffle array
+      function shuffleArray(array) {
+          return array.sort(() => Math.random() - 0.5);
+      }
   
-      var got_em = 0;
-      var jitterHV = 0;
-      var jitterMV = 0;
-      var jitterLV = 0;
-      var iteration = 0;
-  
-  
-      while (got_em === 0) {
-          if (iteration > 100) {
-              console.log("Too many tries")
-              break
-          }
-  
-          // Protect jitter from going beyond the bounds of the median value
-          var maxJitterHV = HVdf.length / 2;
-          var maxJitterMV = MVdf.length / 2;
-          var maxJitterLV = LVdf.length / 2;
-      
-          if (Math.abs(jitterHV) > maxJitterHV) {
-              jitterHV = getRandomInt(-maxJitterHV, maxJitterHV);
-          }
-          if (Math.abs(jitterMV) > maxJitterMV) {
-              jitterMV = getRandomInt(-maxJitterMV, maxJitterMV);
-          }
-          if (Math.abs(jitterLV) > maxJitterLV) {
-              jitterLV = getRandomInt(-maxJitterLV, maxJitterLV);
-          }
-      
-          // Median trials
-          var medianHV = HVdf.find((obj) => obj.ranking === Math.round(median(HVdf.map((obj) => obj.ranking)) + jitterHV));
-          if (!medianHV) {
-              jitterHV += getRandomInt(-4, 4);
-              continue;
-          }
-          var medianMV = MVdf.find((obj) => obj.ranking === Math.round(median(MVdf.map((obj) => obj.ranking)) + jitterMV))
-          if (!medianMV) {
-              jitterMV += getRandomInt(-4, 4);
-              continue;
-          }
-          var medianLV = LVdf.find((obj) => obj.ranking === Math.round(median(LVdf.map((obj) => obj.ranking)) + jitterLV))
-          if (!medianLV) {
-              jitterLV += getRandomInt(-4, 4);
-              continue;
-          }
-      
-          // Values of median trial
-          var medHV = medianHV.rating;
-          var medMV = medianMV.rating;
-          var medLV = medianLV.rating;
-      
-          // Trials below/above median
-          var lowerHV =  HVdf
-              .filter((obj) => obj.ranking > Math.round(median(HVdf.map((obj) => obj.ranking))))
-              .sort((a, b) => b - a);
-          var upperHV =  HVdf
-              .filter((obj) => obj.ranking < Math.round(median(HVdf.map((obj) => obj.ranking))))
-              .sort((a, b) => b - a);
-          var lowerMV = MVdf
-              .filter((obj) => obj.ranking > Math.round(median(MVdf.map((obj) => obj.ranking))))
-              .sort((a, b) => b - a);
-          var upperMV = MVdf
-              .filter((obj) => obj.ranking < Math.round(median(MVdf.map((obj) => obj.ranking))))
-              .sort((a, b) => b - a);
-          var lowerLV = LVdf
-              .filter((obj) => obj.ranking > Math.round(median(LVdf.map((obj) => obj.ranking))))
-              .sort((a, b) => b - a);
-          var upperLV = LVdf
-              .filter((obj) => obj.ranking < Math.round(median(LVdf.map((obj) => obj.ranking))))
-              .sort((a, b) => b - a);
-  
-          // Subtract each value from the median to create a difference score for later matching
-          // Round to nearest 0.2
-          lowerHV.forEach(item => {
-              item.rat_diff = Math.ceil(Math.abs(item.rating - medHV) * 10) * 2 / 10;
-            });
-          upperHV.forEach(item => {
-              item.rat_diff = Math.ceil(Math.abs(item.rating - medHV) * 10) * 2 / 10;
-            });  
-  
-          lowerMV.forEach(item => {
-              item.rat_diff = Math.ceil(Math.abs(item.rating - medMV) * 10) * 2 / 10;
-            });
-          upperMV.forEach(item => {
-              item.rat_diff = Math.ceil(Math.abs(item.rating - medMV) * 10) * 2 / 10;
-            });  
-  
-          lowerLV.forEach(item => {
-              item.rat_diff = Math.ceil(Math.abs(item.rating - medLV) * 10) * 2 / 10;
-            });
-          upperLV.forEach(item => {
-              item.rat_diff = Math.ceil(Math.abs(item.rating - medLV) * 10) * 2 / 10;
-            });  
-            
-          // Find the intersection of VDs
-          let intersect_value_HV = [];
-          lowerHV.forEach(lowerItem => {
-              upperHV.forEach(upperItem => {
-              if (lowerItem.rat_diff === upperItem.rat_diff && lowerItem.rat_diff !== 0) {
-                intersect_value_HV.push({ lowerItem, upperItem });
-              }
-            });
-          });
-  
-          let intersect_value_MV = [];
-          lowerMV.forEach(lowerItem => {
-              upperMV.forEach(upperItem => {
-              if (lowerItem.rat_diff === upperItem.rat_diff && lowerItem.rat_diff !== 0) {
-                  intersect_value_MV.push({ lowerItem, upperItem });
-              }
-              });
-          });
-  
-          let intersect_value_LV = [];
-          lowerLV.forEach(lowerItem => {
-              upperLV.forEach(upperItem => {
-              if (lowerItem.rat_diff === upperItem.rat_diff && lowerItem.rat_diff !== 0) {
-                  intersect_value_LV.push({ lowerItem, upperItem });
-              }
-              });
-          });
-  
-          if (intersect_value_HV.length === 0) {
-              jitterHV += getRandomInt(-4, 4);
-             continue;
-          }
-          if (intersect_value_MV.length === 0) {
-              jitterMV += getRandomInt(-4, 4);
-             continue;
-          }
-          if (intersect_value_LV.length === 0) {
-              jitterLV += getRandomInt(-4, 4);
-             continue;
-          }
-  
-          // Find items with the same rat_diff from intersect_value_HV, intersect_value_MV, and intersect_value_LV
-          let intersect_all = [];
-          intersect_value_HV.forEach(itemHV => {
-              intersect_value_MV.forEach(itemMV => {
-                  intersect_value_LV.forEach(itemLV => {
-                      if (
-                          itemHV.lowerItem.rat_diff === itemMV.lowerItem.rat_diff &&
-                          itemHV.lowerItem.rat_diff === itemLV.lowerItem.rat_diff
-                      ) {
-                          intersect_all.push({
-                          HV: itemHV,
-                          MV: itemMV,
-                          LV: itemLV
-                      });
+      // Function to generate trials
+      function generateTrial(categoryList, desired_diff) {
+          let maxRep = 5; // Maximum number of repeats per item
+          let good = 0;
+          categoryList = shuffleArray(categoryList);
+          while (good == 0){
+              for (let i = 0; i < categoryList.length; i++) {
+                  for (let j = i + 1; j < categoryList.length; j++) {
+                      let diff = Math.abs(categoryList[i].rating_round - categoryList[j].rating_round);
+                      if (diff == desired_diff) {
+                          var nRepA = categoryList[i].nrepeat;
+                          var nRepB = categoryList[j].nrepeat;
+                          // check repeats
+                          if (nRepA < maxRep && nRepB < maxRep ) {
+                              tmp_trial = {
+                                  idA: categoryList[i].id,
+                                  idB: categoryList[j].id,
+                                  rating_diff: diff
+                              };
+                              // Increase number of repetions
+                              categoryList[i].nrepeat++;
+                              categoryList[j].nrepeat++;
+                              return tmp_trial; 
+                          } 
                       }
-                  });
-              });
-          });
-      
-          if (intersect_all.length === 0) {
-              var jitt_r = getRandomInt(1, 3);
-              if (jitt_r === 1) {
-                  jitterLV += getRandomInt(-4, 4);
-                  continue;
-              } else if (jitt_r === 2) {
-                  jitterMV += getRandomInt(-4, 4);
-                  continue;
-              } else {
-                  jitterHV += getRandomInt(-4, 4);
-                  continue;
+                  }
               }
+              // If enough iterations have passed without filling list need to increase max repeat
+              console.log("Max Hit")
+              maxRep++;
           }
   
-          // High-Value
-          // Lower
-          var lowerHVFood = intersect_all[0].HV.lowerItem
-          // Upper
-          var upperHVFood = intersect_all[0].HV.upperItem
+      }
+  
+      // Round item ratings to nearest 0.5
+      LVdf.forEach(item => {
+          item.rating_round = Math.round(item.rating * 2) / 2;
+      });
+  
+      MVdf.forEach(item => {
+          item.rating_round = Math.round(item.rating * 2) / 2;
+      });
+  
+      HVdf.forEach(item => {
+          item.rating_round = Math.round(item.rating * 2) / 2;
+      });
+  
+      // Holding trials
+      var LV_trial_list = [];
+      var MV_trial_list = [];
+      var HV_trial_list = [];
+  
+      // Generate potential trials in MV condition to get distribution for other cats
+  
+      // IDs
+      let MV_IDs = MVdf.map(a => a.id);
+      let HV_IDs = HVdf.map(a => a.id);
+      let LV_IDs = LVdf.map(a => a.id);
+  
+      // Get all combinations
+      var MV_combos = MV_IDs.flatMap(
+          (v, i) => MV_IDs.slice(i+1).map( w => [v, w] )
+      );
+  
+      var HV_combos = HV_IDs.flatMap(
+          (v, i) => HV_IDs.slice(i+1).map( w => [v, w] )
+      );
+  
+      var LV_combos = LV_IDs.flatMap(
+          (v, i) => LV_IDs.slice(i+1).map( w => [v, w] )
+      );
+  
+      var MV_combos_shuffled = MV_combos
+      .map(value => ({ value, sort: Math.random() }))
+      .sort((a, b) => a.sort - b.sort)
+      .map(({ value }) => value)
+  
+      // Do something slightly different for LV and HV to get both IDs and VDs
+      let MV_combo_list = [];
+      let MV_count = 1;
+      for (var i = 0; i< MV_combos.length; i++) {
+  
+          var tmp_items = MV_combos[i];
+          var tmp_itemA_idx = MVdf.findIndex(x => x.id ===tmp_items[0]);
+          var tmp_itemB_idx = MVdf.findIndex(x => x.id ===tmp_items[1])
+          var tmp_diff = Math.abs(MVdf[tmp_itemA_idx].rating_round - MVdf[tmp_itemB_idx].rating_round);
+          // Make sure difference is within bounds
+          if ( (tmp_diff < minDiff) || (tmp_diff > maxDiff) ) {
+              continue;
+          }
+          MV_combo_list.push( {idA: tmp_items[0], idB: tmp_items[1], rating_diff: tmp_diff, match_id: MV_count});
+          MV_count++;
+      }
   
   
-          // Middle-Value
-          // Lower
-          var lowerMVFood = intersect_all[0].MV.lowerItem
-          // Upper
-          var upperMVFood = intersect_all[0].MV.upperItem
+      let HV_combo_list = [];
+      let HV_count = 1;
+      for (var i = 0; i< HV_combos.length; i++) {
   
-          // Low-Value
-          // Lower
-          var lowerLVFood = intersect_all[0].LV.lowerItem
-          // Upper
-          var upperLVFood = intersect_all[0].LV.upperItem
+          var tmp_items = HV_combos[i];
+          var tmp_itemA_idx = HVdf.findIndex(x => x.id ===tmp_items[0]);
+          var tmp_itemB_idx = HVdf.findIndex(x => x.id ===tmp_items[1])
+          var tmp_diff = Math.abs(HVdf[tmp_itemA_idx].rating_round - HVdf[tmp_itemB_idx].rating_round);
+          // Make sure difference is within bounds
+          if ( (tmp_diff < minDiff) || (tmp_diff > maxDiff) ) {
+              continue;
+          }
+          HV_combo_list.push( {idA: tmp_items[0], idB: tmp_items[1], rating_diff: tmp_diff, match_id: HV_count});
+          HV_count++;
+      }
   
-          // Assign 'whichItem' values
-          upperHVFood['whichItem'] = 'HV1';
-          upperMVFood['whichItem'] = 'MV1';
-          upperLVFood['whichItem'] = 'LV1';
-          medianHV['whichItem'] = 'HV2';
-          medianMV['whichItem'] = 'MV2';
-          medianLV['whichItem'] = 'LV2';
-          lowerHVFood['whichItem'] = 'HV3';
-          lowerMVFood['whichItem'] = 'MV3';
-          lowerLVFood['whichItem'] = 'LV3';
-          
-          // Assign values to associate with rainbow
-          lowerLVFood['val'] = 1;
-          medianLV['val'] = 2;
-          upperLVFood['val'] = 3;
-          lowerMVFood['val'] = 4;
-          medianMV['val'] = 5;
-          upperMVFood['val'] = 6;
-          lowerHVFood['val'] = 7;
-          medianHV['val'] = 8;
-          upperHVFood['val'] = 9;
+      let LV_combo_list = [];
+      let LV_count = 1;
+      for (var i = 0; i< LV_combos.length; i++) {
   
-          // Concatenate data to the foodDF array (assuming it is an array of objects)
-          foodDF.push(medianHV);
-          foodDF.push(medianMV);
-          foodDF.push(medianLV);
-          foodDF.push(lowerHVFood);
-          foodDF.push(lowerMVFood);
-          foodDF.push(lowerLVFood);
-          foodDF.push(upperHVFood);
-          foodDF.push(upperMVFood);
-          foodDF.push(upperLVFood);
-      
-          if (foodDF.length === 9) {
-          got_em = 1;
+          var tmp_items = LV_combos[i];
+          var tmp_itemA_idx = LVdf.findIndex(x => x.id ===tmp_items[0]);
+          var tmp_itemB_idx = LVdf.findIndex(x => x.id ===tmp_items[1])
+          var tmp_diff = Math.abs(LVdf[tmp_itemA_idx].rating_round - LVdf[tmp_itemB_idx].rating_round);
+          // Make sure difference is within bounds
+          if ( (tmp_diff < minDiff) || (tmp_diff > maxDiff) ) {
+              continue;
+          }
+          LV_combo_list.push( {idA: tmp_items[0], idB: tmp_items[1], rating_diff: tmp_diff, match_id : LV_count});
+          LV_count++;
+      }
+  
+  
+      // Try to get an even split of differences
+      let rating_diff_list = []
+      let max_num_of_diff = [];
+      let list_of_differences = [{diff: 0.5, maxN: 0, unique: 0},
+          {diff: 1.0, maxN: 0, unique: 0},
+          {diff: 1.5, maxN: 0, unique: 0},
+          {diff: 2, maxN: 0, unique: 0},
+          {diff: 2.5, maxN: 0, unique: 0}];
+  
+      // To make sure there are enough in each value-difference category
+      for (i = 0; i < list_of_differences.length; i++) {
+  
+          var thisDiff = list_of_differences[i].diff;
+          var tmp_diff_LV = LV_combo_list.filter(a => a.rating_diff == thisDiff);
+          var tmp_diff_MV = MV_combo_list.filter(a => a.rating_diff == thisDiff);
+          var tmp_diff_HV = HV_combo_list.filter(a => a.rating_diff == thisDiff);
+  
+          // Across all value categories, determine how many possible combinations are possible
+          var tmp_max = Math.min(tmp_diff_LV.length,tmp_diff_MV.length,tmp_diff_HV.length);
+  
+          // Unique IDs
+          var unique_LV = [];
+          var unique_MV = [];
+          var unique_HV = [];
+          for (j=0;j<tmp_diff_LV.length;j++) {
+              unique_LV.push(tmp_diff_LV[j].idA);
+              unique_LV.push(tmp_diff_LV[j].idB);
+  
+          }
+          unique_LV = [...new Set(unique_LV)];
+  
+          for (j=0;j<tmp_diff_MV.length;j++) {
+              unique_MV.push(tmp_diff_MV[j].idA);
+              unique_LV.push(tmp_diff_MV[j].idB);
+  
+          }
+          unique_MV = [...new Set(unique_MV)];
+  
+          for (j=0;j<tmp_diff_HV.length;j++) {
+              unique_HV.push(tmp_diff_HV[j].idA);
+              unique_HV.push(tmp_diff_HV[j].idB);
+  
+          }
+          unique_HV = [...new Set(unique_HV)];
+  
+          var tmp_unique = {LV: unique_LV,
+                          MV: unique_MV,
+                         HV: unique_HV};
+  
+          list_of_differences[i].maxN = tmp_max;
+          list_of_differences[i].unique = tmp_unique;
+  
+      }
+  
+      // Number of trials to generate per value-difference
+      // Start out with an equal number across difficulty levels
+      var n_trial_per_diff = [
+          nTrial/list_of_differences.length, // 0.5
+          nTrial/list_of_differences.length, // 1.0
+          nTrial/list_of_differences.length, // 1.5
+          nTrial/list_of_differences.length, // 2.0
+          nTrial/list_of_differences.length  // 2.5
+      ];
+  
+      var check = 0;
+      // Make sure each difference has trials in each value categoryu
+      while (check == 0) {
+          var nCheck = 0;
+          for (i=0;i<n_trial_per_diff.length;i++) {
+              list_of_differences[i].maxN;
+              // If the number of trials per difference is less than maxN, then we good
+              if (n_trial_per_diff[i] <= list_of_differences[i].maxN) {
+                  nCheck++;
+              } else {
+                  // Otherwise, remove a trial and place it elsewhere
+                  n_trial_per_diff[i] = n_trial_per_diff[i] - 1;
+                  if(i==0) {
+                      n_trial_per_diff[i] = n_trial_per_diff[i] - 1;
+                      n_trial_per_diff[i+1] =  n_trial_per_diff[i+1] + 1;
+                      i=-1; continue;
+                  } else {
+                      n_trial_per_diff[i] = n_trial_per_diff[i] - 1;
+                      n_trial_per_diff[i-1] =  n_trial_per_diff[i-1] + 1;
+                      i=-1; continue;
+                  }
+              }
+          }
+          // If all differences meet criteria, break loop
+          if (nCheck == n_trial_per_diff.length) {
+              check = 1;
           }
       }
-      
+      //console.log(n_trial_per_diff)
+      //console.log(list_of_differences)
+  
+      // Generate trials
+      for (var i=0;i<list_of_differences.length;i++){
+          var potential_diff = list_of_differences[i].diff;
+          for (var j=0;j<=n_trial_per_diff[i];j++) {
+              var tmp_lv = generateTrial(LVdf,potential_diff);
+  
+              var tmp_mv = generateTrial(MVdf,potential_diff);
+  
+              var tmp_hv = generateTrial(HVdf,potential_diff);
+  
+              LV_trial_list.push(tmp_lv)
+              MV_trial_list.push(tmp_mv)
+              HV_trial_list.push(tmp_hv)
+          }
+      }
+  
+      // Check on number of each
+      /*
+      console.log(list_of_differences[0].maxN)
+      console.log(list_of_differences[1].maxN)
+      console.log(list_of_differences[2].maxN)
+      console.log(list_of_differences[3].maxN)
+      console.log(list_of_differences[4].maxN)
+      */
+  
+      // Now fill dataframes with actual trial info
+  
+      for (i=0;i<=nTrial;i++) {
+          var tmp_items = LV_trial_list[i];
+          var tmp_itemA_idx = LVdf.findIndex(x => x.id ===tmp_items['idA']) ;
+          var tmp_itemB_idx = LVdf.findIndex(x => x.id ===tmp_items['idB']) ;
+          
+          var tmp_trial = {trial:(i+1), val_cat: 'LV', 
+                      item_a_img: LVdf[tmp_itemA_idx]['image'],
+                      item_b_img: LVdf[tmp_itemB_idx]['image'],
+                      item_a_rating: LVdf[tmp_itemA_idx]['rating'],
+                      item_b_rating: LVdf[tmp_itemB_idx]['rating'],
+                      rating_diff: tmp_items['rating_diff'] };
+  
+          foodDF.push(tmp_trial);
+  
+      }
+  
+      for (i=0;i<=nTrial;i++) {
+          var tmp_items = MV_trial_list[i];
+          var tmp_itemA_idx = MVdf.findIndex(x => x.id ===tmp_items['idA']) ;
+          var tmp_itemB_idx = MVdf.findIndex(x => x.id ===tmp_items['idB']) ;
+          
+          var tmp_trial = {trial:(i+1), val_cat: 'MV', 
+                      item_a_img: MVdf[tmp_itemA_idx]['image'],
+                      item_b_img: MVdf[tmp_itemB_idx]['image'],
+                      item_a_rating: MVdf[tmp_itemA_idx]['rating'],
+                      item_b_rating: MVdf[tmp_itemB_idx]['rating'],
+                      rating_diff: tmp_items['rating_diff'] };
+  
+          foodDF.push(tmp_trial);
+  
+      }
+  
+      for (i=0;i<=nTrial;i++) {
+          var tmp_items = HV_trial_list[i];
+          var tmp_itemA_idx = HVdf.findIndex(x => x.id ===tmp_items['idA']) ;
+          var tmp_itemB_idx = HVdf.findIndex(x => x.id ===tmp_items['idB']) ;
+         // if (i %%)
+          
+          var tmp_trial = {trial:(i+1), val_cat: 'HV', 
+                      item_a_img: HVdf[tmp_itemA_idx]['image'],
+                      item_b_img: HVdf[tmp_itemB_idx]['image'],
+                      item_a_rating: HVdf[tmp_itemA_idx]['rating'],
+                      item_b_rating: HVdf[tmp_itemB_idx]['rating'],
+                      rating_diff: tmp_items['rating_diff'] };
+  
+          foodDF.push(tmp_trial);
+  
+      }
+      console.log("Number of food choice trials: ", foodDF.length);
       console.log("These are the foods we'll use",foodDF);
   
   }
   // Initialize components for Routine "instr_1"
   instr_1Clock = new util.Clock();
   // Run 'Begin Experiment' code from instr_dict
-  nrounds = 150;
+  nrounds = 135;
   
   instr_keyboard = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
   
   // Run 'Begin Experiment' code from set_ex_images
-  food_image_1 = new visual.ImageStim({"win": psychoJS.window, "name": "food_image", "image": "stimuli/food/AA026307.png", "mask": null, "anchor": "center", "ori": 0.0, "pos": [(- 0.3), (- 0.1)], "size": [1, 1], "color": [1, 1, 1], "colorSpace": "rgb", "opacity": null, "flipHoriz": false, "flipVert": false, "texRes": 128.0, "interpolate": false, "depth": (- 1.0)});
-  food_image_2 = new visual.ImageStim({"win": psychoJS.window, "name": "food_image", "image": "stimuli/food/AA026339.png", "mask": null, "anchor": "center", "ori": 0.0, "pos": [0.3, (- 0.1)], "size": [1, 1], "color": [1, 1, 1], "colorSpace": "rgb", "opacity": null, "flipHoriz": false, "flipVert": false, "texRes": 128.0, "interpolate": false, "depth": (- 1.0)});
-  drug_image = new visual.ImageStim({"win": psychoJS.window, "name": "drug_image", "image": "stimuli/food/AA026307.png", "mask": null, "anchor": "center", "ori": 0.0, "pos": [(- 0.3), (- 0.1)], "size": [0.25, 0.25], "color": [1, 1, 1], "colorSpace": "rgb", "opacity": null, "flipHoriz": false, "flipVert": false, "texRes": 128.0, "interpolate": false, "depth": (- 1.0)});
-  social_image = new visual.ImageStim({"win": psychoJS.window, "name": "social_image", "image": "stimuli/food/AA026307.png", "mask": null, "anchor": "center", "ori": 0.0, "pos": [0.3, (- 0.1)], "size": [0.25, 0.25], "color": [1, 1, 1], "colorSpace": "rgb", "opacity": null, "flipHoriz": true, "flipVert": false, "texRes": 128.0, "interpolate": false, "depth": (- 2.0)});
+  food_image_1 = new visual.ImageStim({"win": psychoJS.window, "name": "food_image", "image": "stimuli/practice/AA026337.png", "mask": null, "anchor": "center", "ori": 0.0, "pos": [(- 0.3), (- 0.1)], "size": [0.3, 0.3], "color": [1, 1, 1], "colorSpace": "rgb", "opacity": null, "flipHoriz": false, "flipVert": false, "texRes": 128.0, "interpolate": false, "depth": (- 1.0)});
+  food_image_2 = new visual.ImageStim({"win": psychoJS.window, "name": "food_image", "image": "stimuli/practice/AA026339.png", "mask": null, "anchor": "center", "ori": 0.0, "pos": [0.3, (- 0.1)], "size": [0.3, 0.3], "color": [1, 1, 1], "colorSpace": "rgb", "opacity": null, "flipHoriz": false, "flipVert": false, "texRes": 128.0, "interpolate": false, "depth": (- 1.0)});
+  drug_image = new visual.ImageStim({"win": psychoJS.window, "name": "drug_image", "image": "stimuli/practice/AA026307.png", "mask": null, "anchor": "center", "ori": 0.0, "pos": [(- 0.3), (- 0.1)], "size": [0.25, 0.25], "color": [1, 1, 1], "colorSpace": "rgb", "opacity": null, "flipHoriz": false, "flipVert": false, "texRes": 128.0, "interpolate": false, "depth": (- 1.0)});
+  social_image = new visual.ImageStim({"win": psychoJS.window, "name": "social_image", "image": "stimuli/practice/AA026307.png", "mask": null, "anchor": "center", "ori": 0.0, "pos": [0.3, (- 0.1)], "size": [0.25, 0.25], "color": [1, 1, 1], "colorSpace": "rgb", "opacity": null, "flipHoriz": true, "flipVert": false, "texRes": 128.0, "interpolate": false, "depth": (- 2.0)});
   
+  // Initialize components for Routine "food_slide_show"
+  food_slide_showClock = new util.Clock();
+  slide_show_img = new visual.ImageStim({
+    win : psychoJS.window,
+    name : 'slide_show_img', units : undefined, 
+    image : undefined, mask : undefined,
+    ori : 0.0, pos : [0, 0], size : [0.5, 0.5],
+    color : new util.Color([1,1,1]), opacity : undefined,
+    flipHoriz : false, flipVert : false,
+    texRes : 128.0, interpolate : true, depth : -1.0 
+  });
   // Initialize components for Routine "start_food_ratings"
   start_food_ratingsClock = new util.Clock();
   start_food_rat_key = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
@@ -727,9 +836,9 @@ async function experimentInit() {
     flip: false,
   });
   
-  foodImage = new visual.ImageStim({
+  slideshow_foodImage = new visual.ImageStim({
     win : psychoJS.window,
-    name : 'foodImage', units : undefined, 
+    name : 'slideshow_foodImage', units : undefined, 
     image : undefined, mask : undefined,
     ori : 0.0, pos : [0, 0.15], size : [0.4, 0.4],
     color : new util.Color([1,1,1]), opacity : undefined,
@@ -757,8 +866,8 @@ async function experimentInit() {
       food_ratings_df = {"id": [], "image": [], "rating": [], "val_cat": [], "nrepeat": []};
   }
   
-  // Initialize components for Routine "fixation_500ms"
-  fixation_500msClock = new util.Clock();
+  // Initialize components for Routine "fixation_750ms"
+  fixation_750msClock = new util.Clock();
   text = new visual.TextStim({
     win: psychoJS.window,
     name: 'text',
@@ -773,36 +882,14 @@ async function experimentInit() {
   
   // Initialize components for Routine "sort_food"
   sort_foodClock = new util.Clock();
-  // Initialize components for Routine "choose_food"
-  choose_foodClock = new util.Clock();
-  // Run 'Begin Experiment' code from select_food_image
-  var thisImage = [];
-  
-  food_img_choice = new visual.ImageStim({
-    win : psychoJS.window,
-    name : 'food_img_choice', units : undefined, 
-    image : undefined, mask : undefined,
-    ori : 0.0, pos : [0, 0], size : [0.5, 0.5],
-    color : new util.Color([1,1,1]), opacity : undefined,
-    flipHoriz : false, flipVert : false,
-    texRes : 128.0, interpolate : true, depth : -1.0 
-  });
   // Initialize components for Routine "hide_mouse_routine"
   hide_mouse_routineClock = new util.Clock();
-  // Initialize components for Routine "instr_2"
-  instr_2Clock = new util.Clock();
-  // Run 'Begin Experiment' code from instr_dict_2
-  days = 10;
-  rounds = 15;
-  
-  instr_2_resp = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
-  
   // Initialize components for Routine "prac_instr"
   prac_instrClock = new util.Clock();
   text_3 = new visual.TextStim({
     win: psychoJS.window,
     name: 'text_3',
-    text: "You’ve completed the training phase. Before we start the experiment, let's try a few final practice rounds.\n\nSelect the better of the two treasure chests, and we will show you how many points you would be awarded for your choice.\n\nWhen you are ready, press the SPACE BAR to begin.\n",
+    text: "Before you start the main task, you will complete a few practice rounds.\n\nSelect the food item which you'd prefer to consume at the end of the experiment. Use the F key to select the image on the left and the J key to select the image on the right.\n\nWhen you are ready, press the SPACE BAR to begin.\n",
     font: 'Arial',
     units: undefined, 
     pos: [0, 0], height: 0.05,  wrapWidth: undefined, ori: 0.0,
@@ -815,14 +902,48 @@ async function experimentInit() {
   
   // Initialize components for Routine "practice_choice"
   practice_choiceClock = new util.Clock();
-  // Run 'Begin Experiment' code from draw_chests_2
-  left_chest = new visual.ImageStim({"win": psychoJS.window, "name": "left_chest", "image": "stimuli/chest.png", "mask": null, "anchor": "center", "ori": 0.0, "pos": [(- 0.375), 0], "size": [1, 1], "color": [1, 1, 1], "colorSpace": "rgb", "opacity": null, "flipHoriz": false, "flipVert": false, "texRes": 128.0, "interpolate": false, "depth": (- 1.0)});
-  right_chest = new visual.ImageStim({"win": psychoJS.window, "name": "right_chest", "image": "stimuli/chest.png", "mask": null, "anchor": "center", "ori": 0.0, "pos": [0.375, 0], "size": [1, 1], "color": [1, 1, 1], "colorSpace": "rgb", "opacity": null, "flipHoriz": true, "flipVert": false, "texRes": 128.0, "interpolate": false, "depth": (- 2.0)});
-  
   choice_resp_2 = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
   
-  // Initialize components for Routine "self_instr"
-  self_instrClock = new util.Clock();
+  practice_img_A = new visual.ImageStim({
+    win : psychoJS.window,
+    name : 'practice_img_A', units : undefined, 
+    image : undefined, mask : undefined,
+    ori : 0.0, pos : [(- 0.45), 0], size : [0.25, 0.3],
+    color : new util.Color([1,1,1]), opacity : undefined,
+    flipHoriz : false, flipVert : false,
+    texRes : 128.0, interpolate : true, depth : -2.0 
+  });
+  practice_img_B = new visual.ImageStim({
+    win : psychoJS.window,
+    name : 'practice_img_B', units : undefined, 
+    image : undefined, mask : undefined,
+    ori : 0.0, pos : [0.45, 0], size : [0.25, 0.3],
+    color : new util.Color([1,1,1]), opacity : undefined,
+    flipHoriz : false, flipVert : false,
+    texRes : 128.0, interpolate : true, depth : -3.0 
+  });
+  // Initialize components for Routine "practice_feedback"
+  practice_feedbackClock = new util.Clock();
+  practice_img_A_feedback = new visual.ImageStim({
+    win : psychoJS.window,
+    name : 'practice_img_A_feedback', units : undefined, 
+    image : undefined, mask : undefined,
+    ori : 0.0, pos : [(- 0.45), 0], size : [0.25, 0.3],
+    color : new util.Color([1,1,1]), opacity : undefined,
+    flipHoriz : false, flipVert : false,
+    texRes : 128.0, interpolate : true, depth : -1.0 
+  });
+  practice_img_2_feedback = new visual.ImageStim({
+    win : psychoJS.window,
+    name : 'practice_img_2_feedback', units : undefined, 
+    image : undefined, mask : undefined,
+    ori : 0.0, pos : [0.45, 0], size : [0.25, 0.3],
+    color : new util.Color([1,1,1]), opacity : undefined,
+    flipHoriz : false, flipVert : false,
+    texRes : 128.0, interpolate : true, depth : -2.0 
+  });
+  // Initialize components for Routine "choice_instr"
+  choice_instrClock = new util.Clock();
   text_4 = new visual.TextStim({
     win: psychoJS.window,
     name: 'text_4',
@@ -839,78 +960,58 @@ async function experimentInit() {
   
   // Initialize components for Routine "choice"
   choiceClock = new util.Clock();
-  // Run 'Begin Experiment' code from draw_chests
-  left_chest = new visual.ImageStim({"win": psychoJS.window, "name": "left_chest", "image": "stimuli/chest.png", "mask": null, "anchor": "center", "ori": 0.0, "pos": [(- 0.375), 0], "size": [0.6, 0.5], "color": [1, 1, 1], "colorSpace": "rgb", "opacity": null, "flipHoriz": false, "flipVert": false, "texRes": 128.0, "interpolate": false, "depth": (- 1.0)});
-  right_chest = new visual.ImageStim({"win": psychoJS.window, "name": "right_chest", "image": "stimuli/chest.png", "mask": null, "anchor": "center", "ori": 0.0, "pos": [0.375, 0], "size": [0.6, 0.5], "color": [1, 1, 1], "colorSpace": "rgb", "opacity": null, "flipHoriz": true, "flipVert": false, "texRes": 128.0, "interpolate": false, "depth": (- 2.0)});
+  // Run 'Begin Experiment' code from outline_settings
+  thisImageA = [];
+  thisImageB = [];
+  bonus_img_left = [];
+  bonus_img_right = [];
+  bonus_choice = [];
+  thisImage_obj = [];
+  thisImage_obj_A = [];
+  thisImage_obj_B = [];
+  trialN = [];
+  bonus_img = [];
   
-  // Run 'Begin Experiment' code from set_shards
-  bonus_amt_pts = 20;
-  
-  left_shard_5 = new visual.ImageStim({
-    win : psychoJS.window,
-    name : 'left_shard_5', units : undefined, 
-    image : undefined, mask : undefined,
-    ori : 0.0, pos : left_shards_pos[5], size : all_shards_size,
-    color : new util.Color([1,1,1]), opacity : undefined,
-    flipHoriz : false, flipVert : false,
-    texRes : 128.0, interpolate : true, depth : -4.0 
-  });
-  right_shard_0 = new visual.ImageStim({
-    win : psychoJS.window,
-    name : 'right_shard_0', units : undefined, 
-    image : undefined, mask : undefined,
-    ori : 0.0, pos : right_shards_pos[0], size : all_shards_size,
-    color : new util.Color([1,1,1]), opacity : undefined,
-    flipHoriz : false, flipVert : false,
-    texRes : 128.0, interpolate : true, depth : -5.0 
-  });
-  right_shard_1 = new visual.ImageStim({
-    win : psychoJS.window,
-    name : 'right_shard_1', units : undefined, 
-    image : undefined, mask : undefined,
-    ori : 0.0, pos : right_shards_pos[1], size : all_shards_size,
-    color : new util.Color([1,1,1]), opacity : undefined,
-    flipHoriz : false, flipVert : false,
-    texRes : 128.0, interpolate : true, depth : -6.0 
-  });
-  right_shard_2 = new visual.ImageStim({
-    win : psychoJS.window,
-    name : 'right_shard_2', units : undefined, 
-    image : undefined, mask : undefined,
-    ori : 0.0, pos : right_shards_pos[2], size : all_shards_size,
-    color : new util.Color([1,1,1]), opacity : undefined,
-    flipHoriz : false, flipVert : false,
-    texRes : 128.0, interpolate : true, depth : -7.0 
-  });
-  right_shard_3 = new visual.ImageStim({
-    win : psychoJS.window,
-    name : 'right_shard_3', units : undefined, 
-    image : undefined, mask : undefined,
-    ori : 0.0, pos : right_shards_pos[3], size : all_shards_size,
-    color : new util.Color([1,1,1]), opacity : undefined,
-    flipHoriz : false, flipVert : false,
-    texRes : 128.0, interpolate : true, depth : -8.0 
-  });
-  right_shard_4 = new visual.ImageStim({
-    win : psychoJS.window,
-    name : 'right_shard_4', units : undefined, 
-    image : undefined, mask : undefined,
-    ori : 0.0, pos : right_shards_pos[4], size : all_shards_size,
-    color : new util.Color([1,1,1]), opacity : undefined,
-    flipHoriz : false, flipVert : false,
-    texRes : 128.0, interpolate : true, depth : -9.0 
-  });
-  right_shard_5 = new visual.ImageStim({
-    win : psychoJS.window,
-    name : 'right_shard_5', units : undefined, 
-    image : undefined, mask : undefined,
-    ori : 0.0, pos : right_shards_pos[5], size : all_shards_size,
-    color : new util.Color([1,1,1]), opacity : undefined,
-    flipHoriz : false, flipVert : false,
-    texRes : 128.0, interpolate : true, depth : -10.0 
-  });
   choice_resp = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
   
+  image_A = new visual.ImageStim({
+    win : psychoJS.window,
+    name : 'image_A', units : undefined, 
+    image : undefined, mask : undefined,
+    ori : 0.0, pos : [(- 0.45), 0], size : [0.45, 0.45],
+    color : new util.Color([1,1,1]), opacity : undefined,
+    flipHoriz : false, flipVert : false,
+    texRes : 128.0, interpolate : true, depth : -2.0 
+  });
+  image_B = new visual.ImageStim({
+    win : psychoJS.window,
+    name : 'image_B', units : undefined, 
+    image : undefined, mask : undefined,
+    ori : 0.0, pos : [0.45, 0], size : [0.45, 0.45],
+    color : new util.Color([1,1,1]), opacity : undefined,
+    flipHoriz : false, flipVert : false,
+    texRes : 128.0, interpolate : true, depth : -3.0 
+  });
+  // Initialize components for Routine "choice_feedback"
+  choice_feedbackClock = new util.Clock();
+  ImageA = new visual.ImageStim({
+    win : psychoJS.window,
+    name : 'ImageA', units : undefined, 
+    image : undefined, mask : undefined,
+    ori : 0.0, pos : [(- 0.45), 0], size : [0.45, 0.45],
+    color : new util.Color([1,1,1]), opacity : undefined,
+    flipHoriz : false, flipVert : false,
+    texRes : 128.0, interpolate : true, depth : -1.0 
+  });
+  ImageB = new visual.ImageStim({
+    win : psychoJS.window,
+    name : 'ImageB', units : undefined, 
+    image : undefined, mask : undefined,
+    ori : 0.0, pos : [0.45, 0], size : [0.45, 0.45],
+    color : new util.Color([1,1,1]), opacity : undefined,
+    flipHoriz : false, flipVert : false,
+    texRes : 128.0, interpolate : true, depth : -2.0 
+  });
   // Initialize components for Routine "colorblindness"
   colorblindnessClock = new util.Clock();
   colorblind_txt = new visual.TextStim({
@@ -943,8 +1044,11 @@ async function experimentInit() {
   
   key_resp_4 = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
   
-  // Initialize components for Routine "reward"
-  rewardClock = new util.Clock();
+  // Initialize components for Routine "reward_info"
+  reward_infoClock = new util.Clock();
+  // Run 'Begin Experiment' code from bonus_txt
+  nseconds = 10;
+  
   text_6 = new visual.TextStim({
     win: psychoJS.window,
     name: 'text_6',
@@ -959,6 +1063,67 @@ async function experimentInit() {
   
   key_resp_5 = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
   
+  image_left = new visual.ImageStim({
+    win : psychoJS.window,
+    name : 'image_left', units : undefined, 
+    image : undefined, mask : undefined,
+    ori : 0.0, pos : [(- 0.35), (- 0.25)], size : [0.25, 0.25],
+    color : new util.Color([1,1,1]), opacity : undefined,
+    flipHoriz : false, flipVert : false,
+    texRes : 128.0, interpolate : true, depth : -3.0 
+  });
+  image_right = new visual.ImageStim({
+    win : psychoJS.window,
+    name : 'image_right', units : undefined, 
+    image : undefined, mask : undefined,
+    ori : 0.0, pos : [0.35, (- 0.25)], size : [0.25, 0.25],
+    color : new util.Color([1,1,1]), opacity : undefined,
+    flipHoriz : false, flipVert : false,
+    texRes : 128.0, interpolate : true, depth : -4.0 
+  });
+  // Initialize components for Routine "view_reward"
+  view_rewardClock = new util.Clock();
+  bous_img = new visual.ImageStim({
+    win : psychoJS.window,
+    name : 'bous_img', units : undefined, 
+    image : undefined, mask : undefined,
+    ori : 0.0, pos : [0, 0], size : [0.5, 0.5],
+    color : new util.Color([1,1,1]), opacity : undefined,
+    flipHoriz : false, flipVert : false,
+    texRes : 128.0, interpolate : true, depth : 0.0 
+  });
+  bonus_img_txt = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'bonus_img_txt',
+    text: 'Press the Space Bar to Exit',
+    font: 'Open Sans',
+    units: undefined, 
+    pos: [0, (- 0.4)], height: 0.05,  wrapWidth: undefined, ori: 0.0,
+    languageStyle: 'LTR',
+    color: new util.Color('white'),  opacity: undefined,
+    depth: -1.0 
+  });
+  
+  exit_rsp = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
+  
+  // Initialize components for Routine "end_experiment"
+  end_experimentClock = new util.Clock();
+  end_exp_txt = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'end_exp_txt',
+    text: 'Thank you for your time\nPlease DO NOT close browser\nYou will be redirected shortly',
+    font: 'Open Sans',
+    units: undefined, 
+    pos: [0, 0], height: 0.05,  wrapWidth: undefined, ori: 0.0,
+    languageStyle: 'LTR',
+    color: new util.Color('white'),  opacity: undefined,
+    depth: 0.0 
+  });
+  
+  var new_url;
+  new_url = 'https://app.prolific.com/submissions/complete?cc=C1NBBPAC';
+  console.log(new_url);
+  psychoJS.setRedirectUrls(new_url, '');
   // Create some handy timers
   globalClock = new util.Clock();  // to track the time since experiment started
   routineTimer = new util.CountdownTimer();  // to track time remaining of each (non-slip) routine
@@ -983,7 +1148,7 @@ function start_expRoutineBegin(snapshot) {
     continueRoutine = true; // until we're told otherwise
     // update component parameters for each repeat
     // Run 'Begin Routine' code from hide_mouse
-    //document.body.style.cursor='none';
+    document.body.style.cursor='none';
     // Run 'Begin Routine' code from check_practice
     if ((expInfo["practice"] === "1")) {
         PRACTICE_BOOL = 1;
@@ -1081,11 +1246,8 @@ function instr_1RoutineBegin(snapshot) {
     instr_back_txt.autoDraw = true;
     if ((BONUS_BOOL === 1)) {
         instr_strs = {};
-        instr_strs[0] = `Today, your task will be to make a series of choices between two treasure chests. Each chest will contain a variety of crystals inside.
-    
-    For your participation today, you will gain a bonus based on your choices.`
-    ;
-        instr_strs[1] = `Here are two diffferent treasure chest examples
+        instr_strs[0] = `Today, you will make some choices about foods. There are multiple parts to this study. Please pay attention to the instructions for each part, as they can be different.`;
+        instr_strs[1] = `Here are two diffferent food examples
     
     
     
@@ -1121,26 +1283,16 @@ function instr_1RoutineBegin(snapshot) {
     ;
     } else {
         instr_strs = {};
-        instr_strs[0] = `Today, your task will be to mine for treasure chests. Each chest will contain a variety of crystals inside, representing different types of rewards.
-    
-    `
+        instr_strs[0] = `Welcome to the study!
+    Before we begin, please close any unnecessary programs or applications on your computer. This will help the study run more smoothly.
+    Also, please close any browser tabs that could produce popups or alerts that would interfere with the study. Finally, once the study has started, DO NOT EXIT fullscreen mode.`
     ;
-        instr_strs[1] = `Here are two diffferent treasure chest examples
+        instr_strs[1] = `Today, your task will be to make decisions involving food items, like the examples in the food images below. There are multuple parts to this study. Please pay attention to the instructions for each part, as each one is different.
     
     
     
     
     
-    
-    
-    
-    
-    
-    
-    `
-    ;
-        if ((FOOD_BOOL === 1)) {
-            instr_strs[2] = `Different crystals can be exchanged for different types of rewards. Some crystals can be exchanged for images of food, while others can be exchanged for images of social gatherings.
     
     
     
@@ -1149,18 +1301,7 @@ function instr_1RoutineBegin(snapshot) {
     
     `
     ;
-        } else {
-            instr_strs[2] = `Different crystals can be exchanged for different types of rewards. Some crystals can be exchanged for images of drugs, while others can be exchanged for images of social gatherings.
-    
-    
-    
-    
-    
-    
-    `
-    ;
-        }
-        instr_strs[3] = `Before you start learning about the crystals, you will first rate a series of images. This will ensure that the rewards are tailored to your specific preferences.`;
+        instr_strs[2] = `When making choices involving food images, please imagine what it would be like to consume the associated food items. Based on your actual choices, you will be given the opportunity to view a food image at the end of the study.`;
     }
     instr_disp_txt = new visual.TextStim({"win": psychoJS.window, "name": "instructions", "text": "", "font": "Arial", "pos": [0, 0], "height": 0.04, "wrapWidth": null, "ori": 0, "color": "white", "colorSpace": "rgb", "opacity": 1, "languageStyle": "LTR", "depth": 0.0});
     instr_disp_txt.text = instr_strs[0];
@@ -1221,7 +1362,7 @@ function instr_1RoutineEachFrame() {
             instr_back_txt.autoDraw = true;
         }
     } else {
-        if ((curr_instr === 3)) {
+        if ((curr_instr === 2)) {
             instr_back_txt.text = "Press LEFT ARROW to go back.\nPress RIGHT ARROW to begin.";
             if (_pj.in_es6("right", instr_keys)) {
                 instr_keyboard.clearEvents();
@@ -1239,7 +1380,7 @@ function instr_1RoutineEachFrame() {
                 }
             }
         } else {
-            if ((curr_instr === 2)) {
+            if ((curr_instr === 1)) {
                 if ((FOOD_BOOL === 1)) {
                     food_image_1.setAutoDraw(true);
                     food_image_2.setAutoDraw(true);
@@ -1371,6 +1512,10 @@ function skip_foodLoopBegin(skip_foodLoopScheduler, snapshot) {
       snapshot = skip_food.getSnapshot();
     
       skip_foodLoopScheduler.add(importConditions(snapshot));
+      const slide_show_loopLoopScheduler = new Scheduler(psychoJS);
+      skip_foodLoopScheduler.add(slide_show_loopLoopBegin(slide_show_loopLoopScheduler, snapshot));
+      skip_foodLoopScheduler.add(slide_show_loopLoopScheduler);
+      skip_foodLoopScheduler.add(slide_show_loopLoopEnd);
       skip_foodLoopScheduler.add(start_food_ratingsRoutineBegin(snapshot));
       skip_foodLoopScheduler.add(start_food_ratingsRoutineEachFrame());
       skip_foodLoopScheduler.add(start_food_ratingsRoutineEnd(snapshot));
@@ -1386,6 +1531,70 @@ function skip_foodLoopBegin(skip_foodLoopScheduler, snapshot) {
     
     return Scheduler.Event.NEXT;
   }
+}
+
+
+var slide_show_loop;
+function slide_show_loopLoopBegin(slide_show_loopLoopScheduler, snapshot) {
+  return async function() {
+    TrialHandler.fromSnapshot(snapshot); // update internal variables (.thisN etc) of the loop
+    
+    // set up handler to look after randomisation of conditions etc
+    slide_show_loop = new TrialHandler({
+      psychoJS: psychoJS,
+      nReps: 1, method: TrialHandler.Method.RANDOM,
+      extraInfo: expInfo, originPath: undefined,
+      trialList: 'finalfooditems.csv',
+      seed: undefined, name: 'slide_show_loop'
+    });
+    psychoJS.experiment.addLoop(slide_show_loop); // add the loop to the experiment
+    currentLoop = slide_show_loop;  // we're now the current loop
+    
+    // Schedule all the trials in the trialList:
+    slide_show_loop.forEach(function() {
+      snapshot = slide_show_loop.getSnapshot();
+    
+      slide_show_loopLoopScheduler.add(importConditions(snapshot));
+      slide_show_loopLoopScheduler.add(food_slide_showRoutineBegin(snapshot));
+      slide_show_loopLoopScheduler.add(food_slide_showRoutineEachFrame());
+      slide_show_loopLoopScheduler.add(food_slide_showRoutineEnd(snapshot));
+      slide_show_loopLoopScheduler.add(slide_show_loopLoopEndIteration(slide_show_loopLoopScheduler, snapshot));
+    });
+    
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+async function slide_show_loopLoopEnd() {
+  // terminate loop
+  psychoJS.experiment.removeLoop(slide_show_loop);
+  // update the current loop from the ExperimentHandler
+  if (psychoJS.experiment._unfinishedLoops.length>0)
+    currentLoop = psychoJS.experiment._unfinishedLoops.at(-1);
+  else
+    currentLoop = psychoJS.experiment;  // so we use addData from the experiment
+  return Scheduler.Event.NEXT;
+}
+
+
+function slide_show_loopLoopEndIteration(scheduler, snapshot) {
+  // ------Prepare for next entry------
+  return async function () {
+    if (typeof snapshot !== 'undefined') {
+      // ------Check if user ended loop early------
+      if (snapshot.finished) {
+        // Check for and save orphaned data
+        if (psychoJS.experiment.isEntryEmpty()) {
+          psychoJS.experiment.nextEntry(snapshot);
+        }
+        scheduler.stop();
+      } else {
+        psychoJS.experiment.nextEntry(snapshot);
+      }
+    return Scheduler.Event.NEXT;
+    }
+  };
 }
 
 
@@ -1413,9 +1622,9 @@ function food_rating_loopLoopBegin(food_rating_loopLoopScheduler, snapshot) {
       food_rating_loopLoopScheduler.add(rateFoodRoutineBegin(snapshot));
       food_rating_loopLoopScheduler.add(rateFoodRoutineEachFrame());
       food_rating_loopLoopScheduler.add(rateFoodRoutineEnd(snapshot));
-      food_rating_loopLoopScheduler.add(fixation_500msRoutineBegin(snapshot));
-      food_rating_loopLoopScheduler.add(fixation_500msRoutineEachFrame());
-      food_rating_loopLoopScheduler.add(fixation_500msRoutineEnd(snapshot));
+      food_rating_loopLoopScheduler.add(fixation_750msRoutineBegin(snapshot));
+      food_rating_loopLoopScheduler.add(fixation_750msRoutineEachFrame());
+      food_rating_loopLoopScheduler.add(fixation_750msRoutineEnd(snapshot));
       food_rating_loopLoopScheduler.add(food_rating_loopLoopEndIteration(food_rating_loopLoopScheduler, snapshot));
     });
     
@@ -1469,70 +1678,6 @@ async function skip_foodLoopEnd() {
 
 
 function skip_foodLoopEndIteration(scheduler, snapshot) {
-  // ------Prepare for next entry------
-  return async function () {
-    if (typeof snapshot !== 'undefined') {
-      // ------Check if user ended loop early------
-      if (snapshot.finished) {
-        // Check for and save orphaned data
-        if (psychoJS.experiment.isEntryEmpty()) {
-          psychoJS.experiment.nextEntry(snapshot);
-        }
-        scheduler.stop();
-      } else {
-        psychoJS.experiment.nextEntry(snapshot);
-      }
-    return Scheduler.Event.NEXT;
-    }
-  };
-}
-
-
-var choose_food_loop;
-function choose_food_loopLoopBegin(choose_food_loopLoopScheduler, snapshot) {
-  return async function() {
-    TrialHandler.fromSnapshot(snapshot); // update internal variables (.thisN etc) of the loop
-    
-    // set up handler to look after randomisation of conditions etc
-    choose_food_loop = new TrialHandler({
-      psychoJS: psychoJS,
-      nReps: 1, method: TrialHandler.Method.RANDOM,
-      extraInfo: expInfo, originPath: undefined,
-      trialList: 'foodChoiceTrials.xlsx',
-      seed: undefined, name: 'choose_food_loop'
-    });
-    psychoJS.experiment.addLoop(choose_food_loop); // add the loop to the experiment
-    currentLoop = choose_food_loop;  // we're now the current loop
-    
-    // Schedule all the trials in the trialList:
-    choose_food_loop.forEach(function() {
-      snapshot = choose_food_loop.getSnapshot();
-    
-      choose_food_loopLoopScheduler.add(importConditions(snapshot));
-      choose_food_loopLoopScheduler.add(choose_foodRoutineBegin(snapshot));
-      choose_food_loopLoopScheduler.add(choose_foodRoutineEachFrame());
-      choose_food_loopLoopScheduler.add(choose_foodRoutineEnd(snapshot));
-      choose_food_loopLoopScheduler.add(choose_food_loopLoopEndIteration(choose_food_loopLoopScheduler, snapshot));
-    });
-    
-    return Scheduler.Event.NEXT;
-  }
-}
-
-
-async function choose_food_loopLoopEnd() {
-  // terminate loop
-  psychoJS.experiment.removeLoop(choose_food_loop);
-  // update the current loop from the ExperimentHandler
-  if (psychoJS.experiment._unfinishedLoops.length>0)
-    currentLoop = psychoJS.experiment._unfinishedLoops.at(-1);
-  else
-    currentLoop = psychoJS.experiment;  // so we use addData from the experiment
-  return Scheduler.Event.NEXT;
-}
-
-
-function choose_food_loopLoopEndIteration(scheduler, snapshot) {
   // ------Prepare for next entry------
   return async function () {
     if (typeof snapshot !== 'undefined') {
@@ -1612,9 +1757,12 @@ function practiceLoopBegin(practiceLoopScheduler, snapshot) {
       practiceLoopScheduler.add(practice_choiceRoutineBegin(snapshot));
       practiceLoopScheduler.add(practice_choiceRoutineEachFrame());
       practiceLoopScheduler.add(practice_choiceRoutineEnd(snapshot));
-      practiceLoopScheduler.add(fixation_500msRoutineBegin(snapshot));
-      practiceLoopScheduler.add(fixation_500msRoutineEachFrame());
-      practiceLoopScheduler.add(fixation_500msRoutineEnd(snapshot));
+      practiceLoopScheduler.add(practice_feedbackRoutineBegin(snapshot));
+      practiceLoopScheduler.add(practice_feedbackRoutineEachFrame());
+      practiceLoopScheduler.add(practice_feedbackRoutineEnd(snapshot));
+      practiceLoopScheduler.add(fixation_750msRoutineBegin(snapshot));
+      practiceLoopScheduler.add(fixation_750msRoutineEachFrame());
+      practiceLoopScheduler.add(fixation_750msRoutineEnd(snapshot));
       practiceLoopScheduler.add(practiceLoopEndIteration(practiceLoopScheduler, snapshot));
     });
     
@@ -1685,34 +1833,37 @@ function skip_practiceLoopEndIteration(scheduler, snapshot) {
 }
 
 
-var self_trials;
-function self_trialsLoopBegin(self_trialsLoopScheduler, snapshot) {
+var choice_trials;
+function choice_trialsLoopBegin(choice_trialsLoopScheduler, snapshot) {
   return async function() {
     TrialHandler.fromSnapshot(snapshot); // update internal variables (.thisN etc) of the loop
     
     // set up handler to look after randomisation of conditions etc
-    self_trials = new TrialHandler({
+    choice_trials = new TrialHandler({
       psychoJS: psychoJS,
       nReps: 1, method: TrialHandler.Method.RANDOM,
       extraInfo: expInfo, originPath: undefined,
-      trialList: 'trials.csv',
-      seed: undefined, name: 'self_trials'
+      trialList: 'foodChoiceTrials.xlsx',
+      seed: undefined, name: 'choice_trials'
     });
-    psychoJS.experiment.addLoop(self_trials); // add the loop to the experiment
-    currentLoop = self_trials;  // we're now the current loop
+    psychoJS.experiment.addLoop(choice_trials); // add the loop to the experiment
+    currentLoop = choice_trials;  // we're now the current loop
     
     // Schedule all the trials in the trialList:
-    self_trials.forEach(function() {
-      snapshot = self_trials.getSnapshot();
+    choice_trials.forEach(function() {
+      snapshot = choice_trials.getSnapshot();
     
-      self_trialsLoopScheduler.add(importConditions(snapshot));
-      self_trialsLoopScheduler.add(choiceRoutineBegin(snapshot));
-      self_trialsLoopScheduler.add(choiceRoutineEachFrame());
-      self_trialsLoopScheduler.add(choiceRoutineEnd(snapshot));
-      self_trialsLoopScheduler.add(fixation_500msRoutineBegin(snapshot));
-      self_trialsLoopScheduler.add(fixation_500msRoutineEachFrame());
-      self_trialsLoopScheduler.add(fixation_500msRoutineEnd(snapshot));
-      self_trialsLoopScheduler.add(self_trialsLoopEndIteration(self_trialsLoopScheduler, snapshot));
+      choice_trialsLoopScheduler.add(importConditions(snapshot));
+      choice_trialsLoopScheduler.add(choiceRoutineBegin(snapshot));
+      choice_trialsLoopScheduler.add(choiceRoutineEachFrame());
+      choice_trialsLoopScheduler.add(choiceRoutineEnd(snapshot));
+      choice_trialsLoopScheduler.add(choice_feedbackRoutineBegin(snapshot));
+      choice_trialsLoopScheduler.add(choice_feedbackRoutineEachFrame());
+      choice_trialsLoopScheduler.add(choice_feedbackRoutineEnd(snapshot));
+      choice_trialsLoopScheduler.add(fixation_750msRoutineBegin(snapshot));
+      choice_trialsLoopScheduler.add(fixation_750msRoutineEachFrame());
+      choice_trialsLoopScheduler.add(fixation_750msRoutineEnd(snapshot));
+      choice_trialsLoopScheduler.add(choice_trialsLoopEndIteration(choice_trialsLoopScheduler, snapshot));
     });
     
     return Scheduler.Event.NEXT;
@@ -1720,9 +1871,9 @@ function self_trialsLoopBegin(self_trialsLoopScheduler, snapshot) {
 }
 
 
-async function self_trialsLoopEnd() {
+async function choice_trialsLoopEnd() {
   // terminate loop
-  psychoJS.experiment.removeLoop(self_trials);
+  psychoJS.experiment.removeLoop(choice_trials);
   // update the current loop from the ExperimentHandler
   if (psychoJS.experiment._unfinishedLoops.length>0)
     currentLoop = psychoJS.experiment._unfinishedLoops.at(-1);
@@ -1732,7 +1883,7 @@ async function self_trialsLoopEnd() {
 }
 
 
-function self_trialsLoopEndIteration(scheduler, snapshot) {
+function choice_trialsLoopEndIteration(scheduler, snapshot) {
   // ------Prepare for next entry------
   return async function () {
     if (typeof snapshot !== 'undefined') {
@@ -1752,65 +1903,99 @@ function self_trialsLoopEndIteration(scheduler, snapshot) {
 }
 
 
-var bonus_disp;
-function bonus_dispLoopBegin(bonus_dispLoopScheduler, snapshot) {
-  return async function() {
-    TrialHandler.fromSnapshot(snapshot); // update internal variables (.thisN etc) of the loop
+var slide_show_food;
+var food_slide_showComponents;
+function food_slide_showRoutineBegin(snapshot) {
+  return async function () {
+    TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
     
-    // set up handler to look after randomisation of conditions etc
-    bonus_disp = new TrialHandler({
-      psychoJS: psychoJS,
-      nReps: BONUS_BOOL, method: TrialHandler.Method.SEQUENTIAL,
-      extraInfo: expInfo, originPath: undefined,
-      trialList: undefined,
-      seed: undefined, name: 'bonus_disp'
-    });
-    psychoJS.experiment.addLoop(bonus_disp); // add the loop to the experiment
-    currentLoop = bonus_disp;  // we're now the current loop
+    //--- Prepare to start Routine 'food_slide_show' ---
+    t = 0;
+    food_slide_showClock.reset(); // clock
+    frameN = -1;
+    continueRoutine = true; // until we're told otherwise
+    routineTimer.add(1.300000);
+    // update component parameters for each repeat
+    // Run 'Begin Routine' code from slide_show_code
+    slide_show_food = image;
     
-    // Schedule all the trials in the trialList:
-    bonus_disp.forEach(function() {
-      snapshot = bonus_disp.getSnapshot();
+    slide_show_img.setImage(slide_show_food);
+    // keep track of which components have finished
+    food_slide_showComponents = [];
+    food_slide_showComponents.push(slide_show_img);
     
-      bonus_dispLoopScheduler.add(importConditions(snapshot));
-      bonus_dispLoopScheduler.add(rewardRoutineBegin(snapshot));
-      bonus_dispLoopScheduler.add(rewardRoutineEachFrame());
-      bonus_dispLoopScheduler.add(rewardRoutineEnd(snapshot));
-      bonus_dispLoopScheduler.add(bonus_dispLoopEndIteration(bonus_dispLoopScheduler, snapshot));
-    });
-    
+    food_slide_showComponents.forEach( function(thisComponent) {
+      if ('status' in thisComponent)
+        thisComponent.status = PsychoJS.Status.NOT_STARTED;
+       });
     return Scheduler.Event.NEXT;
   }
 }
 
 
-async function bonus_dispLoopEnd() {
-  // terminate loop
-  psychoJS.experiment.removeLoop(bonus_disp);
-  // update the current loop from the ExperimentHandler
-  if (psychoJS.experiment._unfinishedLoops.length>0)
-    currentLoop = psychoJS.experiment._unfinishedLoops.at(-1);
-  else
-    currentLoop = psychoJS.experiment;  // so we use addData from the experiment
-  return Scheduler.Event.NEXT;
+var frameRemains;
+function food_slide_showRoutineEachFrame() {
+  return async function () {
+    //--- Loop for each frame of Routine 'food_slide_show' ---
+    // get current time
+    t = food_slide_showClock.getTime();
+    frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
+    // update/draw components on each frame
+    
+    // *slide_show_img* updates
+    if (t >= 0.0 && slide_show_img.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      slide_show_img.tStart = t;  // (not accounting for frame time here)
+      slide_show_img.frameNStart = frameN;  // exact frame index
+      
+      slide_show_img.setAutoDraw(true);
+    }
+
+    frameRemains = 0.0 + 1.3 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    if (slide_show_img.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+      slide_show_img.setAutoDraw(false);
+    }
+    // check for quit (typically the Esc key)
+    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
+    }
+    
+    // check if the Routine should terminate
+    if (!continueRoutine) {  // a component has requested a forced-end of Routine
+      return Scheduler.Event.NEXT;
+    }
+    
+    continueRoutine = false;  // reverts to True if at least one component still running
+    food_slide_showComponents.forEach( function(thisComponent) {
+      if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
+        continueRoutine = true;
+      }
+    });
+    
+    // refresh the screen if continuing
+    if (continueRoutine && routineTimer.getTime() > 0) {
+      return Scheduler.Event.FLIP_REPEAT;
+    } else {
+      return Scheduler.Event.NEXT;
+    }
+  };
 }
 
 
-function bonus_dispLoopEndIteration(scheduler, snapshot) {
-  // ------Prepare for next entry------
+function food_slide_showRoutineEnd(snapshot) {
   return async function () {
-    if (typeof snapshot !== 'undefined') {
-      // ------Check if user ended loop early------
-      if (snapshot.finished) {
-        // Check for and save orphaned data
-        if (psychoJS.experiment.isEntryEmpty()) {
-          psychoJS.experiment.nextEntry(snapshot);
-        }
-        scheduler.stop();
+    //--- Ending Routine 'food_slide_show' ---
+    food_slide_showComponents.forEach( function(thisComponent) {
+      if (typeof thisComponent.setAutoDraw === 'function') {
+        thisComponent.setAutoDraw(false);
       }
-    return Scheduler.Event.NEXT;
+    });
+    // Routines running outside a loop should always advance the datafile row
+    if (currentLoop === psychoJS.experiment) {
+      psychoJS.experiment.nextEntry(snapshot);
     }
-  };
+    return Scheduler.Event.NEXT;
+  }
 }
 
 
@@ -1932,7 +2117,7 @@ function start_food_ratingsRoutineEnd(snapshot) {
     start_food_rat_key.stop();
     // Run 'End Routine' code from show_mouse
     psychoJS.window.mouseVisible = true;
-    
+    document.body.style.cursor='auto';
     // the Routine "start_food_ratings" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset();
     
@@ -1962,14 +2147,14 @@ function rateFoodRoutineBegin(snapshot) {
     thisFood = image;
     
     food_slider.reset()
-    foodImage.setImage(thisFood);
+    slideshow_foodImage.setImage(thisFood);
     check_space_key.keys = undefined;
     check_space_key.rt = undefined;
     _check_space_key_allKeys = [];
     // keep track of which components have finished
     rateFoodComponents = [];
     rateFoodComponents.push(food_slider);
-    rateFoodComponents.push(foodImage);
+    rateFoodComponents.push(slideshow_foodImage);
     rateFoodComponents.push(next_button);
     rateFoodComponents.push(check_space_key);
     
@@ -2008,13 +2193,13 @@ function rateFoodRoutineEachFrame() {
     }
 
     
-    // *foodImage* updates
-    if (t >= 0.0 && foodImage.status === PsychoJS.Status.NOT_STARTED) {
+    // *slideshow_foodImage* updates
+    if (t >= 0.0 && slideshow_foodImage.status === PsychoJS.Status.NOT_STARTED) {
       // keep track of start time/frame for later
-      foodImage.tStart = t;  // (not accounting for frame time here)
-      foodImage.frameNStart = frameN;  // exact frame index
+      slideshow_foodImage.tStart = t;  // (not accounting for frame time here)
+      slideshow_foodImage.frameNStart = frameN;  // exact frame index
       
-      foodImage.setAutoDraw(true);
+      slideshow_foodImage.setAutoDraw(true);
     }
 
     
@@ -2156,23 +2341,23 @@ function rateFoodRoutineEnd(snapshot) {
 }
 
 
-var fixation_500msComponents;
-function fixation_500msRoutineBegin(snapshot) {
+var fixation_750msComponents;
+function fixation_750msRoutineBegin(snapshot) {
   return async function () {
     TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
     
-    //--- Prepare to start Routine 'fixation_500ms' ---
+    //--- Prepare to start Routine 'fixation_750ms' ---
     t = 0;
-    fixation_500msClock.reset(); // clock
+    fixation_750msClock.reset(); // clock
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
-    routineTimer.add(0.500000);
+    routineTimer.add(0.750000);
     // update component parameters for each repeat
     // keep track of which components have finished
-    fixation_500msComponents = [];
-    fixation_500msComponents.push(text);
+    fixation_750msComponents = [];
+    fixation_750msComponents.push(text);
     
-    fixation_500msComponents.forEach( function(thisComponent) {
+    fixation_750msComponents.forEach( function(thisComponent) {
       if ('status' in thisComponent)
         thisComponent.status = PsychoJS.Status.NOT_STARTED;
        });
@@ -2181,12 +2366,11 @@ function fixation_500msRoutineBegin(snapshot) {
 }
 
 
-var frameRemains;
-function fixation_500msRoutineEachFrame() {
+function fixation_750msRoutineEachFrame() {
   return async function () {
-    //--- Loop for each frame of Routine 'fixation_500ms' ---
+    //--- Loop for each frame of Routine 'fixation_750ms' ---
     // get current time
-    t = fixation_500msClock.getTime();
+    t = fixation_750msClock.getTime();
     frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
     // update/draw components on each frame
     
@@ -2199,7 +2383,7 @@ function fixation_500msRoutineEachFrame() {
       text.setAutoDraw(true);
     }
 
-    frameRemains = 0.0 + 0.5 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    frameRemains = 0.0 + 0.75 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
     if (text.status === PsychoJS.Status.STARTED && t >= frameRemains) {
       text.setAutoDraw(false);
     }
@@ -2214,7 +2398,7 @@ function fixation_500msRoutineEachFrame() {
     }
     
     continueRoutine = false;  // reverts to True if at least one component still running
-    fixation_500msComponents.forEach( function(thisComponent) {
+    fixation_750msComponents.forEach( function(thisComponent) {
       if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
         continueRoutine = true;
       }
@@ -2230,10 +2414,10 @@ function fixation_500msRoutineEachFrame() {
 }
 
 
-function fixation_500msRoutineEnd(snapshot) {
+function fixation_750msRoutineEnd(snapshot) {
   return async function () {
-    //--- Ending Routine 'fixation_500ms' ---
-    fixation_500msComponents.forEach( function(thisComponent) {
+    //--- Ending Routine 'fixation_750ms' ---
+    fixation_750msComponents.forEach( function(thisComponent) {
       if (typeof thisComponent.setAutoDraw === 'function') {
         thisComponent.setAutoDraw(false);
       }
@@ -2259,19 +2443,24 @@ function sort_foodRoutineBegin(snapshot) {
     continueRoutine = true; // until we're told otherwise
     // update component parameters for each repeat
     // Run 'Begin Routine' code from sort_food_df_js
+    // Settings
+    let nTrial = 45;
+    let minDiff = 0.5;
+    let maxDiff = 3;
+    
     // Separate foods based on value category
     let HVdf = [];
     let MVdf = [];
     let LVdf = [];
     
     for (var i = 0; i <= food_ratings_df.id.length; i++) {
-    if (food_ratings_df.val_cat[i] === 'HV') {
-        HVdf.push( {id: food_ratings_df.id[i], image: food_ratings_df.image[i], rating: food_ratings_df.rating[i], val_cat: food_ratings_df.val_cat[i], nrepeat: 0});
-    } else if (food_ratings_df.val_cat[i] === 'MV') {
-        MVdf.push( {id: food_ratings_df.id[i], image: food_ratings_df.image[i], rating: food_ratings_df.rating[i], val_cat: food_ratings_df.val_cat[i], nrepeat: 0});
-    } else if (food_ratings_df.val_cat[i] === 'LV') {
-        LVdf.push( {id: food_ratings_df.id[i], image: food_ratings_df.image[i], rating: food_ratings_df.rating[i], val_cat: food_ratings_df.val_cat[i], nrepeat: 0});
-    }
+        if (food_ratings_df.val_cat[i] === 'HV') {
+            HVdf.push( {id: food_ratings_df.id[i], image: food_ratings_df.image[i], rating: food_ratings_df.rating[i], val_cat: food_ratings_df.val_cat[i], nrepeat: 0});
+        } else if (food_ratings_df.val_cat[i] === 'MV') {
+            MVdf.push( {id: food_ratings_df.id[i], image: food_ratings_df.image[i], rating: food_ratings_df.rating[i], val_cat: food_ratings_df.val_cat[i], nrepeat: 0});
+        } else if (food_ratings_df.val_cat[i] === 'LV') {
+            LVdf.push( {id: food_ratings_df.id[i], image: food_ratings_df.image[i], rating: food_ratings_df.rating[i], val_cat: food_ratings_df.val_cat[i], nrepeat: 0});
+        }
     }
     
     // Ranking for foods
@@ -2321,233 +2510,312 @@ function sort_foodRoutineBegin(snapshot) {
         return (values[half - 1] + values[half]) / 2.0;
     }
     
-    // Other necessary variables
-    var got_em = 0;
-    var jitterHV = 0;
-    var jitterMV = 0;
-    var jitterLV = 0;
-    var iteration = 0;
+    // Shuffle array
+    function shuffleArray(array) {
+        return array.sort(() => Math.random() - 0.5);
+    }
     
-    
-    while (got_em === 0) {
-        if (iteration > 100) {
-            console.log("Too many tries")
-            break
-        }
-    
-        // Protect jitter from going beyond the bounds of the median value
-        var maxJitterHV = HVdf.length / 2;
-        var maxJitterMV = MVdf.length / 2;
-        var maxJitterLV = LVdf.length / 2;
-    
-        if (Math.abs(jitterHV) > maxJitterHV) {
-            jitterHV = getRandomInt(-maxJitterHV, maxJitterHV);
-        }
-        if (Math.abs(jitterMV) > maxJitterMV) {
-            jitterMV = getRandomInt(-maxJitterMV, maxJitterMV);
-        }
-        if (Math.abs(jitterLV) > maxJitterLV) {
-            jitterLV = getRandomInt(-maxJitterLV, maxJitterLV);
-        }
-    
-        // Median trials
-        var medianHV = HVdf.find((obj) => obj.ranking === Math.round(median(HVdf.map((obj) => obj.ranking)) + jitterHV));
-        if (!medianHV) {
-            jitterHV += getRandomInt(-4, 4);
-            continue;
-        }
-        var medianMV = MVdf.find((obj) => obj.ranking === Math.round(median(MVdf.map((obj) => obj.ranking)) + jitterMV))
-        if (!medianMV) {
-            jitterMV += getRandomInt(-4, 4);
-            continue;
-        }
-        var medianLV = LVdf.find((obj) => obj.ranking === Math.round(median(LVdf.map((obj) => obj.ranking)) + jitterLV))
-        if (!medianLV) {
-            jitterLV += getRandomInt(-4, 4);
-            continue;
-        }
-    
-        // Values of median trial
-        var medHV = medianHV.rating;
-        var medMV = medianMV.rating;
-        var medLV = medianLV.rating;
-    
-        // Trials below/above median
-        var lowerHV =  HVdf
-            .filter((obj) => obj.ranking > Math.round(median(HVdf.map((obj) => obj.ranking))))
-            .sort((a, b) => b - a);
-        var upperHV =  HVdf
-            .filter((obj) => obj.ranking < Math.round(median(HVdf.map((obj) => obj.ranking))))
-            .sort((a, b) => b - a);
-        var lowerMV = MVdf
-            .filter((obj) => obj.ranking > Math.round(median(MVdf.map((obj) => obj.ranking))))
-            .sort((a, b) => b - a);
-        var upperMV = MVdf
-            .filter((obj) => obj.ranking < Math.round(median(MVdf.map((obj) => obj.ranking))))
-            .sort((a, b) => b - a);
-        var lowerLV = LVdf
-            .filter((obj) => obj.ranking > Math.round(median(LVdf.map((obj) => obj.ranking))))
-            .sort((a, b) => b - a);
-        var upperLV = LVdf
-            .filter((obj) => obj.ranking < Math.round(median(LVdf.map((obj) => obj.ranking))))
-            .sort((a, b) => b - a);
-    
-        // Subtract each value from the median to create a difference score for later matching
-        // Round to nearest 0.2
-        lowerHV.forEach(item => {
-            item.rat_diff = Math.ceil(Math.abs(item.rating - medHV) * 10) * 2 / 10;
-          });
-        upperHV.forEach(item => {
-            item.rat_diff = Math.ceil(Math.abs(item.rating - medHV) * 10) * 2 / 10;
-          });  
-    
-        lowerMV.forEach(item => {
-            item.rat_diff = Math.ceil(Math.abs(item.rating - medMV) * 10) * 2 / 10;
-          });
-        upperMV.forEach(item => {
-            item.rat_diff = Math.ceil(Math.abs(item.rating - medMV) * 10) * 2 / 10;
-          });  
-    
-        lowerLV.forEach(item => {
-            item.rat_diff = Math.ceil(Math.abs(item.rating - medLV) * 10) * 2 / 10;
-          });
-        upperLV.forEach(item => {
-            item.rat_diff = Math.ceil(Math.abs(item.rating - medLV) * 10) * 2 / 10;
-          });  
-          
-        // Find the intersection of VDs
-        let intersect_value_HV = [];
-        lowerHV.forEach(lowerItem => {
-            upperHV.forEach(upperItem => {
-            if (lowerItem.rat_diff === upperItem.rat_diff && lowerItem.rat_diff !== 0) {
-              intersect_value_HV.push({ lowerItem, upperItem });
-            }
-          });
-        });
-    
-        let intersect_value_MV = [];
-        lowerMV.forEach(lowerItem => {
-            upperMV.forEach(upperItem => {
-            if (lowerItem.rat_diff === upperItem.rat_diff && lowerItem.rat_diff !== 0) {
-                intersect_value_MV.push({ lowerItem, upperItem });
-            }
-            });
-        });
-    
-        let intersect_value_LV = [];
-        lowerLV.forEach(lowerItem => {
-            upperLV.forEach(upperItem => {
-            if (lowerItem.rat_diff === upperItem.rat_diff && lowerItem.rat_diff !== 0) {
-                intersect_value_LV.push({ lowerItem, upperItem });
-            }
-            });
-        });
-    
-        if (intersect_value_HV.length === 0) {
-            jitterHV += getRandomInt(-4, 4);
-           continue;
-        }
-        if (intersect_value_MV.length === 0) {
-            jitterMV += getRandomInt(-4, 4);
-           continue;
-        }
-        if (intersect_value_LV.length === 0) {
-            jitterLV += getRandomInt(-4, 4);
-           continue;
-        }
-    
-        // Find items with the same rat_diff from intersect_value_HV, intersect_value_MV, and intersect_value_LV
-        let intersect_all = [];
-        intersect_value_HV.forEach(itemHV => {
-            intersect_value_MV.forEach(itemMV => {
-                intersect_value_LV.forEach(itemLV => {
-                    if (
-                        itemHV.lowerItem.rat_diff === itemMV.lowerItem.rat_diff &&
-                        itemHV.lowerItem.rat_diff === itemLV.lowerItem.rat_diff
-                    ) {
-                        intersect_all.push({
-                        HV: itemHV,
-                        MV: itemMV,
-                        LV: itemLV
-                    });
+    // Function to generate trials
+    function generateTrial(categoryList, desired_diff) {
+        let maxRep = 5; // Maximum number of repeats per item
+        let good = 0;
+        categoryList = shuffleArray(categoryList);
+        while (good == 0){
+            for (let i = 0; i < categoryList.length; i++) {
+                for (let j = i + 1; j < categoryList.length; j++) {
+                    let diff = Math.abs(categoryList[i].rating_round - categoryList[j].rating_round);
+                    if (diff == desired_diff) {
+                        var nRepA = categoryList[i].nrepeat;
+                        var nRepB = categoryList[j].nrepeat;
+                        // check repeats
+                        if (nRepA < maxRep && nRepB < maxRep ) {
+                            tmp_trial = {
+                                idA: categoryList[i].id,
+                                idB: categoryList[j].id,
+                                rating_diff: diff
+                            };
+                            // Increase number of repetions
+                            categoryList[i].nrepeat++;
+                            categoryList[j].nrepeat++;
+                            return tmp_trial; 
+                        } 
                     }
-                });
-            });
-        });
-    
-        if (intersect_all.length === 0) {
-            var jitt_r = getRandomInt(1, 3);
-            if (jitt_r === 1) {
-                jitterLV += getRandomInt(-4, 4);
-                continue;
-            } else if (jitt_r === 2) {
-                jitterMV += getRandomInt(-4, 4);
-                continue;
-            } else {
-                jitterHV += getRandomInt(-4, 4);
-                continue;
+                }
             }
+            // If enough iterations have passed without filling list need to increase max repeat
+            console.log("Max Hit")
+            maxRep++;
         }
     
-        // High-Value
-        // Lower
-        var lowerHVFood = intersect_all[0].HV.lowerItem
-        // Upper
-        var upperHVFood = intersect_all[0].HV.upperItem
+    }
+    
+    // Round item ratings to nearest 0.5
+    LVdf.forEach(item => {
+        item.rating_round = Math.round(item.rating * 2) / 2;
+    });
+    
+    MVdf.forEach(item => {
+        item.rating_round = Math.round(item.rating * 2) / 2;
+    });
+    
+    HVdf.forEach(item => {
+        item.rating_round = Math.round(item.rating * 2) / 2;
+    });
+    
+    // Holding trials
+    var LV_trial_list = [];
+    var MV_trial_list = [];
+    var HV_trial_list = [];
+    
+    // Generate potential trials in MV condition to get distribution for other cats
+    
+    // IDs
+    let MV_IDs = MVdf.map(a => a.id);
+    let HV_IDs = HVdf.map(a => a.id);
+    let LV_IDs = LVdf.map(a => a.id);
+    
+    // Get all combinations
+    var MV_combos = MV_IDs.flatMap(
+        (v, i) => MV_IDs.slice(i+1).map( w => [v, w] )
+    );
+    
+    var HV_combos = HV_IDs.flatMap(
+        (v, i) => HV_IDs.slice(i+1).map( w => [v, w] )
+    );
+    
+    var LV_combos = LV_IDs.flatMap(
+        (v, i) => LV_IDs.slice(i+1).map( w => [v, w] )
+    );
+    
+    var MV_combos_shuffled = MV_combos
+    .map(value => ({ value, sort: Math.random() }))
+    .sort((a, b) => a.sort - b.sort)
+    .map(({ value }) => value)
+    
+    // Do something slightly different for LV and HV to get both IDs and VDs
+    let MV_combo_list = [];
+    let MV_count = 1;
+    for (var i = 0; i< MV_combos.length; i++) {
+    
+        var tmp_items = MV_combos[i];
+        var tmp_itemA_idx = MVdf.findIndex(x => x.id ===tmp_items[0]);
+        var tmp_itemB_idx = MVdf.findIndex(x => x.id ===tmp_items[1])
+        var tmp_diff = Math.abs(MVdf[tmp_itemA_idx].rating_round - MVdf[tmp_itemB_idx].rating_round);
+        // Make sure difference is within bounds
+        if ( (tmp_diff < minDiff) || (tmp_diff > maxDiff) ) {
+            continue;
+        }
+        MV_combo_list.push( {idA: tmp_items[0], idB: tmp_items[1], rating_diff: tmp_diff, match_id: MV_count});
+        MV_count++;
+    }
     
     
-        // Middle-Value
-        // Lower
-        var lowerMVFood = intersect_all[0].MV.lowerItem
-        // Upper
-        var upperMVFood = intersect_all[0].MV.upperItem
+    let HV_combo_list = [];
+    let HV_count = 1;
+    for (var i = 0; i< HV_combos.length; i++) {
     
-        // Low-Value
-        // Lower
-        var lowerLVFood = intersect_all[0].LV.lowerItem
-        // Upper
-        var upperLVFood = intersect_all[0].LV.upperItem
+        var tmp_items = HV_combos[i];
+        var tmp_itemA_idx = HVdf.findIndex(x => x.id ===tmp_items[0]);
+        var tmp_itemB_idx = HVdf.findIndex(x => x.id ===tmp_items[1])
+        var tmp_diff = Math.abs(HVdf[tmp_itemA_idx].rating_round - HVdf[tmp_itemB_idx].rating_round);
+        // Make sure difference is within bounds
+        if ( (tmp_diff < minDiff) || (tmp_diff > maxDiff) ) {
+            continue;
+        }
+        HV_combo_list.push( {idA: tmp_items[0], idB: tmp_items[1], rating_diff: tmp_diff, match_id: HV_count});
+        HV_count++;
+    }
     
-        // Assign 'whichItem' values
-        upperHVFood['whichItem'] = 'HV1';
-        upperMVFood['whichItem'] = 'MV1';
-        upperLVFood['whichItem'] = 'LV1';
-        medianHV['whichItem'] = 'HV2';
-        medianMV['whichItem'] = 'MV2';
-        medianLV['whichItem'] = 'LV2';
-        lowerHVFood['whichItem'] = 'HV3';
-        lowerMVFood['whichItem'] = 'MV3';
-        lowerLVFood['whichItem'] = 'LV3';
-        
-        // Assign values to associate with rainbow
-        lowerLVFood['val'] = 1;
-        medianLV['val'] = 2;
-        upperLVFood['val'] = 3;
-        lowerMVFood['val'] = 4;
-        medianMV['val'] = 5;
-        upperMVFood['val'] = 6;
-        lowerHVFood['val'] = 7;
-        medianHV['val'] = 8;
-        upperHVFood['val'] = 9;
+    let LV_combo_list = [];
+    let LV_count = 1;
+    for (var i = 0; i< LV_combos.length; i++) {
+    
+        var tmp_items = LV_combos[i];
+        var tmp_itemA_idx = LVdf.findIndex(x => x.id ===tmp_items[0]);
+        var tmp_itemB_idx = LVdf.findIndex(x => x.id ===tmp_items[1])
+        var tmp_diff = Math.abs(LVdf[tmp_itemA_idx].rating_round - LVdf[tmp_itemB_idx].rating_round);
+        // Make sure difference is within bounds
+        if ( (tmp_diff < minDiff) || (tmp_diff > maxDiff) ) {
+            continue;
+        }
+        LV_combo_list.push( {idA: tmp_items[0], idB: tmp_items[1], rating_diff: tmp_diff, match_id : LV_count});
+        LV_count++;
+    }
     
     
-        // Concatenate data to the foodDF array (assuming it is an array of objects)
-        foodDF.push(medianHV);
-        foodDF.push(medianMV);
-        foodDF.push(medianLV);
-        foodDF.push(lowerHVFood);
-        foodDF.push(lowerMVFood);
-        foodDF.push(lowerLVFood);
-        foodDF.push(upperHVFood);
-        foodDF.push(upperMVFood);
-        foodDF.push(upperLVFood);
+    // Try to get an even split of differences
+    let rating_diff_list = []
+    let max_num_of_diff = [];
+    let list_of_differences = [{diff: 0.5, maxN: 0, unique: 0},
+        {diff: 1.0, maxN: 0, unique: 0},
+        {diff: 1.5, maxN: 0, unique: 0},
+        {diff: 2, maxN: 0, unique: 0},
+        {diff: 2.5, maxN: 0, unique: 0}];
     
-        if (foodDF.length === 9) {
-        got_em = 1;
+    // To make sure there are enough in each value-difference category
+    for (i = 0; i < list_of_differences.length; i++) {
+    
+        var thisDiff = list_of_differences[i].diff;
+        var tmp_diff_LV = LV_combo_list.filter(a => a.rating_diff == thisDiff);
+        var tmp_diff_MV = MV_combo_list.filter(a => a.rating_diff == thisDiff);
+        var tmp_diff_HV = HV_combo_list.filter(a => a.rating_diff == thisDiff);
+    
+        // Across all value categories, determine how many possible combinations are possible
+        var tmp_max = Math.min(tmp_diff_LV.length,tmp_diff_MV.length,tmp_diff_HV.length);
+    
+        // Unique IDs
+        var unique_LV = [];
+        var unique_MV = [];
+        var unique_HV = [];
+        for (j=0;j<tmp_diff_LV.length;j++) {
+            unique_LV.push(tmp_diff_LV[j].idA);
+            unique_LV.push(tmp_diff_LV[j].idB);
+    
+        }
+        unique_LV = [...new Set(unique_LV)];
+    
+        for (j=0;j<tmp_diff_MV.length;j++) {
+            unique_MV.push(tmp_diff_MV[j].idA);
+            unique_LV.push(tmp_diff_MV[j].idB);
+    
+        }
+        unique_MV = [...new Set(unique_MV)];
+    
+        for (j=0;j<tmp_diff_HV.length;j++) {
+            unique_HV.push(tmp_diff_HV[j].idA);
+            unique_HV.push(tmp_diff_HV[j].idB);
+    
+        }
+        unique_HV = [...new Set(unique_HV)];
+    
+        var tmp_unique = {LV: unique_LV,
+                        MV: unique_MV,
+                       HV: unique_HV};
+    
+        list_of_differences[i].maxN = tmp_max;
+        list_of_differences[i].unique = tmp_unique;
+    
+    }
+    
+    // Number of trials to generate per value-difference
+    // Start out with an equal number across difficulty levels
+    var n_trial_per_diff = [
+        nTrial/list_of_differences.length, // 0.5
+        nTrial/list_of_differences.length, // 1.0
+        nTrial/list_of_differences.length, // 1.5
+        nTrial/list_of_differences.length, // 2.0
+        nTrial/list_of_differences.length  // 2.5
+    ];
+    
+    var check = 0;
+    // Make sure each difference has trials in each value categoryu
+    while (check == 0) {
+        var nCheck = 0;
+        for (i=0;i<n_trial_per_diff.length;i++) {
+            list_of_differences[i].maxN;
+            // If the number of trials per difference is less than maxN, then we good
+            if (n_trial_per_diff[i] <= list_of_differences[i].maxN) {
+                nCheck++;
+            } else {
+                // Otherwise, remove a trial and place it elsewhere
+                n_trial_per_diff[i] = n_trial_per_diff[i] - 1;
+                if(i==0) {
+                    n_trial_per_diff[i] = n_trial_per_diff[i] - 1;
+                    n_trial_per_diff[i+1] =  n_trial_per_diff[i+1] + 1;
+                    i=-1; continue;
+                } else {
+                    n_trial_per_diff[i] = n_trial_per_diff[i] - 1;
+                    n_trial_per_diff[i-1] =  n_trial_per_diff[i-1] + 1;
+                    i=-1; continue;
+                }
+            }
+        }
+        // If all differences meet criteria, break loop
+        if (nCheck == n_trial_per_diff.length) {
+            check = 1;
+        }
+    }
+    //console.log(n_trial_per_diff)
+    //console.log(list_of_differences)
+    
+    // Generate trials
+    for (var i=0;i<list_of_differences.length;i++){
+        var potential_diff = list_of_differences[i].diff;
+        for (var j=0;j<=n_trial_per_diff[i];j++) {
+            var tmp_lv = generateTrial(LVdf,potential_diff);
+    
+            var tmp_mv = generateTrial(MVdf,potential_diff);
+    
+            var tmp_hv = generateTrial(HVdf,potential_diff);
+    
+            LV_trial_list.push(tmp_lv)
+            MV_trial_list.push(tmp_mv)
+            HV_trial_list.push(tmp_hv)
         }
     }
     
-    console.log(foodDF);
+    // Check on number of each
+    /*
+    console.log(list_of_differences[0].maxN)
+    console.log(list_of_differences[1].maxN)
+    console.log(list_of_differences[2].maxN)
+    console.log(list_of_differences[3].maxN)
+    console.log(list_of_differences[4].maxN)
+    */
+    
+    // Now fill dataframes with actual trial info
+    
+    for (i=0;i<=nTrial;i++) {
+        var tmp_items = LV_trial_list[i];
+        var tmp_itemA_idx = LVdf.findIndex(x => x.id ===tmp_items['idA']) ;
+        var tmp_itemB_idx = LVdf.findIndex(x => x.id ===tmp_items['idB']) ;
+        
+        var tmp_trial = {trial:(i+1), val_cat: 'LV', 
+                    item_a_img: LVdf[tmp_itemA_idx]['image'],
+                    item_b_img: LVdf[tmp_itemB_idx]['image'],
+                    item_a_rating: LVdf[tmp_itemA_idx]['rating'],
+                    item_b_rating: LVdf[tmp_itemB_idx]['rating'],
+                    rating_diff: tmp_items['rating_diff'] };
+    
+        foodDF.push(tmp_trial);
+    
+    }
+    
+    for (i=0;i<=nTrial;i++) {
+        var tmp_items = MV_trial_list[i];
+        var tmp_itemA_idx = MVdf.findIndex(x => x.id ===tmp_items['idA']) ;
+        var tmp_itemB_idx = MVdf.findIndex(x => x.id ===tmp_items['idB']) ;
+        
+        var tmp_trial = {trial:(i+1), val_cat: 'MV', 
+                    item_a_img: MVdf[tmp_itemA_idx]['image'],
+                    item_b_img: MVdf[tmp_itemB_idx]['image'],
+                    item_a_rating: MVdf[tmp_itemA_idx]['rating'],
+                    item_b_rating: MVdf[tmp_itemB_idx]['rating'],
+                    rating_diff: tmp_items['rating_diff'] };
+    
+        foodDF.push(tmp_trial);
+    
+    }
+    
+    for (i=0;i<=nTrial;i++) {
+        var tmp_items = HV_trial_list[i];
+        var tmp_itemA_idx = HVdf.findIndex(x => x.id ===tmp_items['idA']) ;
+        var tmp_itemB_idx = HVdf.findIndex(x => x.id ===tmp_items['idB']) ;
+       // if (i %%)
+        
+        var tmp_trial = {trial:(i+1), val_cat: 'HV', 
+                    item_a_img: HVdf[tmp_itemA_idx]['image'],
+                    item_b_img: HVdf[tmp_itemB_idx]['image'],
+                    item_a_rating: HVdf[tmp_itemA_idx]['rating'],
+                    item_b_rating: HVdf[tmp_itemB_idx]['rating'],
+                    rating_diff: tmp_items['rating_diff'] };
+    
+        foodDF.push(tmp_trial);
+    
+    }
+    console.log("Number of food choice trials: ", foodDF.length);
+    console.log("These are the foods we'll use",foodDF);
+    
     // keep track of which components have finished
     sort_foodComponents = [];
     
@@ -2614,107 +2882,6 @@ function sort_foodRoutineEnd(snapshot) {
 }
 
 
-var thisImage_obj;
-var thisImage_obj2;
-var thisImage;
-var choose_foodComponents;
-function choose_foodRoutineBegin(snapshot) {
-  return async function () {
-    TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
-    
-    //--- Prepare to start Routine 'choose_food' ---
-    t = 0;
-    choose_foodClock.reset(); // clock
-    frameN = -1;
-    continueRoutine = true; // until we're told otherwise
-    routineTimer.add(0.750000);
-    // update component parameters for each repeat
-    // Run 'Begin Routine' code from select_food_image
-    thisImage_obj = foodDF
-        .filter((obj) => obj.whichItem === whichItem)
-    
-    thisImage_obj2 = thisImage_obj[0].image;
-    thisImage = thisImage_obj2.image;
-    //console.log(thisImage);
-    food_img_choice.setImage(thisImage);
-    // keep track of which components have finished
-    choose_foodComponents = [];
-    choose_foodComponents.push(food_img_choice);
-    
-    choose_foodComponents.forEach( function(thisComponent) {
-      if ('status' in thisComponent)
-        thisComponent.status = PsychoJS.Status.NOT_STARTED;
-       });
-    return Scheduler.Event.NEXT;
-  }
-}
-
-
-function choose_foodRoutineEachFrame() {
-  return async function () {
-    //--- Loop for each frame of Routine 'choose_food' ---
-    // get current time
-    t = choose_foodClock.getTime();
-    frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
-    // update/draw components on each frame
-    
-    // *food_img_choice* updates
-    if (t >= 0.0 && food_img_choice.status === PsychoJS.Status.NOT_STARTED) {
-      // keep track of start time/frame for later
-      food_img_choice.tStart = t;  // (not accounting for frame time here)
-      food_img_choice.frameNStart = frameN;  // exact frame index
-      
-      food_img_choice.setAutoDraw(true);
-    }
-
-    frameRemains = 0.0 + 0.75 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
-    if (food_img_choice.status === PsychoJS.Status.STARTED && t >= frameRemains) {
-      food_img_choice.setAutoDraw(false);
-    }
-    // check for quit (typically the Esc key)
-    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
-    }
-    
-    // check if the Routine should terminate
-    if (!continueRoutine) {  // a component has requested a forced-end of Routine
-      return Scheduler.Event.NEXT;
-    }
-    
-    continueRoutine = false;  // reverts to True if at least one component still running
-    choose_foodComponents.forEach( function(thisComponent) {
-      if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
-        continueRoutine = true;
-      }
-    });
-    
-    // refresh the screen if continuing
-    if (continueRoutine && routineTimer.getTime() > 0) {
-      return Scheduler.Event.FLIP_REPEAT;
-    } else {
-      return Scheduler.Event.NEXT;
-    }
-  };
-}
-
-
-function choose_foodRoutineEnd(snapshot) {
-  return async function () {
-    //--- Ending Routine 'choose_food' ---
-    choose_foodComponents.forEach( function(thisComponent) {
-      if (typeof thisComponent.setAutoDraw === 'function') {
-        thisComponent.setAutoDraw(false);
-      }
-    });
-    // Routines running outside a loop should always advance the datafile row
-    if (currentLoop === psychoJS.experiment) {
-      psychoJS.experiment.nextEntry(snapshot);
-    }
-    return Scheduler.Event.NEXT;
-  }
-}
-
-
 var hide_mouse_routineComponents;
 function hide_mouse_routineRoutineBegin(snapshot) {
   return async function () {
@@ -2726,9 +2893,9 @@ function hide_mouse_routineRoutineBegin(snapshot) {
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
     // update component parameters for each repeat
-    // Run 'Begin Routine' code from code_2
+    // Run 'Begin Routine' code from hide_mouse_2
     psychoJS.window.mouseVisible = false;
-    
+    document.body.style.cursor='none';
     // keep track of which components have finished
     hide_mouse_routineComponents = [];
     
@@ -2784,293 +2951,6 @@ function hide_mouse_routineRoutineEnd(snapshot) {
       }
     });
     // the Routine "hide_mouse_routine" was not non-slip safe, so reset the non-slip timer
-    routineTimer.reset();
-    
-    // Routines running outside a loop should always advance the datafile row
-    if (currentLoop === psychoJS.experiment) {
-      psychoJS.experiment.nextEntry(snapshot);
-    }
-    return Scheduler.Event.NEXT;
-  }
-}
-
-
-var _instr_2_resp_allKeys;
-var instr_2Components;
-function instr_2RoutineBegin(snapshot) {
-  return async function () {
-    TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
-    
-    //--- Prepare to start Routine 'instr_2' ---
-    t = 0;
-    instr_2Clock.reset(); // clock
-    frameN = -1;
-    continueRoutine = true; // until we're told otherwise
-    // update component parameters for each repeat
-    // Run 'Begin Routine' code from instr_dict_2
-    instr_back_txt = new visual.TextStim({"win": psychoJS.window, "name": "back_forth", "text": "", "font": "Arial", "pos": [0, (- 0.4)], "height": 0.05, "wrapWidth": null, "ori": 0, "color": "white", "colorSpace": "rgb", "opacity": 1, "languageStyle": "LTR", "depth": 0.0});
-    instr_back_txt.text = "\nPress RIGHT ARROW to continue.";
-    instr_back_txt.autoDraw = true;
-    instr_strs = {};
-    instr_strs[0] = `You have completed the rating phase.
-    In this next phase, you will learn more about how the mining task works.`
-    ;
-    instr_strs[1] = `In this task, you are playing the role of a miner. It is up to you to select where you will mine for crystals and which crystals you want to keep.`;
-    instr_strs[2] = `Over ${days} days, you will be choosing which cave you want to work in. Once you are in a cave, you will be presented with a series of chests containg crystals. The value of these chests depend on the type of crystals inside. Each crystal is worth a different reward, depending on its color.`;
-    if ((FOOD_BOOL === 1)) {
-        instr_strs[3] = `Each day, after selecting a cave, you will make ${rounds} choices between two chests. Some times those chests will contain crystals that give you food rewards, but other times they will give you social rewards.`;
-    } else {
-        instr_strs[3] = `Each day, after selecting a cave, you will make ${rounds} choices between two chests. Some times those chests will contain crystals that give you drug rewards, but other times they will give you social rewards.`;
-    }
-    instr_strs[4] = `To get the type of rewards you want, you will need to learn both which mine is more likely to have the right crystals, and which crystals give you the best reward.`;
-    instr_strs[5] = `The following screen will display the colors you will see throughout this task.`;
-    instr_strs[6] = `Each rainbow offers a different type of reward. The value of the colors increases across the spectrum, from left to right.
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    `
-    ;
-    instr_disp_txt = new visual.TextStim({"win": psychoJS.window, "name": "instructions", "text": "", "font": "Arial", "pos": [0, 0], "height": 0.04, "wrapWidth": null, "ori": 0, "color": "white", "colorSpace": "rgb", "opacity": 1, "languageStyle": "LTR", "depth": 0.0});
-    instr_disp_txt.text = instr_strs[0];
-    instr_disp_txt.autoDraw = true;
-    curr_instr = 0;
-    
-    instr_2_resp.keys = undefined;
-    instr_2_resp.rt = undefined;
-    _instr_2_resp_allKeys = [];
-    // keep track of which components have finished
-    instr_2Components = [];
-    instr_2Components.push(instr_2_resp);
-    
-    instr_2Components.forEach( function(thisComponent) {
-      if ('status' in thisComponent)
-        thisComponent.status = PsychoJS.Status.NOT_STARTED;
-       });
-    return Scheduler.Event.NEXT;
-  }
-}
-
-
-function instr_2RoutineEachFrame() {
-  return async function () {
-    //--- Loop for each frame of Routine 'instr_2' ---
-    // get current time
-    t = instr_2Clock.getTime();
-    frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
-    // update/draw components on each frame
-    // Run 'Each Frame' code from instr_dict_2
-    var _pj;
-    function _pj_snippets(container) {
-        function in_es6(left, right) {
-            if (((right instanceof Array) || ((typeof right) === "string"))) {
-                return (right.indexOf(left) > (- 1));
-            } else {
-                if (((right instanceof Map) || (right instanceof Set) || (right instanceof WeakMap) || (right instanceof WeakSet))) {
-                    return right.has(left);
-                } else {
-                    return (left in right);
-                }
-            }
-        }
-        container["in_es6"] = in_es6;
-        return container;
-    }
-    _pj = {};
-    _pj_snippets(_pj);
-    instr_keys = psychoJS.eventManager.getKeys();
-    if ((curr_instr === 0)) {
-        instr_back_txt.text = "\nPress RIGHT ARROW to continue.";
-        if (_pj.in_es6("right", instr_keys)) {
-            instr_keyboard.clearEvents();
-            curr_instr += 1;
-            instr_disp_txt.text = instr_strs[curr_instr];
-            instr_back_txt.autoDraw = true;
-        }
-    } else {
-        if ((curr_instr === 6)) {
-            for (var swatch_index, _pj_c = 0, _pj_a = util.range(color_scale1.length), _pj_b = _pj_a.length; (_pj_c < _pj_b); _pj_c += 1) {
-                swatch_index = _pj_a[_pj_c];
-                swatches_top[swatch_index].setAutoDraw(true);
-                swatches_bot[swatch_index].setAutoDraw(true);
-            }
-            instr_back_txt.text = "Press LEFT ARROW to go back.\nPress RIGHT ARROW to begin.";
-            if (_pj.in_es6("right", instr_keys)) {
-                for (var swatch_index, _pj_c = 0, _pj_a = util.range(color_scale1.length), _pj_b = _pj_a.length; (_pj_c < _pj_b); _pj_c += 1) {
-                    swatch_index = _pj_a[_pj_c];
-                    swatches_top[swatch_index].setAutoDraw(false);
-                    swatches_bot[swatch_index].setAutoDraw(false);
-                }
-                instr_keyboard.clearEvents();
-                continueRoutine = false;
-            } else {
-                if (_pj.in_es6("left", instr_keys)) {
-                    for (var swatch_index, _pj_c = 0, _pj_a = util.range(color_scale_1.length), _pj_b = _pj_a.length; (_pj_c < _pj_b); _pj_c += 1) {
-                        swatch_index = _pj_a[_pj_c];
-                        swatches_top[swatch_index].setAutoDraw(false);
-                        swatches_bot[swatch_index].setAutoDraw(false);
-                    }
-                    instr_keyboard.clearEvents();
-                    curr_instr -= 1;
-                    instr_disp_txt.text = instr_strs[curr_instr];
-                    if ((curr_instr === 0)) {
-                        instr_back_txt.autoDraw = false;
-                    } else {
-                        instr_back_txt.autoDraw = true;
-                    }
-                }
-            }
-        } else {
-            if ((curr_instr === 11)) {
-                left_chest.setAutoDraw(true);
-                left_shard.setAutoDraw(true);
-                left_shard_6.setAutoDraw(true);
-                left_shard_7.setAutoDraw(true);
-                left_shard_8.setAutoDraw(true);
-                left_shard_9.setAutoDraw(true);
-                left_shard_10.setAutoDraw(true);
-                right_chest.setAutoDraw(true);
-                right_shard.setAutoDraw(true);
-                right_shard_6.setAutoDraw(true);
-                right_shard_7.setAutoDraw(true);
-                right_shard_8.setAutoDraw(true);
-                right_shard_9.setAutoDraw(true);
-                right_shard_10.setAutoDraw(true);
-            }
-            instr_back_txt.text = "Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.";
-            if (_pj.in_es6("right", instr_keys)) {
-                for (var swatch_index, _pj_c = 0, _pj_a = util.range(color_scale_1.length), _pj_b = _pj_a.length; (_pj_c < _pj_b); _pj_c += 1) {
-                    swatch_index = _pj_a[_pj_c];
-                    swatches[swatch_index].setAutoDraw(false);
-                }
-                left_chest.setAutoDraw(false);
-                left_shard.setAutoDraw(false);
-                left_shard_6.setAutoDraw(false);
-                left_shard_7.setAutoDraw(false);
-                left_shard_8.setAutoDraw(false);
-                left_shard_9.setAutoDraw(false);
-                left_shard_10.setAutoDraw(false);
-                right_chest.setAutoDraw(false);
-                right_shard.setAutoDraw(false);
-                right_shard_6.setAutoDraw(false);
-                right_shard_7.setAutoDraw(false);
-                right_shard_8.setAutoDraw(false);
-                right_shard_9.setAutoDraw(false);
-                right_shard_10.setAutoDraw(false);
-                social_image.setAutoDraw(false);
-                food_image.setAutoDraw(false);
-                drug_image.setAutoDraw(false);
-                instr_keyboard.clearEvents();
-                curr_instr += 1;
-                instr_disp_txt.text = instr_strs[curr_instr];
-                instr_back_txt.autoDraw = true;
-            } else {
-                if (_pj.in_es6("left", instr_keys)) {
-                    for (var swatch_index, _pj_c = 0, _pj_a = util.range(color_scale_1.length), _pj_b = _pj_a.length; (_pj_c < _pj_b); _pj_c += 1) {
-                        swatch_index = _pj_a[_pj_c];
-                        swatches[swatch_index].setAutoDraw(false);
-                    }
-                    left_chest.setAutoDraw(false);
-                    left_shard.setAutoDraw(false);
-                    left_shard_6.setAutoDraw(false);
-                    left_shard_7.setAutoDraw(false);
-                    left_shard_8.setAutoDraw(false);
-                    left_shard_9.setAutoDraw(false);
-                    left_shard_10.setAutoDraw(false);
-                    right_chest.setAutoDraw(false);
-                    right_shard.setAutoDraw(false);
-                    right_shard_6.setAutoDraw(false);
-                    right_shard_7.setAutoDraw(false);
-                    right_shard_8.setAutoDraw(false);
-                    right_shard_9.setAutoDraw(false);
-                    right_shard_10.setAutoDraw(false);
-                    social_image.setAutoDraw(false);
-                    food_image.setAutoDraw(false);
-                    drug_image.setAutoDraw(false);
-                    instr_keyboard.clearEvents();
-                    curr_instr -= 1;
-                    instr_disp_txt.text = instr_strs[curr_instr];
-                    if ((curr_instr === 0)) {
-                        instr_back_txt.text = "\nPress RIGHT ARROW to continue.";
-                    } else {
-                        instr_back_txt.text = "Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.";
-                    }
-                }
-            }
-        }
-    }
-    
-    
-    // *instr_2_resp* updates
-    if (t >= 0.0 && instr_2_resp.status === PsychoJS.Status.NOT_STARTED) {
-      // keep track of start time/frame for later
-      instr_2_resp.tStart = t;  // (not accounting for frame time here)
-      instr_2_resp.frameNStart = frameN;  // exact frame index
-      
-      // keyboard checking is just starting
-      psychoJS.window.callOnFlip(function() { instr_2_resp.clock.reset(); });  // t=0 on next screen flip
-      psychoJS.window.callOnFlip(function() { instr_2_resp.start(); }); // start on screen flip
-      psychoJS.window.callOnFlip(function() { instr_2_resp.clearEvents(); });
-    }
-
-    if (instr_2_resp.status === PsychoJS.Status.STARTED) {
-      let theseKeys = instr_2_resp.getKeys({keyList: ['left', 'right'], waitRelease: false});
-      _instr_2_resp_allKeys = _instr_2_resp_allKeys.concat(theseKeys);
-      if (_instr_2_resp_allKeys.length > 0) {
-        instr_2_resp.keys = _instr_2_resp_allKeys[_instr_2_resp_allKeys.length - 1].name;  // just the last key pressed
-        instr_2_resp.rt = _instr_2_resp_allKeys[_instr_2_resp_allKeys.length - 1].rt;
-      }
-    }
-    
-    // check for quit (typically the Esc key)
-    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
-      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
-    }
-    
-    // check if the Routine should terminate
-    if (!continueRoutine) {  // a component has requested a forced-end of Routine
-      return Scheduler.Event.NEXT;
-    }
-    
-    continueRoutine = false;  // reverts to True if at least one component still running
-    instr_2Components.forEach( function(thisComponent) {
-      if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
-        continueRoutine = true;
-      }
-    });
-    
-    // refresh the screen if continuing
-    if (continueRoutine) {
-      return Scheduler.Event.FLIP_REPEAT;
-    } else {
-      return Scheduler.Event.NEXT;
-    }
-  };
-}
-
-
-function instr_2RoutineEnd(snapshot) {
-  return async function () {
-    //--- Ending Routine 'instr_2' ---
-    instr_2Components.forEach( function(thisComponent) {
-      if (typeof thisComponent.setAutoDraw === 'function') {
-        thisComponent.setAutoDraw(false);
-      }
-    });
-    // Run 'End Routine' code from instr_dict_2
-    instr_back_txt.autoDraw = false;
-    instr_disp_txt.autoDraw = false;
-    
-    instr_2_resp.stop();
-    // the Routine "instr_2" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset();
     
     // Routines running outside a loop should always advance the datafile row
@@ -3200,13 +3080,8 @@ function prac_instrRoutineEnd(snapshot) {
 }
 
 
-var left_shard_colors;
-var right_shard_colors;
-var left_shard_sum;
-var right_shard_sum;
-var left_shards;
-var right_shards;
-var better_option;
+var thisFoodA;
+var thisFoodB;
 var _choice_resp_2_allKeys;
 var practice_choiceComponents;
 function practice_choiceRoutineBegin(snapshot) {
@@ -3219,124 +3094,20 @@ function practice_choiceRoutineBegin(snapshot) {
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
     // update component parameters for each repeat
-    // Run 'Begin Routine' code from draw_chests_2
-    left_chest.setAutoDraw(true);
-    right_chest.setAutoDraw(true);
-    
-    // Run 'Begin Routine' code from set_shards_2
-    function reverse_value(num) {
-        if ((num === 1)) {
-            return 9;
-        } else {
-            if ((num === 2)) {
-                return 8;
-            } else {
-                if ((num === 3)) {
-                    return 7;
-                } else {
-                    if ((num === 4)) {
-                        return 6;
-                    } else {
-                        if ((num === 5)) {
-                            return 5;
-                        } else {
-                            if ((num === 6)) {
-                                return 4;
-                            } else {
-                                if ((num === 7)) {
-                                    return 3;
-                                } else {
-                                    if ((num === 8)) {
-                                        return 2;
-                                    } else {
-                                        if ((num === 9)) {
-                                            return 1;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-    console.log("counter_balance", counter_balance);
-    console.log("chest_order", chest_order);
-    console.log("left_shard_shapes", left_shard_shapes);
-    console.log("right_shard_shapes", right_shard_shapes);
-    left_shard_colors = [];
-    right_shard_colors = [];
-    if ((chest_order[0] === "Box1")) {
-        console.log("box1");
-        if ((counter_balance === "1")) {
-            console.log("cb1");
-            left_shard_sum = Box1_Sum.toString();
-            right_shard_sum = Box2_Sum.toString();
-            left_shard_colors = [Box1_val1, Box1_val2, Box1_val3, Box1_val4, Box1_val5, Box1_val6];
-            right_shard_colors = [Box2_val1, Box2_val2, Box2_val3, Box2_val4, Box2_val5, Box2_val6];
-        } else {
-            if ((counter_balance === "2")) {
-                console.log("cb2");
-                left_shard_sum = Box1_Sum.toString();
-                right_shard_sum = Box2_Sum.toString();
-                left_shard_colors = [reverse_value(Box1_val1), reverse_value(Box1_val2), reverse_value(Box1_val3), reverse_value(Box1_val4), reverse_value(Box1_val5), reverse_value(Box1_val6)];
-                right_shard_colors = [reverse_value(Box2_val1), reverse_value(Box2_val2), reverse_value(Box2_val3), reverse_value(Box2_val4), reverse_value(Box2_val5), reverse_value(Box2_val6)];
-            }
-        }
-    } else {
-        if ((chest_order[0] === "Box2")) {
-            console.log("box2");
-            if ((counter_balance === "1")) {
-                console.log("cb1");
-                left_shard_sum = Box2_Sum.toString();
-                right_shard_sum = Box1_Sum.toString();
-                left_shard_colors = [Box2_val1, Box2_val2, Box2_val3, Box2_val4, Box2_val5, Box2_val6];
-                right_shard_colors = [Box1_val1, Box1_val2, Box1_val3, Box1_val4, Box1_val5, Box1_val6];
-            } else {
-                if ((counter_balance === "2")) {
-                    console.log("cb2");
-                    left_shard_sum = Box2_Sum.toString();
-                    right_shard_sum = Box1_Sum.toString();
-                    left_shard_colors = [reverse_value(Box2_val1), reverse_value(Box2_val2), reverse_value(Box2_val3), reverse_value(Box2_val4), reverse_value(Box2_val5), reverse_value(Box2_val6)];
-                    right_shard_colors = [reverse_value(Box1_val1), reverse_value(Box1_val2), reverse_value(Box1_val3), reverse_value(Box1_val4), reverse_value(Box1_val5), reverse_value(Box1_val6)];
-                }
-            }
-        }
-    }
-    console.log(left_shard_colors, "left_shard_colors");
-    console.log(right_shard_colors, "right_shard_colors");
-    left_shards = [];
-    right_shards = [];
-    for (var i, _pj_c = 0, _pj_a = util.range(6), _pj_b = _pj_a.length; (_pj_c < _pj_b); _pj_c += 1) {
-        i = _pj_a[_pj_c];
-        if ((left_shard_shapes[i] >= 10)) {
-            left_shards.push((((((("stimuli/" + color_1) + "/shard-") + left_shard_shapes[i].toString()) + "_color-") + left_shard_colors[i].toString()) + ".png"));
-        } else {
-            left_shards.push((((((("stimuli/" + color_1) + "/shard-0") + left_shard_shapes[i].toString()) + "_color-") + left_shard_colors[i].toString()) + ".png"));
-        }
-        if ((right_shard_shapes[i] >= 10)) {
-            right_shards.push((((((("stimuli/" + color_1) + "/shard-") + right_shard_shapes[i].toString()) + "_color-") + right_shard_colors[i].toString()) + ".png"));
-        } else {
-            right_shards.push((((((("stimuli/" + color_1) + "/shard-0") + right_shard_shapes[i].toString()) + "_color-") + right_shard_colors[i].toString()) + ".png"));
-        }
-    }
-    if ((Number.parseFloat(left_shard_sum) > Number.parseFloat(right_shard_sum))) {
-        better_option = "left";
-    } else {
-        if ((Number.parseFloat(left_shard_sum) < Number.parseFloat(right_shard_sum))) {
-            better_option = "right";
-        }
-    }
-    psychoJS.experiment.addData("better_option", better_option);
-    console.log("chest_order", chest_order);
+    // Run 'Begin Routine' code from outline_settings_2
+    thisFoodA = imageA;
+    thisFoodB = imageB;
     
     choice_resp_2.keys = undefined;
     choice_resp_2.rt = undefined;
     _choice_resp_2_allKeys = [];
+    practice_img_A.setImage(thisFoodA);
+    practice_img_B.setImage(thisFoodB);
     // keep track of which components have finished
     practice_choiceComponents = [];
     practice_choiceComponents.push(choice_resp_2);
+    practice_choiceComponents.push(practice_img_A);
+    practice_choiceComponents.push(practice_img_B);
     
     practice_choiceComponents.forEach( function(thisComponent) {
       if ('status' in thisComponent)
@@ -3378,6 +3149,26 @@ function practice_choiceRoutineEachFrame() {
       }
     }
     
+    
+    // *practice_img_A* updates
+    if (t >= 0.0 && practice_img_A.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      practice_img_A.tStart = t;  // (not accounting for frame time here)
+      practice_img_A.frameNStart = frameN;  // exact frame index
+      
+      practice_img_A.setAutoDraw(true);
+    }
+
+    
+    // *practice_img_B* updates
+    if (t >= 0.0 && practice_img_B.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      practice_img_B.tStart = t;  // (not accounting for frame time here)
+      practice_img_B.frameNStart = frameN;  // exact frame index
+      
+      practice_img_B.setAutoDraw(true);
+    }
+
     // check for quit (typically the Esc key)
     if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
       return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
@@ -3407,8 +3198,6 @@ function practice_choiceRoutineEachFrame() {
 
 var made_choice;
 var this_trial_choice;
-var this_trial_box_choice;
-var correct;
 function practice_choiceRoutineEnd(snapshot) {
   return async function () {
     //--- Ending Routine 'practice_choice' ---
@@ -3418,32 +3207,22 @@ function practice_choiceRoutineEnd(snapshot) {
       }
     });
     // Run 'End Routine' code from outline_settings_2
-    console.log(chest_order);
     if ((choice_resp_2.keys === "f")) {
         made_choice = 1;
         this_trial_choice = "left";
-        this_trial_box_choice = chest_order[0];
-        if ((better_option === "left")) {
-            correct = 1;
-        } else {
-            correct = 0;
-        }
+        outline_shape.setPos([(- 0.45), 0], {"log": true});
+        outline_shape.setSize(0.3, 0.35);
+        outline_shape.setAutoDraw(true);
     } else {
         if ((choice_resp_2.keys === "j")) {
             made_choice = 1;
             this_trial_choice = "right";
-            this_trial_box_choice = chest_order[1];
-            if ((better_option === "right")) {
-                correct = 1;
-            } else {
-                correct = 0;
-            }
+            outline_shape.setPos([0.45, 0], {"log": true});
+            outline_shape.setSize(0.3, 0.35);
+            outline_shape.setAutoDraw(true);
         }
     }
     psychoJS.experiment.addData("agent_choice", this_trial_choice);
-    psychoJS.experiment.addData("agent_box_choice", this_trial_box_choice);
-    psychoJS.experiment.addData("correct_choice", correct);
-    correct_choice_count.push(correct);
     
     // update the trial handler
     if (currentLoop instanceof MultiStairHandler) {
@@ -3468,36 +3247,41 @@ function practice_choiceRoutineEnd(snapshot) {
 }
 
 
-var start_task_txt_disp;
-var _key_resp_2_allKeys;
-var self_instrComponents;
-function self_instrRoutineBegin(snapshot) {
+var practice_feedbackComponents;
+function practice_feedbackRoutineBegin(snapshot) {
   return async function () {
     TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
     
-    //--- Prepare to start Routine 'self_instr' ---
+    //--- Prepare to start Routine 'practice_feedback' ---
     t = 0;
-    self_instrClock.reset(); // clock
+    practice_feedbackClock.reset(); // clock
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
+    routineTimer.add(0.500000);
     // update component parameters for each repeat
-    // Run 'Begin Routine' code from start_task_txt
-    if ((BONUS_BOOL === 1)) {
-        start_task_txt_disp = "You are now ready to begin the experiment. In this portion of the study, you will no longer be shown how much each treasure chest is worth. Remember, your bonus payment will depend on your choices in this phase. At the end of the experiment, one random round will be selected, and you will get points for whichever option you chose.\n\nWhen you are ready, press the SPACE BAR to continue.";
+    // Run 'Begin Routine' code from practice_feedback_2
+    thisFoodA = imageA;
+    thisFoodB = imageB;
+    if ((this_trial_choice === "left")) {
+        outline_shape.setPos([(- 0.45), 0], {"log": true});
+        outline_shape.setSize(0.3, 0.35);
+        outline_shape.setAutoDraw(true);
     } else {
-        start_task_txt_disp = "You are now ready to begin the experiment. In this portion of the study, you will no longer be shown how much each treasure chest is worth.\n\nWhen you are ready, press the SPACE BAR to continue.";
+        if ((this_trial_choice === "right")) {
+            outline_shape.setPos([0.45, 0], {"log": true});
+            outline_shape.setSize(0.3, 0.35);
+            outline_shape.setAutoDraw(true);
+        }
     }
     
-    text_4.setText(start_task_txt_disp);
-    key_resp_2.keys = undefined;
-    key_resp_2.rt = undefined;
-    _key_resp_2_allKeys = [];
+    practice_img_A_feedback.setImage(thisFoodA);
+    practice_img_2_feedback.setImage(thisFoodB);
     // keep track of which components have finished
-    self_instrComponents = [];
-    self_instrComponents.push(text_4);
-    self_instrComponents.push(key_resp_2);
+    practice_feedbackComponents = [];
+    practice_feedbackComponents.push(practice_img_A_feedback);
+    practice_feedbackComponents.push(practice_img_2_feedback);
     
-    self_instrComponents.forEach( function(thisComponent) {
+    practice_feedbackComponents.forEach( function(thisComponent) {
       if ('status' in thisComponent)
         thisComponent.status = PsychoJS.Status.NOT_STARTED;
        });
@@ -3506,11 +3290,131 @@ function self_instrRoutineBegin(snapshot) {
 }
 
 
-function self_instrRoutineEachFrame() {
+function practice_feedbackRoutineEachFrame() {
   return async function () {
-    //--- Loop for each frame of Routine 'self_instr' ---
+    //--- Loop for each frame of Routine 'practice_feedback' ---
     // get current time
-    t = self_instrClock.getTime();
+    t = practice_feedbackClock.getTime();
+    frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
+    // update/draw components on each frame
+    
+    // *practice_img_A_feedback* updates
+    if (t >= 0.0 && practice_img_A_feedback.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      practice_img_A_feedback.tStart = t;  // (not accounting for frame time here)
+      practice_img_A_feedback.frameNStart = frameN;  // exact frame index
+      
+      practice_img_A_feedback.setAutoDraw(true);
+    }
+
+    frameRemains = 0.0 + 0.5 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    if (practice_img_A_feedback.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+      practice_img_A_feedback.setAutoDraw(false);
+    }
+    
+    // *practice_img_2_feedback* updates
+    if (t >= 0.0 && practice_img_2_feedback.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      practice_img_2_feedback.tStart = t;  // (not accounting for frame time here)
+      practice_img_2_feedback.frameNStart = frameN;  // exact frame index
+      
+      practice_img_2_feedback.setAutoDraw(true);
+    }
+
+    frameRemains = 0.0 + 0.5 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    if (practice_img_2_feedback.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+      practice_img_2_feedback.setAutoDraw(false);
+    }
+    // check for quit (typically the Esc key)
+    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
+    }
+    
+    // check if the Routine should terminate
+    if (!continueRoutine) {  // a component has requested a forced-end of Routine
+      return Scheduler.Event.NEXT;
+    }
+    
+    continueRoutine = false;  // reverts to True if at least one component still running
+    practice_feedbackComponents.forEach( function(thisComponent) {
+      if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
+        continueRoutine = true;
+      }
+    });
+    
+    // refresh the screen if continuing
+    if (continueRoutine && routineTimer.getTime() > 0) {
+      return Scheduler.Event.FLIP_REPEAT;
+    } else {
+      return Scheduler.Event.NEXT;
+    }
+  };
+}
+
+
+function practice_feedbackRoutineEnd(snapshot) {
+  return async function () {
+    //--- Ending Routine 'practice_feedback' ---
+    practice_feedbackComponents.forEach( function(thisComponent) {
+      if (typeof thisComponent.setAutoDraw === 'function') {
+        thisComponent.setAutoDraw(false);
+      }
+    });
+    // Run 'End Routine' code from practice_feedback_2
+    outline_shape.setAutoDraw(false);
+    
+    // Routines running outside a loop should always advance the datafile row
+    if (currentLoop === psychoJS.experiment) {
+      psychoJS.experiment.nextEntry(snapshot);
+    }
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+var start_task_txt_disp;
+var _key_resp_2_allKeys;
+var choice_instrComponents;
+function choice_instrRoutineBegin(snapshot) {
+  return async function () {
+    TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
+    
+    //--- Prepare to start Routine 'choice_instr' ---
+    t = 0;
+    choice_instrClock.reset(); // clock
+    frameN = -1;
+    continueRoutine = true; // until we're told otherwise
+    // update component parameters for each repeat
+    // Run 'Begin Routine' code from start_task_txt
+    if ((BONUS_BOOL === 1)) {
+        start_task_txt_disp = "You are now ready to begin the experiment. In this portion of the study, you will no longer be shown how much each treasure chest is worth. Remember, your bonus payment will depend on your choices in this phase. At the end of the experiment, one random round will be selected, and you will get points for whichever option you chose.\n\nWhen you are ready, press the SPACE BAR to continue.";
+    } else {
+        start_task_txt_disp = "You are now ready to begin the Food Choice Task. Remember, use the F key to select the image on the left and the J key to select the image on the right.\n\nWhen you are ready, press the SPACE BAR to continue.";
+    }
+    
+    text_4.setText(start_task_txt_disp);
+    key_resp_2.keys = undefined;
+    key_resp_2.rt = undefined;
+    _key_resp_2_allKeys = [];
+    // keep track of which components have finished
+    choice_instrComponents = [];
+    choice_instrComponents.push(text_4);
+    choice_instrComponents.push(key_resp_2);
+    
+    choice_instrComponents.forEach( function(thisComponent) {
+      if ('status' in thisComponent)
+        thisComponent.status = PsychoJS.Status.NOT_STARTED;
+       });
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+function choice_instrRoutineEachFrame() {
+  return async function () {
+    //--- Loop for each frame of Routine 'choice_instr' ---
+    // get current time
+    t = choice_instrClock.getTime();
     frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
     // update/draw components on each frame
     
@@ -3558,7 +3462,7 @@ function self_instrRoutineEachFrame() {
     }
     
     continueRoutine = false;  // reverts to True if at least one component still running
-    self_instrComponents.forEach( function(thisComponent) {
+    choice_instrComponents.forEach( function(thisComponent) {
       if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
         continueRoutine = true;
       }
@@ -3574,16 +3478,16 @@ function self_instrRoutineEachFrame() {
 }
 
 
-function self_instrRoutineEnd(snapshot) {
+function choice_instrRoutineEnd(snapshot) {
   return async function () {
-    //--- Ending Routine 'self_instr' ---
-    self_instrComponents.forEach( function(thisComponent) {
+    //--- Ending Routine 'choice_instr' ---
+    choice_instrComponents.forEach( function(thisComponent) {
       if (typeof thisComponent.setAutoDraw === 'function') {
         thisComponent.setAutoDraw(false);
       }
     });
     key_resp_2.stop();
-    // the Routine "self_instr" was not non-slip safe, so reset the non-slip timer
+    // the Routine "choice_instr" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset();
     
     // Routines running outside a loop should always advance the datafile row
@@ -3595,7 +3499,6 @@ function self_instrRoutineEnd(snapshot) {
 }
 
 
-var chest_order;
 var _choice_resp_allKeys;
 var choiceComponents;
 function choiceRoutineBegin(snapshot) {
@@ -3608,153 +3511,23 @@ function choiceRoutineBegin(snapshot) {
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
     // update component parameters for each repeat
-    // Run 'Begin Routine' code from draw_chests
-    left_chest.setAutoDraw(true);
-    right_chest.setAutoDraw(true);
+    // Run 'Begin Routine' code from outline_settings
+    thisImage_obj = foodDF[(TrialN - 1)];
+    thisImage_obj_A = thisImage_obj.item_a_img;
+    thisImage_obj_B = thisImage_obj.item_b_img;
+    thisImageA = thisImage_obj_A.image;
+    thisImageB = thisImage_obj_B.image;
     
-    // Run 'Begin Routine' code from fill_chests_2
-    chest_order = ["Box1", "Box2"];
-    util.shuffle(chest_order);
-    
-    let left_shard_shapes = Array.from({ length: 6 }, () =>
-      Math.floor(Math.random() * 13) + 1
-    );
-    let right_shard_shapes = Array.from({ length: 6 }, () =>
-      Math.floor(Math.random() * 13) + 1
-    );
-    // Run 'Begin Routine' code from set_shards
-    function reverse_value(num) {
-        if ((num === 1)) {
-            return 12;
-        } else {
-            if ((num === 2)) {
-                return 11;
-            } else {
-                if ((num === 3)) {
-                    return 10;
-                } else {
-                    if ((num === 4)) {
-                        return 9;
-                    } else {
-                        if ((num === 5)) {
-                            return 8;
-                        } else {
-                            if ((num === 6)) {
-                                return 7;
-                            } else {
-                                if ((num === 7)) {
-                                    return 6;
-                                } else {
-                                    if ((num === 8)) {
-                                        return 5;
-                                    } else {
-                                        if ((num === 9)) {
-                                            return 4;
-                                        } else {
-                                            if ((num === 10)) {
-                                                return 3;
-                                            } else {
-                                                if ((num === 11)) {
-                                                    return 2;
-                                                } else {
-                                                    if ((num === 12)) {
-                                                        return 1;
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-    if ((chest_order[0] === "Box1")) {
-        if ((counter_balance === "1")) {
-            left_shard_sum = Box1_Sum.toString();
-            right_shard_sum = Box2_Sum.toString();
-            left_shard_colors = [Box1_val1, Box1_val2, Box1_val3, Box1_val4, Box1_val5, Box1_val6];
-            right_shard_colors = [Box2_val1, Box2_val2, Box2_val3, Box2_val4, Box2_val5, Box2_val6];
-        } else {
-            if ((counter_balance === "2")) {
-                left_shard_sum = Box1_Sum.toString();
-                right_shard_sum = Box2_Sum.toString();
-                left_shard_colors = [reverse_value(Box1_val1), reverse_value(Box1_val2), reverse_value(Box1_val3), reverse_value(Box1_val4), reverse_value(Box1_val5), reverse_value(Box1_val6)];
-                right_shard_colors = [reverse_value(Box2_val1), reverse_value(Box2_val2), reverse_value(Box2_val3), reverse_value(Box2_val4), reverse_value(Box2_val5), reverse_value(Box2_val6)];
-            }
-        }
-    } else {
-        if ((chest_order[0] === "Box2")) {
-            if ((counter_balance === "1")) {
-                left_shard_sum = Box2_Sum.toString();
-                right_shard_sum = Box1_Sum.toString();
-                left_shard_colors = [Box2_val1, Box2_val2, Box2_val3, Box2_val4, Box2_val5, Box2_val6];
-                right_shard_colors = [Box1_val1, Box1_val2, Box1_val3, Box1_val4, Box1_val5, Box1_val6];
-            } else {
-                if ((counter_balance === "2")) {
-                    left_shard_sum = Box2_Sum.toString();
-                    right_shard_sum = Box1_Sum.toString();
-                    left_shard_colors = [reverse_value(Box2_val1), reverse_value(Box2_val2), reverse_value(Box2_val3), reverse_value(Box2_val4), reverse_value(Box2_val5), reverse_value(Box2_val6)];
-                    right_shard_colors = [reverse_value(Box1_val1), reverse_value(Box1_val2), reverse_value(Box1_val3), reverse_value(Box1_val4), reverse_value(Box1_val5), reverse_value(Box1_val6)];
-                }
-            }
-        }
-    }
-    left_shards = [];
-    right_shards = [];
-    for (var i, _pj_c = 0, _pj_a = util.range(6), _pj_b = _pj_a.length; (_pj_c < _pj_b); _pj_c += 1) {
-        i = _pj_a[_pj_c];
-        if ((left_shard_shapes[i] >= 10)) {
-            left_shards.push((((("stimuli/shard-" + left_shard_shapes[i].toString()) + "_color-") + left_shard_colors[i].toString()) + ".png"));
-        } else {
-            left_shards.push((((("stimuli/shard-0" + left_shard_shapes[i].toString()) + "_color-") + left_shard_colors[i].toString()) + ".png"));
-        }
-        if ((right_shard_shapes[i] >= 10)) {
-            right_shards.push((((("stimuli/shard-" + right_shard_shapes[i].toString()) + "_color-") + right_shard_colors[i].toString()) + ".png"));
-        } else {
-            right_shards.push((((("stimuli/shard-0" + right_shard_shapes[i].toString()) + "_color-") + right_shard_colors[i].toString()) + ".png"));
-        }
-    }
-    if ((Number.parseFloat(left_shard_sum) > Number.parseFloat(right_shard_sum))) {
-        better_option = "left";
-    } else {
-        if ((Number.parseFloat(left_shard_sum) < Number.parseFloat(right_shard_sum))) {
-            better_option = "right";
-        }
-    }
-    psychoJS.experiment.addData("better_option", better_option);
-    if ((self_trials.thisTrialN === 81)) {
-        if ((this_trial_choice === "left")) {
-            bonus_amt_pts = Number.parseFloat(left_shard_sum);
-        }
-        if ((this_trial_choice === "right")) {
-            bonus_amt_pts = Number.parseFloat(right_shard_sum);
-        }
-    }
-    
-    left_shard_5.setImage(left_shards[5]);
-    right_shard_0.setImage(right_shards[0]);
-    right_shard_1.setImage(right_shards[1]);
-    right_shard_2.setImage(right_shards[2]);
-    right_shard_3.setImage(right_shards[3]);
-    right_shard_4.setImage(right_shards[4]);
-    right_shard_5.setImage(right_shards[5]);
     choice_resp.keys = undefined;
     choice_resp.rt = undefined;
     _choice_resp_allKeys = [];
+    image_A.setImage(thisImageA);
+    image_B.setImage(thisImageB);
     // keep track of which components have finished
     choiceComponents = [];
-    choiceComponents.push(left_shard_5);
-    choiceComponents.push(right_shard_0);
-    choiceComponents.push(right_shard_1);
-    choiceComponents.push(right_shard_2);
-    choiceComponents.push(right_shard_3);
-    choiceComponents.push(right_shard_4);
-    choiceComponents.push(right_shard_5);
     choiceComponents.push(choice_resp);
+    choiceComponents.push(image_A);
+    choiceComponents.push(image_B);
     
     choiceComponents.forEach( function(thisComponent) {
       if ('status' in thisComponent)
@@ -3772,76 +3545,6 @@ function choiceRoutineEachFrame() {
     t = choiceClock.getTime();
     frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
     // update/draw components on each frame
-    
-    // *left_shard_5* updates
-    if (t >= 0.0 && left_shard_5.status === PsychoJS.Status.NOT_STARTED) {
-      // keep track of start time/frame for later
-      left_shard_5.tStart = t;  // (not accounting for frame time here)
-      left_shard_5.frameNStart = frameN;  // exact frame index
-      
-      left_shard_5.setAutoDraw(true);
-    }
-
-    
-    // *right_shard_0* updates
-    if (t >= 0.0 && right_shard_0.status === PsychoJS.Status.NOT_STARTED) {
-      // keep track of start time/frame for later
-      right_shard_0.tStart = t;  // (not accounting for frame time here)
-      right_shard_0.frameNStart = frameN;  // exact frame index
-      
-      right_shard_0.setAutoDraw(true);
-    }
-
-    
-    // *right_shard_1* updates
-    if (t >= 0.0 && right_shard_1.status === PsychoJS.Status.NOT_STARTED) {
-      // keep track of start time/frame for later
-      right_shard_1.tStart = t;  // (not accounting for frame time here)
-      right_shard_1.frameNStart = frameN;  // exact frame index
-      
-      right_shard_1.setAutoDraw(true);
-    }
-
-    
-    // *right_shard_2* updates
-    if (t >= 0.0 && right_shard_2.status === PsychoJS.Status.NOT_STARTED) {
-      // keep track of start time/frame for later
-      right_shard_2.tStart = t;  // (not accounting for frame time here)
-      right_shard_2.frameNStart = frameN;  // exact frame index
-      
-      right_shard_2.setAutoDraw(true);
-    }
-
-    
-    // *right_shard_3* updates
-    if (t >= 0.0 && right_shard_3.status === PsychoJS.Status.NOT_STARTED) {
-      // keep track of start time/frame for later
-      right_shard_3.tStart = t;  // (not accounting for frame time here)
-      right_shard_3.frameNStart = frameN;  // exact frame index
-      
-      right_shard_3.setAutoDraw(true);
-    }
-
-    
-    // *right_shard_4* updates
-    if (t >= 0.0 && right_shard_4.status === PsychoJS.Status.NOT_STARTED) {
-      // keep track of start time/frame for later
-      right_shard_4.tStart = t;  // (not accounting for frame time here)
-      right_shard_4.frameNStart = frameN;  // exact frame index
-      
-      right_shard_4.setAutoDraw(true);
-    }
-
-    
-    // *right_shard_5* updates
-    if (t >= 0.0 && right_shard_5.status === PsychoJS.Status.NOT_STARTED) {
-      // keep track of start time/frame for later
-      right_shard_5.tStart = t;  // (not accounting for frame time here)
-      right_shard_5.frameNStart = frameN;  // exact frame index
-      
-      right_shard_5.setAutoDraw(true);
-    }
-
     
     // *choice_resp* updates
     if (t >= 0.0 && choice_resp.status === PsychoJS.Status.NOT_STARTED) {
@@ -3866,6 +3569,26 @@ function choiceRoutineEachFrame() {
       }
     }
     
+    
+    // *image_A* updates
+    if (t >= 0.0 && image_A.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      image_A.tStart = t;  // (not accounting for frame time here)
+      image_A.frameNStart = frameN;  // exact frame index
+      
+      image_A.setAutoDraw(true);
+    }
+
+    
+    // *image_B* updates
+    if (t >= 0.0 && image_B.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      image_B.tStart = t;  // (not accounting for frame time here)
+      image_B.frameNStart = frameN;  // exact frame index
+      
+      image_B.setAutoDraw(true);
+    }
+
     // check for quit (typically the Esc key)
     if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
       return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
@@ -3904,31 +3627,30 @@ function choiceRoutineEnd(snapshot) {
     // Run 'End Routine' code from outline_settings
     if ((choice_resp.keys === "f")) {
         this_trial_choice = "left";
-        this_trial_box_choice = chest_order[0];
-        if ((better_option === "left")) {
-            correct = 1;
-        } else {
-            correct = 0;
-        }
-        outline_shape.setPos([(- 0.375), 0], {"log": true});
+        outline_shape.setPos([(- 0.45), 0], {"log": true});
+        outline_shape.setSize(0.5, 0.5);
         outline_shape.setAutoDraw(true);
     } else {
         if ((choice_resp.keys === "j")) {
             this_trial_choice = "right";
-            this_trial_box_choice = chest_order[1];
-            if ((better_option === "right")) {
-                correct = 1;
-            } else {
-                correct = 0;
-            }
+            outline_shape.setPos([0.45, 0], {"log": true});
+            outline_shape.setSize(0.5, 0.5);
             outline_shape.setAutoDraw(true);
-            outline_shape.setPos([0.375, 0], {"log": true});
         }
     }
     psychoJS.experiment.addData("agent_choice", this_trial_choice);
-    psychoJS.experiment.addData("agent_box_choice", this_trial_box_choice);
-    psychoJS.experiment.addData("correct_choice", correct);
-    correct_choice_count.push(correct);
+    if ((TrialN === 15)) {
+        bonus_img_left = thisImageA;
+        bonus_img_right = thisImageB;
+        if ((this_trial_choice === "left")) {
+            bonus_choice = "left";
+            bonus_img = thisImageA;
+        }
+        if ((this_trial_choice === "right")) {
+            bonus_choice = "right";
+            bonus_img = thisImageB;
+        }
+    }
     
     // update the trial handler
     if (currentLoop instanceof MultiStairHandler) {
@@ -3943,6 +3665,129 @@ function choiceRoutineEnd(snapshot) {
     choice_resp.stop();
     // the Routine "choice" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset();
+    
+    // Routines running outside a loop should always advance the datafile row
+    if (currentLoop === psychoJS.experiment) {
+      psychoJS.experiment.nextEntry(snapshot);
+    }
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+var choice_feedbackComponents;
+function choice_feedbackRoutineBegin(snapshot) {
+  return async function () {
+    TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
+    
+    //--- Prepare to start Routine 'choice_feedback' ---
+    t = 0;
+    choice_feedbackClock.reset(); // clock
+    frameN = -1;
+    continueRoutine = true; // until we're told otherwise
+    routineTimer.add(0.500000);
+    // update component parameters for each repeat
+    // Run 'Begin Routine' code from choice_feedback_2
+    if ((this_trial_choice === "left")) {
+        outline_shape.setPos([(- 0.45), 0], {"log": true});
+        outline_shape.setSize(0.5, 0.5);
+        outline_shape.setAutoDraw(true);
+    } else {
+        if ((this_trial_choice === "right")) {
+            outline_shape.setPos([0.45, 0], {"log": true});
+            outline_shape.setSize(0.5, 0.5);
+            outline_shape.setAutoDraw(true);
+        }
+    }
+    
+    ImageA.setImage(thisImageA);
+    ImageB.setImage(thisImageB);
+    // keep track of which components have finished
+    choice_feedbackComponents = [];
+    choice_feedbackComponents.push(ImageA);
+    choice_feedbackComponents.push(ImageB);
+    
+    choice_feedbackComponents.forEach( function(thisComponent) {
+      if ('status' in thisComponent)
+        thisComponent.status = PsychoJS.Status.NOT_STARTED;
+       });
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+function choice_feedbackRoutineEachFrame() {
+  return async function () {
+    //--- Loop for each frame of Routine 'choice_feedback' ---
+    // get current time
+    t = choice_feedbackClock.getTime();
+    frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
+    // update/draw components on each frame
+    
+    // *ImageA* updates
+    if (t >= 0.0 && ImageA.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      ImageA.tStart = t;  // (not accounting for frame time here)
+      ImageA.frameNStart = frameN;  // exact frame index
+      
+      ImageA.setAutoDraw(true);
+    }
+
+    frameRemains = 0.0 + 0.5 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    if (ImageA.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+      ImageA.setAutoDraw(false);
+    }
+    
+    // *ImageB* updates
+    if (t >= 0.0 && ImageB.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      ImageB.tStart = t;  // (not accounting for frame time here)
+      ImageB.frameNStart = frameN;  // exact frame index
+      
+      ImageB.setAutoDraw(true);
+    }
+
+    frameRemains = 0.0 + 0.5 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    if (ImageB.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+      ImageB.setAutoDraw(false);
+    }
+    // check for quit (typically the Esc key)
+    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
+    }
+    
+    // check if the Routine should terminate
+    if (!continueRoutine) {  // a component has requested a forced-end of Routine
+      return Scheduler.Event.NEXT;
+    }
+    
+    continueRoutine = false;  // reverts to True if at least one component still running
+    choice_feedbackComponents.forEach( function(thisComponent) {
+      if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
+        continueRoutine = true;
+      }
+    });
+    
+    // refresh the screen if continuing
+    if (continueRoutine && routineTimer.getTime() > 0) {
+      return Scheduler.Event.FLIP_REPEAT;
+    } else {
+      return Scheduler.Event.NEXT;
+    }
+  };
+}
+
+
+function choice_feedbackRoutineEnd(snapshot) {
+  return async function () {
+    //--- Ending Routine 'choice_feedback' ---
+    choice_feedbackComponents.forEach( function(thisComponent) {
+      if (typeof thisComponent.setAutoDraw === 'function') {
+        thisComponent.setAutoDraw(false);
+      }
+    });
+    // Run 'End Routine' code from choice_feedback_2
+    outline_shape.setAutoDraw(false);
     
     // Routines running outside a loop should always advance the datafile row
     if (currentLoop === psychoJS.experiment) {
@@ -4098,7 +3943,7 @@ function enderRoutineBegin(snapshot) {
     if ((BONUS_BOOL === 1)) {
         ender_txt_disp = "Congratulations - you have completed the experiment!\n\nPress the SPACE BAR to see your reward.";
     } else {
-        ender_txt_disp = "Congratulations - you have completed the experiment!\n\nPress the SPACE BAR to exit.";
+        ender_txt_disp = "Congratulations - you have completed all of the tasks!\n\nPress the SPACE BAR to exit.";
     }
     
     text_5.setText(ender_txt_disp);
@@ -4208,37 +4053,55 @@ function enderRoutineEnd(snapshot) {
 }
 
 
-var bonus_amt_money;
 var bonus_txt_disp;
 var _key_resp_5_allKeys;
-var rewardComponents;
-function rewardRoutineBegin(snapshot) {
+var reward_infoComponents;
+function reward_infoRoutineBegin(snapshot) {
   return async function () {
     TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
     
-    //--- Prepare to start Routine 'reward' ---
+    //--- Prepare to start Routine 'reward_info' ---
     t = 0;
-    rewardClock.reset(); // clock
+    reward_infoClock.reset(); // clock
     frameN = -1;
     continueRoutine = true; // until we're told otherwise
     // update component parameters for each repeat
     // Run 'Begin Routine' code from bonus_txt
-    bonus_amt_money = (0.25 * bonus_amt_pts);
-    bonus_txt_disp = `On this round, the option you chose was worth ${bonus_amt_pts} points. At a conversion rate of 25 cents for every point, you will receive a total of ${util.pad(Number.parseFloat(bonus_amt_money).toFixed(2), 1)} dollars.
+    bonus_txt_disp = `On this round, you chose the highlighted item. As your reward, you will be able to view this image.
     
-    Press the SPACE BAR to exit.`
+    Press the SPACE BAR to view this food image.
+    
+    
+    
+    
+    `
     ;
+    if ((bonus_choice === "left")) {
+        outline_shape.setPos([(- 0.35), (- 0.25)], {"log": true});
+        outline_shape.setSize([0.35, 0.35]);
+        outline_shape.setAutoDraw(true);
+    } else {
+        if ((bonus_choice === "right")) {
+            outline_shape.setPos([0.35, (- 0.25)], {"log": true});
+            outline_shape.setSize([0.35, 0.35]);
+            outline_shape.setAutoDraw(true);
+        }
+    }
     
     text_6.setText(bonus_txt_disp);
     key_resp_5.keys = undefined;
     key_resp_5.rt = undefined;
     _key_resp_5_allKeys = [];
+    image_left.setImage(bonus_img_left);
+    image_right.setImage(bonus_img_right);
     // keep track of which components have finished
-    rewardComponents = [];
-    rewardComponents.push(text_6);
-    rewardComponents.push(key_resp_5);
+    reward_infoComponents = [];
+    reward_infoComponents.push(text_6);
+    reward_infoComponents.push(key_resp_5);
+    reward_infoComponents.push(image_left);
+    reward_infoComponents.push(image_right);
     
-    rewardComponents.forEach( function(thisComponent) {
+    reward_infoComponents.forEach( function(thisComponent) {
       if ('status' in thisComponent)
         thisComponent.status = PsychoJS.Status.NOT_STARTED;
        });
@@ -4247,11 +4110,11 @@ function rewardRoutineBegin(snapshot) {
 }
 
 
-function rewardRoutineEachFrame() {
+function reward_infoRoutineEachFrame() {
   return async function () {
-    //--- Loop for each frame of Routine 'reward' ---
+    //--- Loop for each frame of Routine 'reward_info' ---
     // get current time
-    t = rewardClock.getTime();
+    t = reward_infoClock.getTime();
     frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
     // update/draw components on each frame
     
@@ -4288,6 +4151,26 @@ function rewardRoutineEachFrame() {
       }
     }
     
+    
+    // *image_left* updates
+    if (t >= 0.0 && image_left.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      image_left.tStart = t;  // (not accounting for frame time here)
+      image_left.frameNStart = frameN;  // exact frame index
+      
+      image_left.setAutoDraw(true);
+    }
+
+    
+    // *image_right* updates
+    if (t >= 0.0 && image_right.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      image_right.tStart = t;  // (not accounting for frame time here)
+      image_right.frameNStart = frameN;  // exact frame index
+      
+      image_right.setAutoDraw(true);
+    }
+
     // check for quit (typically the Esc key)
     if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
       return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
@@ -4299,7 +4182,7 @@ function rewardRoutineEachFrame() {
     }
     
     continueRoutine = false;  // reverts to True if at least one component still running
-    rewardComponents.forEach( function(thisComponent) {
+    reward_infoComponents.forEach( function(thisComponent) {
       if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
         continueRoutine = true;
       }
@@ -4315,18 +4198,251 @@ function rewardRoutineEachFrame() {
 }
 
 
-function rewardRoutineEnd(snapshot) {
+function reward_infoRoutineEnd(snapshot) {
   return async function () {
-    //--- Ending Routine 'reward' ---
-    rewardComponents.forEach( function(thisComponent) {
+    //--- Ending Routine 'reward_info' ---
+    reward_infoComponents.forEach( function(thisComponent) {
       if (typeof thisComponent.setAutoDraw === 'function') {
         thisComponent.setAutoDraw(false);
       }
     });
+    // Run 'End Routine' code from bonus_txt
+    outline_shape.setAutoDraw(false);
+    
     key_resp_5.stop();
-    // the Routine "reward" was not non-slip safe, so reset the non-slip timer
+    // the Routine "reward_info" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset();
     
+    // Routines running outside a loop should always advance the datafile row
+    if (currentLoop === psychoJS.experiment) {
+      psychoJS.experiment.nextEntry(snapshot);
+    }
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+var _exit_rsp_allKeys;
+var view_rewardComponents;
+function view_rewardRoutineBegin(snapshot) {
+  return async function () {
+    TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
+    
+    //--- Prepare to start Routine 'view_reward' ---
+    t = 0;
+    view_rewardClock.reset(); // clock
+    frameN = -1;
+    continueRoutine = true; // until we're told otherwise
+    // update component parameters for each repeat
+    bous_img.setImage(bonus_img);
+    exit_rsp.keys = undefined;
+    exit_rsp.rt = undefined;
+    _exit_rsp_allKeys = [];
+    // keep track of which components have finished
+    view_rewardComponents = [];
+    view_rewardComponents.push(bous_img);
+    view_rewardComponents.push(bonus_img_txt);
+    view_rewardComponents.push(exit_rsp);
+    
+    view_rewardComponents.forEach( function(thisComponent) {
+      if ('status' in thisComponent)
+        thisComponent.status = PsychoJS.Status.NOT_STARTED;
+       });
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+function view_rewardRoutineEachFrame() {
+  return async function () {
+    //--- Loop for each frame of Routine 'view_reward' ---
+    // get current time
+    t = view_rewardClock.getTime();
+    frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
+    // update/draw components on each frame
+    
+    // *bous_img* updates
+    if (t >= 0.0 && bous_img.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      bous_img.tStart = t;  // (not accounting for frame time here)
+      bous_img.frameNStart = frameN;  // exact frame index
+      
+      bous_img.setAutoDraw(true);
+    }
+
+    
+    // *bonus_img_txt* updates
+    if (t >= 0.5 && bonus_img_txt.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      bonus_img_txt.tStart = t;  // (not accounting for frame time here)
+      bonus_img_txt.frameNStart = frameN;  // exact frame index
+      
+      bonus_img_txt.setAutoDraw(true);
+    }
+
+    
+    // *exit_rsp* updates
+    if (t >= 0.0 && exit_rsp.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      exit_rsp.tStart = t;  // (not accounting for frame time here)
+      exit_rsp.frameNStart = frameN;  // exact frame index
+      
+      // keyboard checking is just starting
+      psychoJS.window.callOnFlip(function() { exit_rsp.clock.reset(); });  // t=0 on next screen flip
+      psychoJS.window.callOnFlip(function() { exit_rsp.start(); }); // start on screen flip
+      psychoJS.window.callOnFlip(function() { exit_rsp.clearEvents(); });
+    }
+
+    if (exit_rsp.status === PsychoJS.Status.STARTED) {
+      let theseKeys = exit_rsp.getKeys({keyList: ['space'], waitRelease: false});
+      _exit_rsp_allKeys = _exit_rsp_allKeys.concat(theseKeys);
+      if (_exit_rsp_allKeys.length > 0) {
+        exit_rsp.keys = _exit_rsp_allKeys[_exit_rsp_allKeys.length - 1].name;  // just the last key pressed
+        exit_rsp.rt = _exit_rsp_allKeys[_exit_rsp_allKeys.length - 1].rt;
+        // a response ends the routine
+        continueRoutine = false;
+      }
+    }
+    
+    // check for quit (typically the Esc key)
+    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
+    }
+    
+    // check if the Routine should terminate
+    if (!continueRoutine) {  // a component has requested a forced-end of Routine
+      return Scheduler.Event.NEXT;
+    }
+    
+    continueRoutine = false;  // reverts to True if at least one component still running
+    view_rewardComponents.forEach( function(thisComponent) {
+      if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
+        continueRoutine = true;
+      }
+    });
+    
+    // refresh the screen if continuing
+    if (continueRoutine) {
+      return Scheduler.Event.FLIP_REPEAT;
+    } else {
+      return Scheduler.Event.NEXT;
+    }
+  };
+}
+
+
+function view_rewardRoutineEnd(snapshot) {
+  return async function () {
+    //--- Ending Routine 'view_reward' ---
+    view_rewardComponents.forEach( function(thisComponent) {
+      if (typeof thisComponent.setAutoDraw === 'function') {
+        thisComponent.setAutoDraw(false);
+      }
+    });
+    // update the trial handler
+    if (currentLoop instanceof MultiStairHandler) {
+      currentLoop.addResponse(exit_rsp.corr, level);
+    }
+    psychoJS.experiment.addData('exit_rsp.keys', exit_rsp.keys);
+    if (typeof exit_rsp.keys !== 'undefined') {  // we had a response
+        psychoJS.experiment.addData('exit_rsp.rt', exit_rsp.rt);
+        routineTimer.reset();
+        }
+    
+    exit_rsp.stop();
+    // the Routine "view_reward" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset();
+    
+    // Routines running outside a loop should always advance the datafile row
+    if (currentLoop === psychoJS.experiment) {
+      psychoJS.experiment.nextEntry(snapshot);
+    }
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+var end_experimentComponents;
+function end_experimentRoutineBegin(snapshot) {
+  return async function () {
+    TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
+    
+    //--- Prepare to start Routine 'end_experiment' ---
+    t = 0;
+    end_experimentClock.reset(); // clock
+    frameN = -1;
+    continueRoutine = true; // until we're told otherwise
+    routineTimer.add(3.000000);
+    // update component parameters for each repeat
+    // keep track of which components have finished
+    end_experimentComponents = [];
+    end_experimentComponents.push(end_exp_txt);
+    
+    end_experimentComponents.forEach( function(thisComponent) {
+      if ('status' in thisComponent)
+        thisComponent.status = PsychoJS.Status.NOT_STARTED;
+       });
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+function end_experimentRoutineEachFrame() {
+  return async function () {
+    //--- Loop for each frame of Routine 'end_experiment' ---
+    // get current time
+    t = end_experimentClock.getTime();
+    frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
+    // update/draw components on each frame
+    
+    // *end_exp_txt* updates
+    if (t >= 0.0 && end_exp_txt.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      end_exp_txt.tStart = t;  // (not accounting for frame time here)
+      end_exp_txt.frameNStart = frameN;  // exact frame index
+      
+      end_exp_txt.setAutoDraw(true);
+    }
+
+    frameRemains = 0.0 + 3 - psychoJS.window.monitorFramePeriod * 0.75;  // most of one frame period left
+    if (end_exp_txt.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+      end_exp_txt.setAutoDraw(false);
+    }
+    // check for quit (typically the Esc key)
+    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
+    }
+    
+    // check if the Routine should terminate
+    if (!continueRoutine) {  // a component has requested a forced-end of Routine
+      return Scheduler.Event.NEXT;
+    }
+    
+    continueRoutine = false;  // reverts to True if at least one component still running
+    end_experimentComponents.forEach( function(thisComponent) {
+      if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
+        continueRoutine = true;
+      }
+    });
+    
+    // refresh the screen if continuing
+    if (continueRoutine && routineTimer.getTime() > 0) {
+      return Scheduler.Event.FLIP_REPEAT;
+    } else {
+      return Scheduler.Event.NEXT;
+    }
+  };
+}
+
+
+function end_experimentRoutineEnd(snapshot) {
+  return async function () {
+    //--- Ending Routine 'end_experiment' ---
+    end_experimentComponents.forEach( function(thisComponent) {
+      if (typeof thisComponent.setAutoDraw === 'function') {
+        thisComponent.setAutoDraw(false);
+      }
+    });
     // Routines running outside a loop should always advance the datafile row
     if (currentLoop === psychoJS.experiment) {
       psychoJS.experiment.nextEntry(snapshot);
@@ -4350,12 +4466,6 @@ async function quitPsychoJS(message, isCompleted) {
   if (psychoJS.experiment.isEntryEmpty()) {
     psychoJS.experiment.nextEntry();
   }
-  
-  
-  
-  
-  
-  
   
   
   
@@ -4385,12 +4495,16 @@ async function quitPsychoJS(message, isCompleted) {
   
   
   
-  
-  
-  
-  
   // Run 'End Experiment' code from filterFood
   file_str = (("food_ratings_" + expInfo["participant"].toString()) + ".csv");
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   

@@ -1,8 +1,8 @@
-#!/usr/bin/env python
+﻿#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on March 18, 2024, at 10:22
+    on March 18, 2024, at 10:34
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -280,23 +280,6 @@ text_3 = visual.TextStim(win=win, name='text_3',
 key_resp_3 = keyboard.Keyboard()
 
 # --- Initialize components for Routine "practice_choice" ---
-# Run 'Begin Experiment' code from draw_chests_2
-left_chest = visual.ImageStim(
-    win=win,
-    name='left_chest', 
-    image='stimuli/chest.png', mask=None, anchor='center',
-    ori=0.0, pos=(-.375, 0), size=(1, 1),
-    color=[1,1,1], colorSpace='rgb', opacity=None,
-    flipHoriz=False, flipVert=False,
-    texRes=128.0, interpolate=False, depth=-1.0)
-right_chest = visual.ImageStim(
-    win=win,
-    name='right_chest', 
-    image='stimuli/chest.png', mask=None, anchor='center',
-    ori=0.0, pos=(.375, 0), size=(1, 1),
-    color=[1,1,1], colorSpace='rgb', opacity=None,
-    flipHoriz=True, flipVert=False,
-    texRes=128.0, interpolate=False, depth=-2.0)
 choice_resp_2 = keyboard.Keyboard()
 
 # --- Initialize components for Routine "fixation_500ms" ---
@@ -319,86 +302,6 @@ text_4 = visual.TextStim(win=win, name='text_4',
 key_resp_2 = keyboard.Keyboard()
 
 # --- Initialize components for Routine "choice" ---
-# Run 'Begin Experiment' code from draw_chests
-left_chest = visual.ImageStim(
-    win=win,
-    name='left_chest', 
-    image='stimuli/chest.png', mask=None, anchor='center',
-    ori=0.0, pos=(-.375, 0), size=(.6, .5),
-    color=[1,1,1], colorSpace='rgb', opacity=None,
-    flipHoriz=False, flipVert=False,
-    texRes=128.0, interpolate=False, depth=-1.0)
-right_chest = visual.ImageStim(
-    win=win,
-    name='right_chest', 
-    image='stimuli/chest.png', mask=None, anchor='center',
-    ori=0.0, pos=(.375, 0), size=(.6, .5),
-    color=[1,1,1], colorSpace='rgb', opacity=None,
-    flipHoriz=True, flipVert=False,
-    texRes=128.0, interpolate=False, depth=-2.0)
-# Run 'Begin Experiment' code from set_shards
-bonus_amt_pts = 20
-#all_shards_size = (.1175, .1175)
-#left_shards_pos = [[-.505, -.06225], [-.375, -.06225], [-.245, -.06225], 
-#                   [-.505, -.17225], [-.375, -.17225], [-.245, -.17225]]
-#right_shards_pos = [[.505, -.06225], [.375, -.06225], [.245, -.06225], 
-#                   [.505, -.17225], [.375, -.17225], [.245, -.17225]]
-left_shard_5 = visual.ImageStim(
-    win=win,
-    name='left_shard_5', 
-    image='sin', mask=None, anchor='center',
-    ori=0.0, pos=[left_shards_pos[5]], size=all_shards_size,
-    color=[1,1,1], colorSpace='rgb', opacity=None,
-    flipHoriz=False, flipVert=False,
-    texRes=128.0, interpolate=True, depth=-4.0)
-right_shard_0 = visual.ImageStim(
-    win=win,
-    name='right_shard_0', 
-    image='sin', mask=None, anchor='center',
-    ori=0.0, pos=[right_shards_pos[0]], size=all_shards_size,
-    color=[1,1,1], colorSpace='rgb', opacity=None,
-    flipHoriz=False, flipVert=False,
-    texRes=128.0, interpolate=True, depth=-5.0)
-right_shard_1 = visual.ImageStim(
-    win=win,
-    name='right_shard_1', 
-    image='sin', mask=None, anchor='center',
-    ori=0.0, pos=[right_shards_pos[1]], size=all_shards_size,
-    color=[1,1,1], colorSpace='rgb', opacity=None,
-    flipHoriz=False, flipVert=False,
-    texRes=128.0, interpolate=True, depth=-6.0)
-right_shard_2 = visual.ImageStim(
-    win=win,
-    name='right_shard_2', 
-    image='sin', mask=None, anchor='center',
-    ori=0.0, pos=[right_shards_pos[2]], size=all_shards_size,
-    color=[1,1,1], colorSpace='rgb', opacity=None,
-    flipHoriz=False, flipVert=False,
-    texRes=128.0, interpolate=True, depth=-7.0)
-right_shard_3 = visual.ImageStim(
-    win=win,
-    name='right_shard_3', 
-    image='sin', mask=None, anchor='center',
-    ori=0.0, pos=[right_shards_pos[3]], size=all_shards_size,
-    color=[1,1,1], colorSpace='rgb', opacity=None,
-    flipHoriz=False, flipVert=False,
-    texRes=128.0, interpolate=True, depth=-8.0)
-right_shard_4 = visual.ImageStim(
-    win=win,
-    name='right_shard_4', 
-    image='sin', mask=None, anchor='center',
-    ori=0.0, pos=[right_shards_pos[4]], size=all_shards_size,
-    color=[1,1,1], colorSpace='rgb', opacity=None,
-    flipHoriz=False, flipVert=False,
-    texRes=128.0, interpolate=True, depth=-9.0)
-right_shard_5 = visual.ImageStim(
-    win=win,
-    name='right_shard_5', 
-    image='sin', mask=None, anchor='center',
-    ori=0.0, pos=[right_shards_pos[5]], size=all_shards_size,
-    color=[1,1,1], colorSpace='rgb', opacity=None,
-    flipHoriz=False, flipVert=False,
-    texRes=128.0, interpolate=True, depth=-10.0)
 choice_resp = keyboard.Keyboard()
 
 # --- Initialize components for Routine "fixation_500ms" ---
@@ -1627,23 +1530,11 @@ while continueRoutine:
             instr_back_txt.autoDraw = True
     #        win.flip()
     elif curr_instr == 6: #rainbow
-        for swatch_index in range(len(color_scale1)):
-            swatches_top[swatch_index].setAutoDraw(True)
-            swatches_bot[swatch_index].setAutoDraw(True)
-    
         instr_back_txt.text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to begin.'
         if 'right' in instr_keys:
-            for swatch_index in range(len(color_scale1)):
-                swatches_top[swatch_index].setAutoDraw(False)
-                swatches_bot[swatch_index].setAutoDraw(False)
-    
             instr_keyboard.clearEvents()
             continueRoutine = False
         elif 'left' in instr_keys:
-            for swatch_index in range(len(color_scale_1)):
-                swatches_top[swatch_index].setAutoDraw(False)
-                swatches_bot[swatch_index].setAutoDraw(False)
-    
             instr_keyboard.clearEvents()
             curr_instr -= 1
             instr_disp_txt.text = instr_strs[curr_instr]
@@ -1657,42 +1548,9 @@ while continueRoutine:
     #        win.flip()
     else:
         if curr_instr == 11: #draw shards
-            left_chest.setAutoDraw(True)
-            left_shard.setAutoDraw(True)
-            left_shard_6.setAutoDraw(True)
-            left_shard_7.setAutoDraw(True)
-            left_shard_8.setAutoDraw(True)
-            left_shard_9.setAutoDraw(True)
-            left_shard_10.setAutoDraw(True)
-            
-            right_chest.setAutoDraw(True)
-            right_shard.setAutoDraw(True)
-            right_shard_6.setAutoDraw(True)
-            right_shard_7.setAutoDraw(True)
-            right_shard_8.setAutoDraw(True)
-            right_shard_9.setAutoDraw(True)
-            right_shard_10.setAutoDraw(True)
             
         instr_back_txt.text = 'Press LEFT ARROW to go back.\nPress RIGHT ARROW to continue.'
         if 'right' in instr_keys:
-            for swatch_index in range(len(color_scale_1)):
-                swatches[swatch_index].setAutoDraw(False)
-            left_chest.setAutoDraw(False)
-            left_shard.setAutoDraw(False)
-            left_shard_6.setAutoDraw(False)
-            left_shard_7.setAutoDraw(False)
-            left_shard_8.setAutoDraw(False)
-            left_shard_9.setAutoDraw(False)
-            left_shard_10.setAutoDraw(False)
-            
-            right_chest.setAutoDraw(False)
-            right_shard.setAutoDraw(False)
-            right_shard_6.setAutoDraw(False)
-            right_shard_7.setAutoDraw(False)
-            right_shard_8.setAutoDraw(False)
-            right_shard_9.setAutoDraw(False)
-            right_shard_10.setAutoDraw(False)
-            
             social_image.setAutoDraw(False)
             food_image.setAutoDraw(False)
             drug_image.setAutoDraw(False)
@@ -1703,24 +1561,6 @@ while continueRoutine:
             instr_back_txt.autoDraw = True
     #        win.flip()
         elif 'left' in instr_keys:
-            for swatch_index in range(len(color_scale_1)):
-                swatches[swatch_index].setAutoDraw(False)
-            left_chest.setAutoDraw(False)
-            left_shard.setAutoDraw(False)
-            left_shard_6.setAutoDraw(False)
-            left_shard_7.setAutoDraw(False)
-            left_shard_8.setAutoDraw(False)
-            left_shard_9.setAutoDraw(False)
-            left_shard_10.setAutoDraw(False)
-            
-            right_chest.setAutoDraw(False)
-            right_shard.setAutoDraw(False)
-            right_shard_6.setAutoDraw(False)
-            right_shard_7.setAutoDraw(False)
-            right_shard_8.setAutoDraw(False)
-            right_shard_9.setAutoDraw(False)
-            right_shard_10.setAutoDraw(False)
-            
             social_image.setAutoDraw(False)
             food_image.setAutoDraw(False)
             drug_image.setAutoDraw(False)
@@ -1915,107 +1755,6 @@ for thisSkip_practice in skip_practice:
         continueRoutine = True
         routineForceEnded = False
         # update component parameters for each repeat
-        # Run 'Begin Routine' code from draw_chests_2
-        left_chest.setAutoDraw(True)
-        right_chest.setAutoDraw(True)
-        # Run 'Begin Routine' code from set_shards_2
-        def reverse_value(num):
-            if num == 1:
-                return 9
-            elif num == 2:
-                return 8
-            elif num == 3:
-                return 7
-            elif num == 4:
-                return 6
-            elif num == 5:
-                return 5
-            elif num == 6:
-                return 4
-            elif num == 7:
-                return 3
-            elif num == 8:
-                return 2
-            elif num == 9:
-                return 1
-                
-        print('counter_balance', counter_balance)
-        print('chest_order', chest_order)
-        print('left_shard_shapes', left_shard_shapes)
-        print('right_shard_shapes', right_shard_shapes)
-        
-        left_shard_colors = []
-        right_shard_colors = []
-        if chest_order[0] == 'Box1':
-            print('box1')
-            if counter_balance == '1':
-                print('cb1')
-                left_shard_sum = str(Box1_Sum)
-                right_shard_sum = str(Box2_Sum)
-                
-                left_shard_colors = [Box1_val1,Box1_val2,Box1_val3,
-                                     Box1_val4,Box1_val5,Box1_val6]
-                right_shard_colors = [Box2_val1,Box2_val2,Box2_val3,
-                                      Box2_val4,Box2_val5,Box2_val6]
-        
-            elif counter_balance == '2':
-                print('cb2')
-                left_shard_sum = str(Box1_Sum)
-                right_shard_sum = str(Box2_Sum)
-                
-                left_shard_colors = [reverse_value(Box1_val1),reverse_value(Box1_val2),reverse_value(Box1_val3),
-                                     reverse_value(Box1_val4),reverse_value(Box1_val5),reverse_value(Box1_val6)]
-                right_shard_colors = [reverse_value(Box2_val1),reverse_value(Box2_val2),reverse_value(Box2_val3),
-                                      reverse_value(Box2_val4),reverse_value(Box2_val5),reverse_value(Box2_val6)]
-            
-        elif chest_order[0] == 'Box2':
-            print('box2')
-            if counter_balance == '1':
-                print('cb1')
-                left_shard_sum = str(Box2_Sum)
-                right_shard_sum = str(Box1_Sum)
-                left_shard_colors = [Box2_val1,Box2_val2,Box2_val3,
-                                      Box2_val4,Box2_val5,Box2_val6]
-                right_shard_colors = [Box1_val1,Box1_val2,Box1_val3,
-                                      Box1_val4,Box1_val5,Box1_val6]
-        
-            elif counter_balance == '2':
-                print('cb2')
-                left_shard_sum = str(Box2_Sum)
-                right_shard_sum = str(Box1_Sum)
-                
-                left_shard_colors = [reverse_value(Box2_val1),reverse_value(Box2_val2),reverse_value(Box2_val3),
-                                      reverse_value(Box2_val4),reverse_value(Box2_val5),reverse_value(Box2_val6)]
-                right_shard_colors = [reverse_value(Box1_val1),reverse_value(Box1_val2),reverse_value(Box1_val3),
-                                     reverse_value(Box1_val4),reverse_value(Box1_val5),reverse_value(Box1_val6)]
-        
-        print(left_shard_colors, 'left_shard_colors')
-        print(right_shard_colors, 'right_shard_colors')
-        
-        left_shards = []
-        right_shards = []
-        for i in range(6):
-            ## THIS PART CONVERTS TO JS USING [].PUSH
-            if left_shard_shapes[i] >= 10:
-                left_shards.append('stimuli/'+color_1+'/shard-' + str(left_shard_shapes[i]) + '_color-' + str(left_shard_colors[i]) + '.png')
-            else:
-                left_shards.append('stimuli/'+color_1+'/shard-0' + str(left_shard_shapes[i]) + '_color-' + str(left_shard_colors[i]) + '.png')
-            
-            ## THIS PART CONVERTS TO JS USING [].PUSH
-            if right_shard_shapes[i] >= 10:
-                right_shards.append('stimuli/'+color_1+'/shard-' + str(right_shard_shapes[i]) + '_color-' + str(right_shard_colors[i]) + '.png')
-            else:
-                right_shards.append('stimuli/'+color_1+'/shard-0' + str(right_shard_shapes[i]) + '_color-' + str(right_shard_colors[i]) + '.png')
-        
-        ## determine better option
-        if float(left_shard_sum) > float(right_shard_sum):
-            better_option = 'left'
-        elif float(left_shard_sum) < float(right_shard_sum):
-            better_option = 'right'
-        
-        thisExp.addData('better_option', better_option)
-        
-        print('chest_order', chest_order)
         choice_resp_2.keys = []
         choice_resp_2.rt = []
         _choice_resp_2_allKeys = []
@@ -2319,148 +2058,11 @@ for thisSelf_trial in self_trials:
     continueRoutine = True
     routineForceEnded = False
     # update component parameters for each repeat
-    # Run 'Begin Routine' code from draw_chests
-    left_chest.setAutoDraw(True)
-    right_chest.setAutoDraw(True)
-    # Run 'Begin Routine' code from fill_chests_2
-    chest_order = np.random.permutation(['Box1','Box2'])
-    #chest_order = ['Box1','Box2']
-    #shuffle(chest_order)
-    
-    left_shard_shapes = np.random.choice([1,2,3,4,5,6,7,8,9,10,11,12,13], size=6, replace=True)
-    right_shard_shapes = np.random.choice([1,2,3,4,5,6,7,8,9,10,11,12,13], size=6, replace=True)
-    #left_shard_shapes = random.choices(range(1, 14), k=6)
-    #right_shard_shapes = random.choices(range(1, 14), k=6)
-    #left_shard_shapes = random_choices(range(1, 14))
-    #right_shard_shapes = random_choices(range(1, 14))
-    
-    # Run 'Begin Routine' code from set_shards
-    def reverse_value(num):
-        if num == 1:
-            return 12
-        elif num == 2:
-            return 11
-        elif num == 3:
-            return 10
-        elif num == 4:
-            return 9
-        elif num == 5:
-            return 8
-        elif num == 6:
-            return 7
-        elif num == 7:
-            return 6
-        elif num == 8:
-            return 5
-        elif num == 9:
-            return 4
-        elif num == 10:
-            return 3
-        elif num == 11:
-            return 2
-        elif num == 12:
-            return 1
-    
-    if chest_order[0] == 'Box1':
-        if counter_balance == '1':
-            left_shard_sum = str(Box1_Sum)
-            right_shard_sum = str(Box2_Sum)
-            
-            left_shard_colors = [Box1_val1,Box1_val2,Box1_val3,
-                                 Box1_val4,Box1_val5,Box1_val6]
-            right_shard_colors = [Box2_val1,Box2_val2,Box2_val3,
-                                  Box2_val4,Box2_val5,Box2_val6]
-                                  
-        elif counter_balance == '2':
-            left_shard_sum = str(Box1_Sum)
-            right_shard_sum = str(Box2_Sum)
-            
-            left_shard_colors = [reverse_value(Box1_val1),reverse_value(Box1_val2),reverse_value(Box1_val3),
-                                 reverse_value(Box1_val4),reverse_value(Box1_val5),reverse_value(Box1_val6)]
-            right_shard_colors = [reverse_value(Box2_val1),reverse_value(Box2_val2),reverse_value(Box2_val3),
-                                  reverse_value(Box2_val4),reverse_value(Box2_val5),reverse_value(Box2_val6)]
-    
-    elif chest_order[0] == 'Box2':
-        if counter_balance == '1':
-            left_shard_sum = str(Box2_Sum)
-            right_shard_sum = str(Box1_Sum)
-            left_shard_colors = [Box2_val1,Box2_val2,Box2_val3,
-                                  Box2_val4,Box2_val5,Box2_val6]
-            right_shard_colors = [Box1_val1,Box1_val2,Box1_val3,
-                                  Box1_val4,Box1_val5,Box1_val6]
-    
-        elif counter_balance == '2':
-            left_shard_sum = str(Box2_Sum)
-            right_shard_sum = str(Box1_Sum)
-            
-            left_shard_colors = [reverse_value(Box2_val1),reverse_value(Box2_val2),reverse_value(Box2_val3),
-                                  reverse_value(Box2_val4),reverse_value(Box2_val5),reverse_value(Box2_val6)]
-            right_shard_colors = [reverse_value(Box1_val1),reverse_value(Box1_val2),reverse_value(Box1_val3),
-                                 reverse_value(Box1_val4),reverse_value(Box1_val5),reverse_value(Box1_val6)]
-    
-    left_shards = []
-    right_shards = []
-    for i in range(6):
-        ## THIS PART CONVERTS TO JS USING [].PUSH
-        if left_shard_shapes[i] >= 10:
-            left_shards.append('stimuli/shard-' + str(left_shard_shapes[i]) + '_color-' + str(left_shard_colors[i]) + '.png')
-        else:
-            left_shards.append('stimuli/shard-0' + str(left_shard_shapes[i]) + '_color-' + str(left_shard_colors[i]) + '.png')
-    
-        ## THIS PART CONVERTS TO JS USING [].PUSH
-        if right_shard_shapes[i] >= 10:
-            right_shards.append('stimuli/shard-' + str(right_shard_shapes[i]) + '_color-' + str(right_shard_colors[i]) + '.png')
-        else:
-            right_shards.append('stimuli/shard-0' + str(right_shard_shapes[i]) + '_color-' + str(right_shard_colors[i]) + '.png')
-        
-    #left_shards = [f'stimuli/shard-{shape}_color-{color}.png' for shape, color in zip(left_shard_shapes, left_shard_colors)]
-    #right_shards = [f'stimuli/shard-{shape}_color-{color}.png' for shape, color in zip(right_shard_shapes, right_shard_colors)]
-    
-    ## determine better option
-    if float(left_shard_sum) > float(right_shard_sum):
-        better_option = 'left'
-    elif float(left_shard_sum) < float(right_shard_sum):
-        better_option = 'right'
-    
-    thisExp.addData('better_option', better_option)
-    
-    if self_trials.thisTrialN == 81: # psuedorandomly selected trial
-        if this_trial_choice == 'left':
-            bonus_amt_pts = float(left_shard_sum)
-        if this_trial_choice == 'right':
-            bonus_amt_pts = float(right_shard_sum)
-    
-    #if chest_order[0] == 'Box1':
-    #    left_box = 'Box1'
-    #    thisExp.addData('left_box', left_box)
-    #
-    #    left_shard_colors = [Box1_val1,Box1_val2,Box1_val3,Box1_val4,Box1_val5,Box1_val6]
-    #    left_shard_sum = str(Box1_Sum)
-    #    right_shard_colors = [Box2_val1,Box2_val2,Box2_val3,
-    #                          Box2_val4,Box2_val5,Box2_val6]
-    #    right_shard_sum = str(Box2_Sum)
-    #elif chest_order[0] == 'Box2':
-    #    right_box = 'Box2'
-    #    thisExp.addData('right_box', right_box)
-    #    left_shard_colors = [Box2_val1,Box2_val2,Box2_val3,
-    #                          Box2_val4,Box2_val5,Box2_val6]
-    #    left_shard_sum = str(Box2_Sum)
-    #    right_shard_colors = [Box1_val1,Box1_val2,Box1_val3,
-    #                          Box1_val4,Box1_val5,Box1_val6]
-    #    right_shard_sum = str(Box1_Sum)
-    
-    left_shard_5.setImage(left_shards[5])
-    right_shard_0.setImage(right_shards[0])
-    right_shard_1.setImage(right_shards[1])
-    right_shard_2.setImage(right_shards[2])
-    right_shard_3.setImage(right_shards[3])
-    right_shard_4.setImage(right_shards[4])
-    right_shard_5.setImage(right_shards[5])
     choice_resp.keys = []
     choice_resp.rt = []
     _choice_resp_allKeys = []
     # keep track of which components have finished
-    choiceComponents = [left_shard_5, right_shard_0, right_shard_1, right_shard_2, right_shard_3, right_shard_4, right_shard_5, choice_resp]
+    choiceComponents = [choice_resp]
     for thisComponent in choiceComponents:
         thisComponent.tStart = None
         thisComponent.tStop = None
@@ -2481,69 +2083,6 @@ for thisSelf_trial in self_trials:
         tThisFlipGlobal = win.getFutureFlipTime(clock=None)
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
-        
-        # *left_shard_5* updates
-        if left_shard_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            left_shard_5.frameNStart = frameN  # exact frame index
-            left_shard_5.tStart = t  # local t and not account for scr refresh
-            left_shard_5.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(left_shard_5, 'tStartRefresh')  # time at next scr refresh
-            left_shard_5.setAutoDraw(True)
-        
-        # *right_shard_0* updates
-        if right_shard_0.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            right_shard_0.frameNStart = frameN  # exact frame index
-            right_shard_0.tStart = t  # local t and not account for scr refresh
-            right_shard_0.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(right_shard_0, 'tStartRefresh')  # time at next scr refresh
-            right_shard_0.setAutoDraw(True)
-        
-        # *right_shard_1* updates
-        if right_shard_1.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            right_shard_1.frameNStart = frameN  # exact frame index
-            right_shard_1.tStart = t  # local t and not account for scr refresh
-            right_shard_1.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(right_shard_1, 'tStartRefresh')  # time at next scr refresh
-            right_shard_1.setAutoDraw(True)
-        
-        # *right_shard_2* updates
-        if right_shard_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            right_shard_2.frameNStart = frameN  # exact frame index
-            right_shard_2.tStart = t  # local t and not account for scr refresh
-            right_shard_2.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(right_shard_2, 'tStartRefresh')  # time at next scr refresh
-            right_shard_2.setAutoDraw(True)
-        
-        # *right_shard_3* updates
-        if right_shard_3.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            right_shard_3.frameNStart = frameN  # exact frame index
-            right_shard_3.tStart = t  # local t and not account for scr refresh
-            right_shard_3.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(right_shard_3, 'tStartRefresh')  # time at next scr refresh
-            right_shard_3.setAutoDraw(True)
-        
-        # *right_shard_4* updates
-        if right_shard_4.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            right_shard_4.frameNStart = frameN  # exact frame index
-            right_shard_4.tStart = t  # local t and not account for scr refresh
-            right_shard_4.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(right_shard_4, 'tStartRefresh')  # time at next scr refresh
-            right_shard_4.setAutoDraw(True)
-        
-        # *right_shard_5* updates
-        if right_shard_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
-            # keep track of start time/frame for later
-            right_shard_5.frameNStart = frameN  # exact frame index
-            right_shard_5.tStart = t  # local t and not account for scr refresh
-            right_shard_5.tStartRefresh = tThisFlipGlobal  # on global time
-            win.timeOnFlip(right_shard_5, 'tStartRefresh')  # time at next scr refresh
-            right_shard_5.setAutoDraw(True)
         
         # *choice_resp* updates
         waitOnFlip = False
